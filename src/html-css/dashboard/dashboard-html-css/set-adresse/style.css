@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC&family=Source+Code+Pro:wght@400;600;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: black;
+    font-family: 'Amatic SC', cursive;
+}
+
+header h1 {
+
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+
+}
+
+h1 {
+    text-decoration: underline;
+    color: white;
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+h1:hover {
+    color: rgb(223, 21, 21);
+    cursor: pointer;
+}
+
+h2 {
+    color: white;
+    font-size: 3rem;
+    text-align: center;
+    margin-bottom: 1.5rem;
+    margin-top: 2rem;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: white;
+    padding: 2rem;
+    width: 750px;
+    border-radius: 10px;
+}
+
+label {
+    position: relative;
+    right: 9.5rem;
+    font-size: 1.5rem;
+}
+
+input {
+    width: 300px;
+    height: 50px;
+    margin-bottom: 1rem;
+    padding-left: 10px;
+    font-family: 'Source Code Pro', monospace;
+    border: 1px solid black;
+}
+
+button {
+    width: 150px;
+    height: 50px;
+    background: black;
+    color: white;
+    font-size: 1.7rem;
+    border: 1px solid black;
+    border-radius: 10px;
+    margin-top: 1rem;
+    cursor: pointer;
+    font-family: 'Amatic SC', cursive;
+}
+
+button:hover {
+    background: yellow;
+    color: black;
+    border: 3px solid black;
+    font-weight: 600;
+}

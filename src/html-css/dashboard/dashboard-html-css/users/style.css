@@ -1,0 +1,178 @@
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC&family=Source+Code+Pro:wght@400;600;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    cursor: auto;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    background-color: black;
+    font-family: 'Amatic SC', cursive;
+    font-weight: lighter;
+}
+
+header {
+    padding-top: 3em;
+    padding-bottom: 3em;
+    border-bottom: 1px solid white;
+    width: 100%;
+    text-align: center;
+    color: black;
+    background-color: white;
+    border-bottom: 2em solid black;
+}
+
+header:hover {
+    color: red;
+    cursor: pointer;
+}
+
+#title {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2em;
+    margin-bottom: 2em;
+}
+
+h2 {
+    font-size: 3em;
+    letter-spacing: 6px;
+}
+
+#title i {
+    font-size: 2em;
+}
+
+.users-table {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 65vw;
+    border: 1px solid white;
+    font-size: 1.3em;
+
+}
+
+#role {
+    width: 20%;
+    text-align: center;
+}
+
+.identifiants,
+.utilisateur {
+    /* border: 1px solid white; */
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.identifiants {
+    border-bottom: 1px solid white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.identifiants h3 {
+    padding: 1.5em;
+    border-right: 1px solid white;
+}
+
+.identifiants h4 {
+    text-align: center;
+    position: relative;
+    left: 3em;
+}
+
+
+.users {
+    display: grid;
+    grid-template-columns: 5fr;
+    grid-template-rows: 6fr;
+    row-gap: 60px;
+    font-size: 1.2em;
+}
+
+.utilisateur {
+    display: flex;
+    gap: 4em;
+    margin-top: 1.5em;
+    border-top: 1px solid white;
+} 
+
+.user-final {
+    margin-bottom: 3em;
+}
+
+.firstname {
+    position: relative;
+    left: 3.5em;
+}
+
+.lastname {
+    position: relative;
+    left: 2.5em;
+}
+
+.phonenumber {
+    position: relative;
+    left: 28px;
+}
+
+#phonenumber-title {
+    width: 10vw;
+}
+
+.role {
+    position: relative;
+    right: 0;
+}
+
+.icons {
+    position: relative;
+    right: 1em;
+    padding: 1em;
+}
+
+.icons i {
+    position: relative;
+    padding-right: 10px;
+}
+
+.pen-square:hover {
+    color: greenyellow;
+    cursor: pointer;
+}
+
+.trash:hover {
+    color: rgb(254, 59, 59);
+    cursor: pointer;
+}
+
+footer {
+    padding-top: 3em;
+    padding-bottom: 3em;
+    border-bottom: 1px solid white;
+    width: 100%;
+    text-align: center;
+    color: black;
+    background-color: white;
+    border-top: 2em solid black;
+}
+
+footer:hover {
+    color: red;
+    cursor: pointer;
+}

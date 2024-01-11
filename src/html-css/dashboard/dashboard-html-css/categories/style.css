@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC&family=Source+Code+Pro:wght@400;600;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: black;
+    color: white;
+    font-family: 'Amatic SC', cursive;
+    font-size: 1.1em;
+}
+
+#title {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 4em;
+    gap: 2em;
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5em;
+}
+
+.categories_tables {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 3px;
+}
+
+h3 {
+    border: 1px solid white;
+    padding-top: 3em;
+    padding-bottom: 3em;
+    text-align: center;
+    Width: 7vw;
+    height: 7vh;
+}
+
+.icons {
+    border: 1px solid white;
+    padding-top: 3em;
+    padding-bottom: 3em;
+    text-align: center;
+    Width: 7vw;
+    height: 16.1vh;
+}
+
+i {
+    font-size: 1.5em;
+}
+
+.pen-square:hover {
+    color: greenyellow;
+    cursor: pointer;
+}
+
+.trash:hover {
+    color: rgb(254, 59, 59);
+    cursor: pointer;
+}
+
+footer {
+    padding-top: 3em;
+    padding-bottom: 3em;
+    border-bottom: 1px solid white;
+    width: 100%;
+    text-align: center;
+    color: black;
+    background-color: white;
+    border-top: 2em solid black;
+}
+
+footer:hover {
+    color: red;
+    cursor: pointer;
+}

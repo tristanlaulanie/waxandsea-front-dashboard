@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC&family=Source+Code+Pro:wght@400;600;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.setArticle_body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: black;
+    font-family: 'Amatic SC', cursive;
+}
+
+.setArticle_main_container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 5vh;
+    position: relative;
+    bottom: 5vh;
+}
+
+header .setArticle_dashboard_link {
+    margin-top: 20vh;
+}
+
+.setArticle_dashboard_link {
+    text-decoration: underline;
+    color: white;
+    font-size: 3rem;
+}
+
+.setArticle_dashboard_link:hover {
+    color: rgb(223, 21, 21);
+    cursor: pointer;
+}
+
+.setArticle_title {
+    color: white;
+    font-size: 3rem;
+    text-align: center;
+    margin-top: 14vh;
+}
+
+.setArticle_form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: white;
+    padding: 2rem;
+    width: 750px;
+    border-radius: 10px;
+    position: relative;
+    bottom: 10vh;
+}
+
+.setArticle_form label {
+    position: relative;
+    right: 9.5rem;
+    font-size: 1.5rem;
+}
+
+.setArticle_form input {
+    width: 310px;
+    height: 50px;
+    margin-bottom: 1rem;
+    padding-left: 10px;
+    font-family: 'Source Code Pro', monospace;
+    border: 1px solid black;
+    font-size: 1em;
+}
+
+.setArticle_button{
+    width: 150px;
+    height: 50px;
+    background: black;
+    color: white;
+    font-size: 1.7rem;
+    border: 1px solid black;
+    border-radius: 10px;
+    margin-top: 1rem;
+    cursor: pointer;
+    font-family: 'Amatic SC', cursive;
+}
+
+.setArticle_button:hover {
+    background: yellow;
+    color: black;
+    border: 3px solid black;
+    font-weight: 600;
+}

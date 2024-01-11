@@ -1,0 +1,211 @@
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC&family=Source+Code+Pro:wght@400;600;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    cursor: auto;
+}
+
+.main_container {
+    display: flex;
+    flex-direction: column;
+}
+
+.dashboard_users_table {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    background-color: black;
+    font-family: 'Amatic SC', cursive;
+    font-weight: lighter;
+}
+
+.home_header {
+    width: 100vw;
+    height: 25vh;
+    margin-top: 20vh;
+    text-align: center;
+    background-color: white;
+    border-bottom: 2em solid black
+}
+
+.link-style {
+    color:black;
+    text-decoration: none;
+  }
+
+.link-style-add {
+    color: white;
+    text-decoration: none;
+  }
+
+.link-style_set_user {
+    color: white;
+    text-decoration: none;
+    font-size: 1.5em;
+    margin-right: 10px;
+  }
+
+  .link-style_set_user:hover {
+    color:green;
+    cursor: pointer;
+  }
+
+.home_header:hover {
+    color: red;
+    cursor: pointer;
+}
+
+#title {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 2em;
+    margin-bottom: 2em;
+}
+
+.users_table_title {
+    font-size: 3em;
+    letter-spacing: 6px;
+}
+
+#title i {
+    font-size: 2em;
+}
+
+.users_table {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 75vw;
+    border: 1px solid white;
+    font-size: 1.3em;
+
+}
+
+#role {
+    width: 20%;
+    text-align: center;
+}
+
+.identifiants,
+.utilisateur {
+    /* border: 1px solid white; */
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.identifiants {
+    border-bottom: 1px solid white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.identifiants h3 {
+    padding: 1.5em;
+    border-right: 1px solid white;
+}
+
+.identifiants h4 {
+    text-align: center;
+    position: relative;
+    width: 16vw;
+    font-size: 1.4em;
+}
+
+
+.users {
+    display: grid;
+    grid-template-columns: 5fr;
+    grid-template-rows: 6fr;
+    row-gap: 60px;
+    font-size: 1.2em;
+}
+
+.utilisateur {
+    display: flex;
+    gap: 4em;
+    margin-top: 1.5em;
+    border-top: 1px solid white;
+} 
+
+.user-final {
+    margin-bottom: 3em;
+}
+
+.firstname {
+    position: relative;
+    left: 2vw;
+}
+
+.lastname {
+    position: relative;
+    left: 7vw;
+}
+
+.phonenumber {
+    position: relative;
+    left: 10vw;
+}
+
+#phonenumber-title {
+    width: 15vw;
+    right: 0;
+}
+
+.role {
+    position: relative;
+    left: 10vw;
+}
+
+.icons {
+    position: relative;
+    left: 4.5em;
+    padding: 1em;
+}
+
+.icons i {
+    position: relative;
+    padding-right: 10px;
+    font-size: 1.5em;
+}
+
+#penSquare_icon:hover {
+    color: greenyellow;
+    cursor: pointer;
+}
+
+#trash_icon:hover {
+    color: rgb(254, 59, 59);
+    cursor: pointer;
+}
+
+.home_dashboard_footer {
+    padding-top: 3em;
+    padding-bottom: 1em;
+    border-bottom: 1px solid white;
+    width: 100%;
+    text-align: center;
+    color: black;
+    background-color: white;
+    border-top: 2em solid black;
+}
+
+.home_dash_footer_h1:hover {
+    color: red;
+    cursor: pointer;
+}
+
+.home_dash_footer_h1 {
+    color:black;
+}

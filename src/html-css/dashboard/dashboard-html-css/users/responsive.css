@@ -1,0 +1,42 @@
+@media screen and (max-width: 1280px) {
+    #phonenumber-title {
+        width: 18vw;
+    } 
+
+    .phonenumber {
+        width: 10vw;
+        position: relative;
+        left: -1.5em;
+    }
+
+    .identifiants h4 {
+        left: 0;
+        width: 26vw;
+    }
+
+    #role {
+        width: 18vw;
+    }
+
+    .role {
+        width: 10vw;
+        position: relative;
+        left: -1.5em;
+    }
+
+    .firstname {
+        position: relative;
+        left: 0;
+    }
+
+    .lastname {
+        position: relative;
+        left: -30px;
+    }
+
+    .users-table {
+        width: 80vw;
+    }
+
+
+} 
