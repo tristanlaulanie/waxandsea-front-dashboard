@@ -25,13 +25,16 @@
     bottom: 5vh;
 }
 
+.link-style {
+    color: white;
+}
+
 header .setArticle_dashboard_link {
     margin-top: 20vh;
 }
 
 .setArticle_dashboard_link {
     text-decoration: underline;
-    color: white;
     font-size: 3rem;
 }
 

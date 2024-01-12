@@ -29,13 +29,13 @@ header .addArticle_dashboard_link {
     margin-top: 20vh;
 }
 
-.addArticle_dashboard_link {
+.link-style {
     text-decoration: underline;
     color: white;
     font-size: 3rem;
 }
 
-.addArticle_dashboard_link:hover {
+.link-style:hover {
     color: rgb(223, 21, 21);
     cursor: pointer;
 }

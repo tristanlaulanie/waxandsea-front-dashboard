@@ -7,7 +7,7 @@ function AddCategory() {
         <>
         <div className="add-category"> 
     <header>
-        <Link to="/dashboard/categories">
+        <Link to="/dashboard/users" className="link-style">
         <h1>
             Retourner au tableau des categories.
         </h1>

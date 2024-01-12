@@ -12,7 +12,7 @@ function Dashboard() {
       </header>
       <section className="section_menu">
         <h2>UTILISATEURS</h2>
-        <Link to="/dashboard/users">
+        <Link to="/dashboard/users" className="dashboard_link-style">
           <i>
             <FontAwesomeIcon icon={faPenToSquare} />
           </i>
@@ -20,15 +20,15 @@ function Dashboard() {
       </section>
       <section className="section_menu">
         <h2>CATEGORIES</h2>
-        <Link to="/dashboard/categories">
+        <Link to="/dashboard/categories" className="dashboard_link-style">
           <i>
-            <FontAwesomeIcon icon={faPenToSquare} />
+            <FontAwesomeIcon icon={faPenToSquare}/>
           </i>
         </Link>
       </section>
       <section className="section_menu">
         <h2>ARTICLES</h2>
-        <Link to="/dashboard/articles">
+        <Link to="/dashboard/articles" className="dashboard_link-style">
           <i>
             <FontAwesomeIcon icon={faPenToSquare} />
           </i>

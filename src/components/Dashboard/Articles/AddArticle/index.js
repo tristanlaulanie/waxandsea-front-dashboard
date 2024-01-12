@@ -8,7 +8,9 @@ function AddArticle() {
       <body className="addArticle_body">
         <header>
           <h1 className="addArticle_dashboard_link">
-            <Link to="/dashboard/articles">Retourner au tableau des articles.</Link>
+            <Link to="/dashboard/articles" className="link-style">
+              Retourner à la table des articles.
+            </Link>
           </h1>
         </header>
         <main className="addArticle_main_container">

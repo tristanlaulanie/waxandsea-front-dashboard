@@ -25,9 +25,10 @@
 
 .home_header {
     width: 100vw;
-    height: 25vh;
-    margin-top: 20vh;
+    height: 27vh;
+    margin-top: 15vh;
     text-align: center;
+    color:black;
     background-color: white;
     border-bottom: 2em solid black
 }
@@ -40,6 +41,7 @@
 .link-style-add {
     color: white;
     text-decoration: none;
+    font-size: 1.3em;
   }
 
 .link-style_set_user {
@@ -137,6 +139,7 @@
     gap: 4em;
     margin-top: 1.5em;
     border-top: 1px solid white;
+    font-size: 30px;
 } 
 
 .user-final {
@@ -168,13 +171,14 @@
     left: 10vw;
 }
 
-.icons {
+.users_set_icons {
+    border: none;
     position: relative;
-    left: 4.5em;
+    left: 2em;
     padding: 1em;
 }
 
-.icons i {
+.users_set_icons i {
     position: relative;
     padding-right: 10px;
     font-size: 1.5em;

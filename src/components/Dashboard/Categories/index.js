@@ -19,13 +19,13 @@ function Categories() {
             <h3 className="categories_title_info">Id</h3>
             <h3 className="categories_title_info">Catégorie</h3>
             <h3 className="categories_title_info">image</h3>
-            <p className="icons"></p>
+            <p className="categories_set_icons"></p>
           </div>
           <div className="categories_tables">
             <h3 className="categories_title_info">20</h3>
             <h3 className="categories_title_info">Homme</h3>
             <h3 className="categories_title_info">Man</h3>
-            <p className="icons">
+            <p className="categories_set_icons">
               <Link to="/dashboard/categories/set">
                 <FontAwesomeIcon icon={faPenSquare} className="pen-square" />
               </Link>
@@ -36,7 +36,7 @@ function Categories() {
             <h3 className="categories_title_info">21</h3>
             <h3 className="categories_title_info">Femme</h3>
             <h3 className="categories_title_info">Woman</h3>
-            <p className="icons">
+            <p className="categories_set_icons">
               <Link to="/dashboard/categories/set">
                 <FontAwesomeIcon icon={faPenSquare} className="pen-square" />
               </Link>
@@ -47,7 +47,7 @@ function Categories() {
             <h3 className="categories_title_info">22</h3>
             <h3 className="categories_title_info">Enfants</h3>
             <h3 className="categories_title_info">Children</h3>
-            <p className="icons">
+            <p className="categories_set_icons">
               <Link to="/dashboard/categories/set">
                 <FontAwesomeIcon icon={faPenSquare} className="pen-square" />
               </Link>
@@ -57,7 +57,7 @@ function Categories() {
         </section>
         <footer className="categories_footer">
           <h1>
-            <Link to="/dashboard">
+            <Link to="/dashboard" className="categories_link-style">
               Retourner sur l'accueil du tableau de bord
             </Link>
           </h1>

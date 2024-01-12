@@ -18,7 +18,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin-top: 6em;
+    margin-top: 10em;
     gap: 2em;
 }
 
@@ -54,23 +54,30 @@
 .articles_title_name {
     border: 1px solid white;
     text-align: center;
-    Width: 7vw;
+    width: 7vw;
     height: 15vh;
     font-size: 1.5em;;
 }
 
-.icons {
+.articles_set_icons {
     border: 1px solid white;
     text-align: center;
     height: 15vh;
+    width: 7vw;
     position: relative;
-    bottom: 1.1em;
+    bottom: 1.35em;
     left: 0;
+}
+
+.articles_link_icons {
+    color: white;
 }
 
 .pen_square,
 .trash {
     font-size: 1.5em;
+    margin-top: 6vh;
+    color: white;
 }
 
 .pen-square:hover {
@@ -95,6 +102,15 @@
 }
 
 .articles_footer:hover {
+    color: red;
+    cursor: pointer;
+}
+
+.link-style-footer {
+    color: black;
+}
+
+.link-style-footer:hover {
     color: red;
     cursor: pointer;
 }

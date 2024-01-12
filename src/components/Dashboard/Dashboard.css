@@ -16,7 +16,7 @@
     color: white;
     background-color: black;
     margin-bottom: -6em;
-    height: 300vh;
+    height: 200vh;
 }
 
 .section_menu {
@@ -28,8 +28,6 @@
 }
 
 .dash_home_header {
-    margin-top: 2rem;
-    margin-bottom: 4rem;
     letter-spacing: 8px;
 }
 
@@ -50,11 +48,17 @@ i {
     margin-bottom: 1rem;
 }
 
-i:hover {
+.dashboard_link-style:hover {
     cursor: pointer;
     color: #ff0000;
 }
 
 .adresses_title {
     margin-bottom: 6vh;
+}
+
+.dashboard_link-style {
+    text-decoration: none;
+    color: white;
+    font-size: 3rem;
 }

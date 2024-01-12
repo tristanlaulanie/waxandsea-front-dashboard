@@ -11,19 +11,21 @@ function UsersTable() {
   return (
     <>
       <section className="dashboard_users_table">
-      <Link to="/dashboard" className="link-style">
-        <header className="home_header">
-          <h1 className="home_header_h1">Retourner sur l'accueil du tableau de bord</h1>
-        </header>
+        <Link to="/dashboard" className="link-style">
+          <header className="home_header">
+            <h1 className="home_header_h1">
+              Retourner sur l'accueil du tableau de bord
+            </h1>
+          </header>
         </Link>
         <main className="main_container">
           <section id="title">
             <h2 className="users_table_title">Table des utilisateurs</h2>
             <Link to="/dashboard/users/add-user" className="link-style-add">
-            <i id="penSquare_icon">
-              <FontAwesomeIcon icon={faCirclePlus} />
-              <p>Ajouter un utilisateur</p>
-            </i>
+              <i id="penSquare_icon">
+                <FontAwesomeIcon icon={faCirclePlus} />
+                <p>Ajouter un utilisateur</p>
+              </i>
             </Link>
           </section>
           <section className="users_table">
@@ -42,12 +44,13 @@ function UsersTable() {
                 <p className="lastname">Doe</p>
                 <p className="phonenumber">06 00 00 00 00</p>
                 <p className="role">Administrateur</p>
-                <p className="icons">
-                  <i id="penSquare_icon">
-                  <Link to="/dashboard/users/set-user" className="link-style_set_user">
+                <p className="users_set_icons">
+                  <Link
+                    to="/dashboard/users/set-user"
+                    className="link-style_set_user"
+                  >
                     <FontAwesomeIcon icon={faPenToSquare} />
                   </Link>
-                  </i>
                   <i id="trash_icon">
                     <FontAwesomeIcon icon={faTrash} />
                   </i>
@@ -59,8 +62,11 @@ function UsersTable() {
                 <p className="lastname">Doe</p>
                 <p className="phonenumber">06 00 00 00 00</p>
                 <p className="role">Administrateur</p>
-                <p className="icons">
-                  <Link to="/dashboard/users/set-user" className="link-style_set_user">
+                <p className="users_set_icons">
+                  <Link
+                    to="/dashboard/users/set-user"
+                    className="link-style_set_user"
+                  >
                     <FontAwesomeIcon icon={faPenToSquare} />
                   </Link>
                   <i id="trash_icon">
@@ -74,8 +80,11 @@ function UsersTable() {
                 <p className="lastname">Doe</p>
                 <p className="phonenumber">06 00 00 00 00</p>
                 <p className="role">Utilisateur</p>
-                <p className="icons">
-                  <Link to="/dashboard/users/set-user" className="link-style_set_user">
+                <p className="users_set_icons">
+                  <Link
+                    to="/dashboard/users/set-user"
+                    className="link-style_set_user"
+                  >
                     <FontAwesomeIcon icon={faPenToSquare} />
                   </Link>
                   <i id="trash_icon">
@@ -89,8 +98,11 @@ function UsersTable() {
                 <p className="lastname">Doe</p>
                 <p className="phonenumber">06 00 00 00 00</p>
                 <p className="role">Utilisateur</p>
-                <p className="icons">
-                  <Link to="/dashboard/users/set-user" className="link-style_set_user">
+                <p className="users_set_icons">
+                  <Link
+                    to="/dashboard/users/set-user"
+                    className="link-style_set_user"
+                  >
                     <FontAwesomeIcon icon={faPenToSquare} />
                   </Link>
                   <i id="trash_icon">
@@ -104,8 +116,11 @@ function UsersTable() {
                 <p className="lastname">Doe</p>
                 <p className="phonenumber">06 00 00 00 00</p>
                 <p className="role">Utilisateur</p>
-                <p className="icons">
-                  <Link to="/dashboard/users/set-user" className="link-style_set_user">
+                <p className="users_set_icons">
+                  <Link
+                    to="/dashboard/users/set-user"
+                    className="link-style_set_user"
+                  >
                     <FontAwesomeIcon icon={faPenToSquare} />
                   </Link>
                   <i id="trash_icon">
@@ -118,7 +133,9 @@ function UsersTable() {
         </main>
         <footer className="home_dashboard_footer">
           <Link to="/dashboard" className="link-style">
-          <h1 className="home_dash_footer_h1">Retourner sur l'accueil du tableau de bord</h1>
+            <h1 className="home_dash_footer_h1">
+              Retourner sur l'accueil du tableau de bord
+            </h1>
           </Link>
         </footer>
       </section>

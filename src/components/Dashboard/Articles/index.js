@@ -12,7 +12,7 @@ function Articles() {
       <body className="articles_body">
         <section id="title">
           <h2>Table des Articles</h2>
-          <Link to="/dashboard/articles/add">
+          <Link to="/dashboard/articles/add" >
             <p className="add_article">
               <FontAwesomeIcon icon={faCirclePlus} />
               Ajouter un article
@@ -33,7 +33,7 @@ function Articles() {
             <h3 className="articles_title_name">Prix de Vente HT</h3>
             <h3 className="articles_title_name">Prix de Vente TTC</h3>
             <h3 className="articles_title_name">TVA</h3>
-            <p className="icons"></p>
+            <p className="articles_set_icons"></p>
           </div>
           <div className="categories_tables">
             <h3 className="articles_title_name">604</h3>
@@ -47,8 +47,8 @@ function Articles() {
             <h3 className="articles_title_name">20€</h3>
             <h3 className="articles_title_name">22€</h3>
             <h3 className="articles_title_name">10</h3>
-            <p className="icons">
-              <Link to="/dashboard/articles/set">
+            <p className="articles_set_icons">
+              <Link to="/dashboard/articles/set" className="articles_link_icons">
                 <FontAwesomeIcon icon={faPenToSquare} className="pen-square" />
               </Link>
               <FontAwesomeIcon icon={faTrash} className="trash" />
@@ -66,8 +66,8 @@ function Articles() {
             <h3 className="articles_title_name">30€</h3>
             <h3 className="articles_title_name">36€</h3>
             <h3 className="articles_title_name">20</h3>
-            <p className="icons">
-              <Link to="/dashboard/articles/set">
+            <p className="articles_set_icons">
+              <Link to="/dashboard/articles/set" className="articles_link_icons">
                 <FontAwesomeIcon icon={faPenToSquare} className="pen-square" />
               </Link>
               <FontAwesomeIcon icon={faTrash} className="trash" />
@@ -79,14 +79,14 @@ function Articles() {
             <h3 className="articles_title_name">Pull</h3>
             <h3 className="articles_title_name">Pull.jpg</h3>
             <h3 className="articles_title_name">Pull.png</h3>
-            <h3 className="articles_title_name">157</h3>
+            <h3 className="articles_title_name">203</h3>
             <h3 className="articles_title_name">Pull de couleur vert</h3>
             <h3 className="articles_title_name">7€</h3>
             <h3 className="articles_title_name">15€</h3>
             <h3 className="articles_title_name">18€</h3>
             <h3 className="articles_title_name">20</h3>
-            <p className="icons">
-              <Link to="/dashboard/articles/set">
+            <p className="articles_set_icons">
+              <Link to="/dashboard/articles/set" className="articles_link_icons">
                 <FontAwesomeIcon icon={faPenToSquare} className="pen-square" />
               </Link>
               <FontAwesomeIcon icon={faTrash} className="trash" />
@@ -95,7 +95,7 @@ function Articles() {
         </section>
         <footer className="articles_footer">
           <h1>
-            <Link to="/dashboard">
+            <Link to="/dashboard" className="link-style-footer">
               Retourner sur l'accueil du tableau de bord
             </Link>
           </h1>

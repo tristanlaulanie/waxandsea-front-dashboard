@@ -7,9 +7,11 @@ function SetArticle() {
     <div className="set-article">
       <body className="setArticle_body">
         <header>
+        <Link to="/dashboard/articles" className="link-style">
           <h1 className="setArticle_dashboard_link">
-            <Link to="/dashboard/articles">Retourner au tableau des articles.</Link>
+            Retourner a la table des articles.
           </h1>
+        </Link>
         </header>
         <main className="setArticle_main_container">
           <h2 className="setArticle_title">Modifier un article</h2>
