@@ -8,6 +8,7 @@ import BannierePub from "./Banniere-pub";
 import CardShopping from "./Card-shopping";
 // CSS
 import "./Accueil.css";
+import "./AccueilResponsive.css";
 
 function Accueil() {
   return (

@@ -12,8 +12,10 @@ function Paiement() {
   const [cardnumberError, setCardnumberError] = useState("");
   const [expiryDate, setExpiryDate] = useState("");
   const [expiryDateError, setExpiryDateError] = useState("");
+  const [securityCode, setSecurityCode] = useState("");
+  const [securityCodeError, setSecurityCodeError] = useState(""); 
 
-  const handleNomChange = (event) => {
+  const handleNameChange = (event) => {
     const value = event.target.value;
     const regex = /^[A-Za-z ]+$/;
 
@@ -56,6 +58,19 @@ function Paiement() {
     setExpiryDate(value);
   };
 
+  const handleSecurityCodeChange = (event) => {
+    const value = event.target.value;
+    // Regex pour valider que le code de sécurité contient uniquement des chiffres et a une longueur de 3 caractères
+    const regex = /^\d{3}$/;
+
+    if (regex.test(value) || value === "") {
+      setSecurityCodeError("");
+    } else {
+      setSecurityCodeError("Le code de sécurité doit contenir 3 chiffres.");
+    }
+    setSecurityCode(value);
+  }
+
   return (
     <div className="Paiement">
       <h2>Choisir mon mode de paiement</h2>
@@ -79,7 +94,7 @@ function Paiement() {
                 type="text"
                 placeholder="NOM"
                 value={nom}
-                onChange={handleNomChange}
+                onChange={handleNameChange}
               />
               {nomError && (
                 <div className="error-message_paiement">{nomError}</div>
@@ -108,7 +123,14 @@ function Paiement() {
                 </span>
                 <span id="paiement_code">
                   <h4>Code de sécurité</h4>
-                  <input id="paiement_code_input" type="text" placeholder="123" />
+                  <input 
+                    id="paiement_code_input" 
+                    type="text" 
+                    placeholder="123"
+                    value = {securityCode}
+                    onChange = {handleSecurityCodeChange} 
+                    />
+                  {securityCodeError && <div className="error-message_security">{securityCodeError}</div>}
                 </span>
               </span>
             </span>

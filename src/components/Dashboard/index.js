@@ -36,9 +36,11 @@ function Dashboard() {
       </section>
       <section className="section_menu">
         <h2 className="adresses_title">ADRESSES</h2>
-        <i>
-          <FontAwesomeIcon icon={faPenToSquare} />
-        </i>
+        <Link to="/dashboard/adresses" className="dashboard_link-style">
+          <i>
+            <FontAwesomeIcon icon={faPenToSquare} />
+          </i>
+        </Link>
       </section>
     </main>
   );

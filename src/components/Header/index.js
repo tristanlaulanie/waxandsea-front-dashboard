@@ -54,7 +54,7 @@ function Header() {
             <ul className="header-logo-links">
               <div className="header-logo-links-left">
                 <li id="nav-boutique">
-                  <Link to="/accueil">Accueil</Link>
+                  <Link to="/accueil" >Accueil</Link>
                 </li>
               </div>
               <div className="nav-connexion">

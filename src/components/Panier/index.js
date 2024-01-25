@@ -16,7 +16,6 @@ function Panier() {
             <p className="quantite">QUANTITE 1</p>
           </div>
           <button id='button'>
-            <i className="fa-brands fa-paypal"></i>
             Payer
           </button>
         </section>
@@ -30,7 +29,6 @@ function Panier() {
             <p className="quantite">QUANTITE 1</p>
           </div>
           <button id='button'>
-            <i className="fa-brands fa-paypal"></i>
             Payer
           </button>
         </section>
