@@ -54,8 +54,8 @@ function Header() {
           <nav>
             <ul className="header-logo-links">
               <div className="header-logo-links-left">
-                <li id="nav-boutique">
-                  <Link to="/accueil">Accueil</Link>
+                <li >
+                  <Link className="nav-boutique" to="/accueil">Accueil</Link>
                 </li>
                 <div className="nav-connexion">
                   <li id="nav-li-connexion">

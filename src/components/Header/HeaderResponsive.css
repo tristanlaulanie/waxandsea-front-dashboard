@@ -71,11 +71,6 @@
         right: 15px;
     }
 
-    #nav-boutique {
-        position: relative;
-        top: 1em;
-    }
-
     #nav-li-contact {
         position: relative;
         right: 1em;
@@ -187,6 +182,14 @@
     }
 
 }
+
+@media screen and (width <= 1070px) {
+    .nav-boutique {
+        position: relative;
+        left: -4.5em;
+    }
+}
+
 
 @media screen and (width <= 935px) {
     /* HEADER */
@@ -356,6 +359,11 @@
     }
 }
 
-@media screen and (width <= 550px) {
-    
+@media screen and (width <= 560px) {
+    .first-header-right {
+        position: relative;
+        left: -12.5em;
+    }
+  
+
 }
