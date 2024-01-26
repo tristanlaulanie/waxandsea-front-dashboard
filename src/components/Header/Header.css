@@ -35,6 +35,8 @@ header {
 .social-div {
     display: flex;
     flex-direction: row;
+    position: relative;
+    left: -8vw;
 }
 
 .social-icon-header {
@@ -103,7 +105,7 @@ header {
     align-items: center;
     justify-content: center;
     gap: 3vw;
-    margin-left: 3vw;
+    position: relative;
 }
 
 .nav-connexion {
@@ -113,18 +115,17 @@ header {
 
 #logo-waxandsea-header {
     position: relative;
-    right: 3.5em;
+    right: 8em;
 }
 
 .first-header-right {
-    margin-right: 2em;
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: center;
-    gap: 0.2em;
     font-size: 1.8em;
     position: relative;
+    left: 5em;
 }
 
 .first-header-right i {

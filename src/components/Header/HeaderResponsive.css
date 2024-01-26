@@ -1,0 +1,361 @@
+@media screen and (width <= 1770px) {
+    .first-header-right {
+        position: relative;
+        left: 3em;
+    }
+
+}
+
+@media screen and (width <= 1630px) {
+    .first-header-right {
+        position: relative;
+        left: 1em;
+    }
+
+    .logo-panier {
+        position: relative;
+        right: 15px;
+    }
+}
+
+@media screen and (width <= 1510px) {
+    .first-header-right {
+        position: relative;
+        left: -1em;
+    }
+}
+
+@media screen and (width <= 1480px) {
+    .header-logo-links {
+        position: relative;
+        left: 1em;
+    }
+
+    .first-header-left {
+        position: relative;
+        left: 0.8em;
+        margin-right: 2em;
+    }
+
+    .first-header-right {
+        position: relative;
+        left: -4em;
+        margin-left: 4em;
+    }
+
+    .logo-panier {
+        position: relative;
+        left: 13px;
+    }
+
+}
+
+@media screen and (width <= 1445px)
+{   
+    /* HEADER */
+
+    nav ul li {
+        font-size: 14px;
+    }
+
+    #stages-couture-link-header {
+        width: 6em;
+    }
+
+    #nav-accueil {
+        position: relative;
+    }
+
+    .first-header-right i {
+        position: relative;
+        right: 15px;
+    }
+
+    #nav-boutique {
+        position: relative;
+        top: 1em;
+    }
+
+    #nav-li-contact {
+        position: relative;
+        right: 1em;
+    }
+
+    .nav-contact-histoire {
+        display: flex;
+        gap: 2em;
+        position: relative;
+        right: 3em;
+    }
+}
+
+@media screen and (width <= 1360px) {
+    .first-header-left {
+        position: relative;
+        left: 3.2em;
+    }
+
+    #nav-li-contact {
+        position: relative;
+        right: 3em;
+    }
+
+    #logo-waxandsea-header {
+        position: relative;
+        left: -4em;
+    }
+
+    .first-header-right {
+        display: flex;
+        gap: 0.5em;
+        position: relative;
+        left: -5.5em;
+    }
+
+    .first-header-right i {
+        position: relative;
+        left: 15px;
+    }
+}
+
+@media screen and (width <= 1230px) {
+
+    .first-header-left {
+        position: relative;
+        left: 8.5em;
+    }
+
+    .header-logo-links-left
+    {
+        position: relative;
+        left: 6.7em;
+        gap: 1.3em;
+    }
+
+    #nav-li-contact {
+        position: relative;
+        left: -1em;
+    }
+
+    #logo-waxandsea-header {
+        position: relative;
+        left: -4.5em;
+    }
+
+    .first-header-right {
+        position: relative;
+        left: -7em;
+    }
+}
+
+@media screen and (width <= 1190px) {
+    #logo-waxandsea-header {
+        position: relative;
+        left: -3.5em;
+    }
+ }
+
+@media screen and (width <= 1110px){
+    .first-header-left {
+        position: relative;
+        left: 12em;
+    }
+
+    #nav-li-contact {
+        position: relative;
+        left: -1em;
+    }
+
+    #logo-waxandsea-header {
+        position: relative;
+        left: -3.2em;
+    }
+
+    .first-header-right {
+        position: relative;
+        left: -9em;
+    }
+
+    #cart_title {
+        position: relative;
+        left: 5em;
+    }
+
+    #signup_title {
+        position: relative;
+        left: 2em;
+    }
+
+}
+
+@media screen and (width <= 935px) {
+    /* HEADER */
+    .first-header-right {
+        position: relative;
+        right: 9em;
+        font-size: 2.1em;
+    }
+
+    #logo-waxandsea-header {
+        position: relative;
+        left: -2em;
+    }
+}
+
+@media screen and (width <= 845px) {
+    /* HEADER */
+
+    .first-header-left {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .first-header-center nav ul div li {
+        font-size: 10px;
+    }
+
+    .first-header-right {
+        position: relative;
+        left: -10.5em;
+        font-size: 25px;
+    }
+
+    #cart_title {
+        position: relative;
+        left: 6em;
+    }
+    
+    #logo-waxandsea-header {
+        position: relative;
+        left: -1em;
+    }
+
+    .first-header-left {
+        position: relative;
+        left: 15em;
+    }
+
+    .first-header-right {
+        position: relative;
+        right: 10em;
+    }
+
+    #stages-couture-link-header {
+        position: relative;
+        left: 9em;
+    }
+
+    #nav-accueil {
+        position: relative;
+        left: 9em;
+    }
+
+    .first-header-left {
+        position: relative;
+        left: 16em;
+    }
+
+    .first-header {
+        position: relative;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+}
+
+@media screen and (width <= 750px) {
+    /* HEADER */
+    .first-header-right {
+        position: relative;
+        left: -12em;  
+}
+
+ }
+
+@media screen and (width <= 655px) {
+    /* HEADER */
+    .first-header {
+        font-size: 12px;
+    }
+    
+    #facebook-icon-header
+     {
+        height: 26px;
+        width: 26px;
+        margin-top: 5px;
+    }
+
+    #instagram-icon-header
+    {
+       height: 26px;
+       width: 26px;
+       margin-top: 5px;
+   }
+
+    .first-header-right {
+        font-size: 23px;
+        position: relative;
+        left: -11em;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    #payment_title {
+        position: relative;
+        left: 7.2em;
+    }
+
+    #signup_title {
+        position: relative;
+        left: 7em;
+    }	
+
+    #nav-li-contact {
+        position: relative;
+        left: -7em;
+        margin-bottom: 15px;
+    }
+
+    #nav-li-mon-histoire {
+        position: relative;
+        left: -5em;
+    }
+
+    #logo-waxandsea-header {
+        position: relative;
+        left: -6em;
+    }
+
+    #nav-boutique {
+        position: relative;
+        left: 7.5em;
+    }
+
+    #stages-couture-link-header {
+        position: relative;
+        left: 8.8em;
+    }
+
+    #nav-accueil {
+        position: relative;
+        left: 9em;
+    }
+
+    .first-header-left {
+        position: relative;
+        left: 13.2em;
+    }
+
+    .first-header-right {
+        position: relative;
+        right: 4em;
+        padding: 0;
+        margin: 0;
+    }
+}
+
+@media screen and (width <= 550px) {
+    
+}

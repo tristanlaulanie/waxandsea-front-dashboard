@@ -6,6 +6,7 @@ import { faShoppingCart } from "@fortawesome/free-solid-svg-icons";
 import { faEnvelope } from "@fortawesome/free-solid-svg-icons";
 // CSS
 import "./Header.css";
+import "./HeaderResponsive.css";
 // IMAGES
 import logo from "./images/WaxAndSea-LogoDef.png";
 import instagramIcon from "./images/instagram-icon.png";
@@ -54,13 +55,13 @@ function Header() {
             <ul className="header-logo-links">
               <div className="header-logo-links-left">
                 <li id="nav-boutique">
-                  <Link to="/accueil" >Accueil</Link>
+                  <Link to="/accueil">Accueil</Link>
                 </li>
-              </div>
-              <div className="nav-connexion">
-                <li id="nav-li-connexion">
-                  <Link to="/connexion">Connexion</Link>
-                </li>
+                <div className="nav-connexion">
+                  <li id="nav-li-connexion">
+                    <Link to="/connexion">Connexion</Link>
+                  </li>
+                </div>
               </div>
               <li>
                 <img
