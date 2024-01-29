@@ -1,11 +1,12 @@
 import React, { useRef, useEffect } from "react";
-// CSS
-import "./Slider.css";
+
 // GLIDE
 import Glide from "@glidejs/glide"; 
 // CSS
 import "@glidejs/glide/dist/css/glide.core.min.css";
 import "@glidejs/glide/dist/css/glide.theme.min.css";
+import "./Slider.css";
+import "./SliderResponsive.css";
 
 // 
 // IMAGES
