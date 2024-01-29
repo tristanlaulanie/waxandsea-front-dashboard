@@ -59,7 +59,7 @@ function Header() {
                 </li>
                 <div className="nav-connexion">
                   <li id="nav-li-connexion">
-                    <Link to="/connexion">Connexion</Link>
+                    <Link className="connexion-link" to="/connexion">Connexion</Link>
                   </li>
                 </div>
               </div>

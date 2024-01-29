@@ -141,11 +141,6 @@
 @media screen and (width <= 1360px) {
     /* HEADER */
 
-    .header-logo-links-left{
-        position: relative;
-        left: 4em;
-    }
-
     .first-header-left {
         position: relative;
         left: 6.5em;
@@ -188,13 +183,6 @@
     .first-header-left {
         position: relative;
         left: 8.5em;
-    }
-
-    .header-logo-links-left
-    {
-        position: relative;
-        left: 6.7em;
-        gap: 1.3em;
     }
 
     #nav-li-contact {
@@ -590,20 +578,6 @@
         font-size: 12px;
     }
     
-    #facebook-icon-header
-     {
-        height: 26px;
-        width: 26px;
-        margin-top: 5px;
-    }
-
-    #instagram-icon-header
-    {
-       height: 26px;
-       width: 26px;
-       margin-top: 5px;
-   }
-
     #nav-li-contact {
         position: relative;
         left: -7em;
