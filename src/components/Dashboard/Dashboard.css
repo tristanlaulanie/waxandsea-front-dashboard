@@ -31,10 +31,9 @@
     letter-spacing: 8px;
 }
 
-h1 {
+.dashboard_title {
     font-size: 4rem;
     margin-bottom: 6px;
-
 }
 
 h2 {

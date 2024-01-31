@@ -366,6 +366,11 @@
     justify-content: center;
   }
 
+  .logo-panier {
+    position: relative;
+    top: 8px;
+  }
+
   #payment_title {
     position: relative;
     left: 7.2em;

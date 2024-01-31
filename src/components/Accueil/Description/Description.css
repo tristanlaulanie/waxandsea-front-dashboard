@@ -1,7 +1,7 @@
 .section-description {
     position: relative;
     text-align: center;
-    font-size: 60px;
+    font-size: 48px;
     margin-top: 4em;
     margin-left: auto;
     margin-right: auto;
@@ -13,7 +13,7 @@
     opacity: 0.8;
     padding: 0.5em;
     width: 15em;
-    height: 8em;
+    height: 11em;
     font-family: 'Amatic SC', cursive;
 }
 

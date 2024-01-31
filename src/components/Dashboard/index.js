@@ -8,7 +8,7 @@ function Dashboard() {
   return (
     <main className="main_container">
       <header className="dash_home_header">
-        <h1>TABLEAU DE BORD</h1>
+        <h1 className="dashboard_title">TABLEAU DE BORD</h1>
       </header>
       <section className="section_menu">
         <h2>UTILISATEURS</h2>

@@ -1,5 +1,6 @@
 import React from "react";
 import "./Description.css";
+import "./DescriptionResponsive.css";
 
 function Description() {
   return (
