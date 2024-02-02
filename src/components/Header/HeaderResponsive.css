@@ -110,6 +110,13 @@
   }
 }
 
+@media screen and (width<=1330px) {
+  .social-div {
+    position: relative;
+    left: -2.5em;
+  }
+}
+
 @media screen and (width <= 1230px) {
   .first-header-left {
     position: relative;
@@ -208,6 +215,16 @@
 
 @media screen and (width <= 935px) {
   /* HEADER */
+  .social-div {
+    position: relative;
+    left: 3em;
+  }
+
+  .header-logo-links-left {
+    position: relative;
+    left: 11em;
+  }
+
   .first-header-right {
     position: relative;
     right: 9em;
@@ -216,7 +233,12 @@
 
   #logo-waxandsea-header {
     position: relative;
-    left: -2em;
+    left: 2em;
+  }
+
+  #signup_title {
+    position: relative;
+    right: -1em;
   }
 }
 
