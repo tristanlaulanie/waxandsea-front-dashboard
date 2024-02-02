@@ -1,5 +1,6 @@
 import React from "react";
 import "./Banniere-pub.css";
+import "./Banniere-pubResponsive.css";
 import mannequin from "./images/mannequin-robe-verte-font-bleu.png";
 import logo from "./images/WaxAndSea-LogoDef.png";
 
