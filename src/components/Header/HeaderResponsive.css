@@ -217,28 +217,42 @@
   /* HEADER */
   .social-div {
     position: relative;
-    left: 3em;
+    left: -5em;
   }
 
   .header-logo-links-left {
     position: relative;
-    left: 11em;
+    left: 2em;
+    font-size: 1.6em;
+  }
+
+  .connexion-link {
+    position: relative;
+    left: -9.1em;
   }
 
   .first-header-right {
     position: relative;
-    right: 9em;
-    font-size: 2.1em;
+    margin: 0;
+    left: -8.2em;
+    font-size: 1.6em;
+    display: flex;
+    gap: 1em;
+  }
+
+  #payment_title {
+    position: relative;
+    left: 3em;
   }
 
   #logo-waxandsea-header {
     position: relative;
-    left: 2em;
+    left: -8em;
   }
 
   #signup_title {
     position: relative;
-    right: -1em;
+    left: 1em;
   }
 }
 
@@ -258,17 +272,22 @@
 
   #cart_title {
     position: relative;
-    left: 6em;
+    left: 5.4em;
   }
 
   #logo-waxandsea-header {
     position: relative;
-    left: -1em;
+    left: -6em;
   }
 
   .first-header-left {
     position: relative;
     left: 15em;
+  }
+
+  .header-logo-links-left {
+    position: relative;
+    left: 4em;
   }
 
   .first-header-right {
@@ -286,11 +305,6 @@
     left: 9em;
   }
 
-  .first-header-left {
-    position: relative;
-    left: 16em;
-  }
-
   .first-header {
     position: relative;
     display: flex;
@@ -301,20 +315,21 @@
 
 @media screen and (width <= 830px) {
   .header-logo-links li a {
-    font-size: 2.5em;
+    font-size: 2em;
   }
 
   .social-div {
     position: relative;
-    left: 0.5em;
+    left: -1.3em;
   }
 
   .header-logo-links-left {
     position: relative;
     /* border: 3px solid red; */
-    left: 12em;
+    left: 20em;
     display: flex;
-    gap: 3em;
+    gap: 20em;
+    font-size: 0.5em;
   }
 
   .nav-boutique .connexion-link {
@@ -324,23 +339,73 @@
 
   #logo-waxandsea-header {
     position: relative;
-    left: 0em;
-    width: 8.5vw;
+    left: -10.5em;
+  }
+
+  .first-header-right {
+    position: relative;
+    left: -12.5em;
   }
 }
 
+@media screen and (width <= 770px) {
+  .social-div {
+    position: relative;
+    left: 0;
+  }
+
+  .logo-enveloppe {
+    position: relative;
+    top: 5px;
+    right: 13px;
+    font-size: 30px;
+  }
+
+  #logo-waxandsea-header {
+    position: relative;
+    left: -10em;
+  }
+
+  .first-header-right {
+    position: relative;
+    left: -13em;
+  }
+
+}
 @media screen and (width <= 750px) {
   /* HEADER */
   .first-header-right {
     position: relative;
-    left: -12em;
+    left: -13.2em;
   }
 }
 
 @media screen and (width <= 710px) {
+  .first-header-left {
+    position: relative;
+  }
+  .social-div {
+    position: relative;
+    left: 1.5em;
+  }
+
+  .nav-boutique {
+    position: relative;
+    left: -1em;
+  }
+
+  .nav-connexion {
+    position: relative;
+    left: 10em;
+  }
   .first-header-right {
     position: relative;
-    left: -12.5em;
+    left: -13.6em;
+  }
+
+  .logo-panier {
+    position: relative;
+    top: 5px;
   }
 }
 
