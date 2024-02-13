@@ -14,8 +14,8 @@ function Accueil() {
   return (
     <>
       <div>
-        <Slider />
-        <Description />
+        <Slider className="slider" />
+        <Description className="description"/>
         <container className="container_card_produit">
           <CardProduit />
           <CardProduit />

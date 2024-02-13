@@ -49,13 +49,12 @@ function Header() {
             </Link>
           </div>
         </div>
-
         <div className="first-header-center">
           <nav>
             <ul className="header-logo-links">
               <div className="header-logo-links-left">
                 <li>
-                  <Link className="nav-boutique" to="/accueil">
+                  <Link className="accueil-link" to="/accueil">
                     Accueil
                   </Link>
                 </li>
@@ -77,7 +76,7 @@ function Header() {
             </ul>
           </nav>
         </div>
-
+        
         <div className="first-header-right">
           <span id="cart_title">
             <FontAwesomeIcon className="logo-panier" icon={faShoppingCart} />

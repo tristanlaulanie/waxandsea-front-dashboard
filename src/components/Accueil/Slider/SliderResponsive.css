@@ -29,14 +29,10 @@
     }
 }
 
-@media screen and (width <= 840px){
-    .carousel-img {
-        height: 38vh;
-        width: 64vw;
+@media screen and (width <= 846px){
+    .section-carrousel {
+        margin-top: 16em;
     }
-}
-
-@media screen and (width <= 840px){
     .carousel-img {
         height: 36vh;
         width: 66vw;
