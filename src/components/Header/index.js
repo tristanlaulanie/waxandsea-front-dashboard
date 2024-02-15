@@ -76,7 +76,6 @@ function Header() {
             </ul>
           </nav>
         </div>
-        
         <div className="first-header-right">
           <span id="cart_title">
             <FontAwesomeIcon className="logo-panier" icon={faShoppingCart} />

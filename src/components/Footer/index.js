@@ -2,6 +2,7 @@
 import React from "react";
 // CSS
 import "./Footer.css";
+import "./FooterResponsive.css";
 // IMAGE
 import facebook from "./image/facebook-icon.png";
 // FONTAWESOME
@@ -21,7 +22,7 @@ function Footer() {
         </li>
       </ul>
       <ul class="dev-policies-footer">
-        <li id="copyright">(c) 2023</li>
+        <li id="copyright">(c) 2024</li>
         <li>Développé par neoCode</li>
         <li id="rights-link">Tous droits réservés</li>
       </ul>
