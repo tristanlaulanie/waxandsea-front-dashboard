@@ -1,5 +1,7 @@
 import React from 'react';
+// CSS
 import './Connexion.css';
+import './ConnexionResponsive.css';
 
 function Connexion() {
   return (

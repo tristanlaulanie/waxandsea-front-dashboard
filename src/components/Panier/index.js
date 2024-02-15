@@ -1,5 +1,6 @@
 import React from "react";
 import "./Panier.css";
+import "./PanierResponsive.css";
 // IMAGES
 
 function Panier() {
