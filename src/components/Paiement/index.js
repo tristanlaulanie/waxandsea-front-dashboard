@@ -1,5 +1,7 @@
 import React, { useState } from "react";
+// CSS
 import "./Paiement.css";
+import "./PaiementResponsive.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faCcStripe } from "@fortawesome/free-brands-svg-icons";
 import { faPaypal } from "@fortawesome/free-brands-svg-icons";
@@ -73,8 +75,8 @@ function Paiement() {
 
   return (
     <div className="Paiement">
-      <h2>Choisir mon mode de paiement</h2>
-      <main>
+      <h2 id="choose_paiement">Choisir mon mode de paiement</h2>
+      <main id="paiement_container">
         <span id="paiement_system">
           <container id="paiement-card">
             <span id="paiement_icon_check">
@@ -88,7 +90,7 @@ function Paiement() {
             </span>
             <span id="paiement_infos">
               <h3>Paiement par carte bancaire</h3>
-              <h4>Titulaire de la carte</h4>
+              <h4 id="cardholder">Titulaire de la carte</h4>
               <input
                 id="cardholder_input"
                 type="text"
@@ -99,7 +101,7 @@ function Paiement() {
               {nomError && (
                 <div className="error-message_paiement">{nomError}</div>
               )}
-              <h4>Numéro de carte bancaire</h4>
+              <h4 id="cardnumber">Numéro de carte bancaire</h4>
               <input
                 id="cardnumber_input"
                 type="text"
@@ -112,7 +114,7 @@ function Paiement() {
               )}
               <span id="paiement_date_code">
                 <span id="paiement_date">
-                  <h4>Date d'expiration</h4>
+                  <h4 id="expirydate">Date d'expiration</h4>
                   <input
                     type="text"
                     placeholder="MM/AA"

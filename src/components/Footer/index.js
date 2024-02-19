@@ -12,7 +12,7 @@ import { Link } from "react-router-dom";
 
 function Footer() {
   return (
-    <footer>
+    <footer id="footer_container">
       <ul class="policies-contact-footer">
         <li id="policie-link">Politique de confidentialité</li>
         <li>Conditions générales de vente</li>

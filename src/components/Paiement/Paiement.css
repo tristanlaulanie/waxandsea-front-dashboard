@@ -14,10 +14,10 @@
     padding-bottom: 50vh;
 }
 
-h2 {
-    margin-bottom: 5vh;
+#choose_paiement {
+    margin-bottom: 9vh;
     text-align: left;
-    font-size: 2.1em;
+    font-size: 4em;
     font-family: 'Amatic SC', cursive;
 }
 

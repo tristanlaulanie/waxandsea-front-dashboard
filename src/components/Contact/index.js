@@ -1,5 +1,7 @@
 import React from "react";
+// CSS
 import "./Contact.css";
+import "./ContactResponsive.css";
 
 function Contact() {
   return (

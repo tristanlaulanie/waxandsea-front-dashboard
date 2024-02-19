@@ -3,7 +3,7 @@
     margin-right: 1em;
 }
 
-footer {
+#footer_container {
     position: relative;
     background-color:rgb(119,177,174);
     padding: 0 3em;
