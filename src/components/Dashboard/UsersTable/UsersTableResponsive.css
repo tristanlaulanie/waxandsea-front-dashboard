@@ -1,4 +1,148 @@
+@media screen and (max-width: 1780px) {
+    .users_set_icons {
+        display: flex;
+    }
+
+    .phonenumber {
+        position: relative;
+        left: 1em;
+    }
+}
+
+@media screen and (max-width: 1730px) {
+    .number {
+        position: relative;
+        left: -1.5vw;
+    }
+
+    .firstname {
+        position: relative;
+        left: 0.5vw;
+    }
+
+    .lastname {
+        position: relative;
+        left: 3vw;
+    }
+
+    .phonenumber {
+        position: relative;
+        left: 4vw;
+    }
+
+    .users_set_icons {
+        position: relative;
+        left: 3.5vw;
+    }
+}
+
+@media screen and (max-width: 1620px) {
+    .number {
+        position: relative;
+        left: 1.2vw;
+    }
+
+    .firstname {
+        position: relative;
+        left: 3vw;
+    }
+
+    .lastname {
+        position: relative;
+        left: 6vw;
+    }
+
+    .phonenumber {
+        position: relative;
+        left: 7vw;
+    }  
+    
+    .role {
+        position: relative;
+        left: 6.5vw;
+        font-size: 28px;
+    }
+}
+
+@media screen and (max-width: 1490px) {
+    .number {
+        position: relative;
+        left: 2vw;
+    }
+
+    .firstname {
+        position: relative;
+        left: 4vw;
+    }
+
+    .lastname {
+        position: relative;
+        left: 7vw;
+    }
+
+    .phonenumber {
+        position: relative;
+        left: 8.5vw;
+    }  
+    
+    .role {
+        position: relative;
+        left: 6.5vw;
+        font-size: 24px;
+    }
+
+    .users_set_icons {
+        font-size: 20px;
+        left: 1.8em;
+    }
+}
+
+@media screen and (max-width: 1390px) {
+    .utilisateur {
+        width: 82vw;
+    }
+
+    .users_table {
+        width: 82vw;
+    }
+
+    #phonenumber-title {
+        position: relative;
+        left: -2vw;
+    }
+
+    .number {
+        position: relative;
+        left: 1vw;
+    }
+
+    .firstname {
+        position: relative;
+        left: 4vw;
+    }
+
+    .lastname {
+        position: relative;
+        left: 6.5vw;
+    }
+
+    .phonenumber {
+        position: relative;
+        font-size: 25px;
+        left: 6vw;
+    }
+
+    .role {
+        position: relative;
+        left: 5.5vw;
+    }
+}
+
 @media screen and (max-width: 1280px) {
+    .utilisateur {
+        width: 90vw;
+    }
+
     #phonenumber-title {
         width: 18vw;
     } 
@@ -6,7 +150,7 @@
     .phonenumber {
         width: 10vw;
         position: relative;
-        left: -1.5em;
+        left: 4em;
     }
 
     .identifiants h4 {
@@ -21,22 +165,57 @@
     .role {
         width: 10vw;
         position: relative;
-        left: -1.5em;
+        left: 2.7em;
     }
 
     .firstname {
         position: relative;
-        left: 0;
+        left: 2em;
     }
 
     .lastname {
         position: relative;
-        left: -30px;
+        left: 3.5em;
     }
 
-    .users-table {
-        width: 80vw;
+    .users_table {
+        width: 90vw;
+    }
+}
+
+@media screen and (width <= 1160px) {
+    .number {
+        position: relative;
+        left: -1vw;
     }
 
+    .utilisateur {
+        width: 90vw;
+        gap: 3em;
+    }
 
-} 
+    .firstname {
+        position: relative;
+        left: 3vw;
+    }
+
+    .lastname {
+        position: relative;
+        left: 10.5vw;
+    }
+
+    .phonenumber {
+        position: relative;
+    }
+
+    .role {
+        position: relative;
+
+    }
+
+    .users_set_icons {
+        font-size: 15px;
+        position: relative;
+        left: 8vw;
+    }
+}

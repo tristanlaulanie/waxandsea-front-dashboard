@@ -1,0 +1,5 @@
+@media screen and (width <= 845px) {
+    .dashboard_title {
+        position: relative;
+}
+  }

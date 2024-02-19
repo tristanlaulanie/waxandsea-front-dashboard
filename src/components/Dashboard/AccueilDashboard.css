@@ -34,9 +34,10 @@
 .dashboard_title {
     font-size: 4rem;
     margin-bottom: 6px;
+    text-align: center;
 }
 
-h2 {
+.titles {
     font-size: 4rem;
     margin-bottom: 1.5rem;
     letter-spacing: 4px;
