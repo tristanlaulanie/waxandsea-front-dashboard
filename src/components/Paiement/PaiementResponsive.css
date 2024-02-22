@@ -1,4 +1,5 @@
 @media screen and (width <= 1200px){
+
     #command_details {
         position: relative;
         left: -3em;
@@ -6,12 +7,14 @@
 }
 
 @media screen and (width <= 1100px) {
+
     .paypal_card {
         padding: 80px 120px;
     }
 }
 
 @media screen and (width <= 1030px) {
+
     #paiement-card {
         padding: 40px;
         width: 52vw;
@@ -19,8 +22,7 @@
 
     #paiement_system {
         position: relative;
-        left: 2em;
-        width: 
+        left: 2em
     }
 
     #paiement_icon {
@@ -89,6 +91,7 @@
         position: relative;
         left: 2em;
         bottom: 20vh;
+        padding-bottom: 20em;
     }
 }
 
@@ -98,6 +101,7 @@
         position: relative;
         left: -0.2em;
     }
+
     #choose_paiement {
         font-size: 3em;
     }
@@ -109,6 +113,7 @@
 }
 
 @media screen and (width <= 550px) {
+
     .Paiement {
         position: relative;
         left: -0.5em;

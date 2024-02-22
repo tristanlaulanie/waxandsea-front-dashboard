@@ -14,7 +14,7 @@ function UsersTable() {
         <Link to="/dashboard" className="link-style">
           <header className="home_header">
             <h1 className="home_header_h1">
-              Retourner sur l'accueil du tableau de bord
+              Retourner sur l'accueil du tableau de bord.
             </h1>
           </header>
         </Link>
@@ -30,114 +30,169 @@ function UsersTable() {
           </section>
           <section className="users_table">
             <div className="identifiants">
-              <h3>ID</h3>
-              <h3>Prénom</h3>
-              <h3>Nom</h3>
-              <h3 id="phonenumber-title">Téléphone</h3>
-              <h3 id="role">Rôle</h3>
-              <h4>Modifier / Supprimer</h4>
+              <div id="id_box">
+                <h3 id="id_title">ID</h3>
+              </div>
+              <div id="firstname_box">
+                <h3 id="firstname_id">Prénom</h3>
+              </div>
+              <div id="lastname_box">
+                <h3 id="name_id">Nom</h3>
+              </div>
+              <div id="phonenumber_box">
+                <h3 id="phonenumber-title">Téléphone</h3>
+              </div>
+              <div id="role_box">
+                <h3 id="role">Rôle</h3>
+              </div>
+              <div id="setuser_box">
+                <h4 id="set_user">
+                  Modifier <br></br> / Supprimer
+                </h4>
+              </div>
             </div>
-            <section className="users">
-              <div className="utilisateur">
-                <p className="number">1</p>
-                <p className="firstname">John</p>
-                <p className="lastname">Doe</p>
-                <p className="phonenumber">06 00 00 00 00</p>
-                <p className="role">Administrateur</p>
-                <p className="users_set_icons">
-                  <Link
-                    to="/dashboard/users/set-user"
-                    className="link-style_set_user"
-                  >
-                    <FontAwesomeIcon icon={faPenToSquare} />
-                  </Link>
-                  <i id="trash_icon">
-                    <FontAwesomeIcon icon={faTrash} />
-                  </i>
-                </p>
-              </div>
-              <div className="utilisateur">
-                <p className="number">2</p>
-                <p className="firstname">Jane</p>
-                <p className="lastname">Doe</p>
-                <p className="phonenumber">06 00 00 00 00</p>
-                <p className="role">Administrateur</p>
-                <p className="users_set_icons">
-                  <Link
-                    to="/dashboard/users/set-user"
-                    className="link-style_set_user"
-                  >
-                    <FontAwesomeIcon icon={faPenToSquare} />
-                  </Link>
-                  <i id="trash_icon">
-                    <FontAwesomeIcon icon={faTrash} />
-                  </i>
-                </p>
-              </div>
-              <div className="utilisateur">
-                <p className="number">3</p>
-                <p className="firstname">John</p>
-                <p className="lastname">Doe</p>
-                <p className="phonenumber">06 00 00 00 00</p>
-                <p className="role">Utilisateur</p>
-                <p className="users_set_icons">
-                  <Link
-                    to="/dashboard/users/set-user"
-                    className="link-style_set_user"
-                  >
-                    <FontAwesomeIcon icon={faPenToSquare} />
-                  </Link>
-                  <i id="trash_icon">
-                    <FontAwesomeIcon icon={faTrash} />
-                  </i>
-                </p>
-              </div>
-              <div className="utilisateur">
-                <p className="number">4</p>
-                <p className="firstname">Jane</p>
-                <p className="lastname">Doe</p>
-                <p className="phonenumber">06 00 00 00 00</p>
-                <p className="role">Utilisateur</p>
-                <p className="users_set_icons">
-                  <Link
-                    to="/dashboard/users/set-user"
-                    className="link-style_set_user"
-                  >
-                    <FontAwesomeIcon icon={faPenToSquare} />
-                  </Link>
-                  <i id="trash_icon">
-                    <FontAwesomeIcon icon={faTrash} />
-                  </i>
-                </p>
-              </div>
-              <div className="utilisateur user-final">
-                <p className="number">5</p>
-                <p className="firstname">John</p>
-                <p className="lastname">Doe</p>
-                <p className="phonenumber">06 00 00 00 00</p>
-                <p className="role">Utilisateur</p>
-                <p className="users_set_icons">
-                  <Link
-                    to="/dashboard/users/set-user"
-                    className="link-style_set_user"
-                  >
-                    <FontAwesomeIcon icon={faPenToSquare} />
-                  </Link>
-                  <i id="trash_icon">
-                    <FontAwesomeIcon icon={faTrash} />
-                  </i>
-                </p>
-              </div>
-            </section>
+          </section>
+          <section className="users">
+            <div className="utilisateur">
+              <p className="number">
+                <h1>1</h1>
+              </p>
+              <p className="firstname">
+                <h1>John</h1>
+              </p>
+              <p className="lastname"> 
+                <h1>Doe</h1>
+              </p>
+              <p className="phonenumber">
+                <h1>06 00 00 00 00</h1>
+              </p>
+              <p className="role">
+                <h1>Administrateur</h1>
+              </p>
+              <p className="users_set_icons">
+                <Link
+                  to="/dashboard/users/set-user"
+                  className="link-style_set_user"
+                >
+                  <FontAwesomeIcon icon={faPenToSquare} />
+                </Link>
+                <i id="trash_icon">
+                  <FontAwesomeIcon icon={faTrash} />
+                </i>
+              </p>
+            </div>
+            <div className="utilisateur">
+              <p className="number">
+                <h1>2</h1> 
+              </p>
+              <p className="firstname">
+                <h1>Jane</h1>
+              </p>
+              <p className="lastname">
+                <h1>Doe</h1>
+              </p>
+              <p className="phonenumber">
+                <h1>06 00 00 00 00</h1>
+              </p>
+              <p className="role">
+                <h1>Administrateur</h1>
+              </p>
+              <p className="users_set_icons">
+                <Link
+                  to="/dashboard/users/set-user"
+                  className="link-style_set_user"
+                >
+                  <FontAwesomeIcon icon={faPenToSquare} />
+                </Link>
+                <i id="trash_icon">
+                  <FontAwesomeIcon icon={faTrash} />
+                </i>
+              </p>
+            </div>
+            <div className="utilisateur">
+              <p className="number">
+                <h1>3</h1>
+              </p>
+              <p className="firstname">
+                <h1>John</h1>
+              </p>
+              <p className="lastname">
+                <h1>Doe</h1>
+              </p>
+              <p className="phonenumber">
+                <h1>06 00 00 00 00</h1>
+              </p>
+              <p className="role">Utilisateur</p>
+              <p className="users_set_icons">
+                <Link
+                  to="/dashboard/users/set-user"
+                  className="link-style_set_user"
+                >
+                  <FontAwesomeIcon icon={faPenToSquare} />
+                </Link>
+                <i id="trash_icon">
+                  <FontAwesomeIcon icon={faTrash} />
+                </i>
+              </p>
+            </div>
+            <div className="utilisateur">
+              <p className="number">
+                <h1>4</h1>
+              </p>
+              <p className="firstname">
+                <h1>Jane</h1>
+              </p>
+              <p className="lastname">
+                <h1>Doe</h1>
+              </p>
+              <p className="phonenumber">
+                <h1>06 00 00 00 00</h1>
+              </p>
+              <p className="role">
+                <h1>Utilisateur</h1>
+              </p>
+              <p className="users_set_icons">
+                <Link
+                  to="/dashboard/users/set-user"
+                  className="link-style_set_user"
+                >
+                  <FontAwesomeIcon icon={faPenToSquare} />
+                </Link>
+                <i id="trash_icon">
+                  <FontAwesomeIcon icon={faTrash} />
+                </i>
+              </p>
+            </div>
+            <div className="utilisateur user-final">
+              <p className="number">
+                <h1>5</h1>
+              </p>
+              <p className="firstname">
+                <h1>John</h1>
+              </p>
+              <p className="lastname">
+                <h1>Doe</h1>
+              </p>
+              <p className="phonenumber">
+                <h1>06 00 00 00 00</h1>
+              </p>
+              <p className="role">
+                <h1>Utilisateur</h1>
+              </p>
+              <p className="users_set_icons">
+                <Link
+                  to="/dashboard/users/set-user"
+                  className="link-style_set_user"
+                >
+                  <FontAwesomeIcon icon={faPenToSquare} />
+                </Link>
+                <i id="trash_icon">
+                  <FontAwesomeIcon icon={faTrash} />
+                </i>
+              </p>
+            </div>
           </section>
         </main>
-        <footer className="home_dashboard_footer">
-          <Link to="/dashboard" className="link-style">
-            <h1 className="home_dash_footer_h1">
-              Retourner sur l'accueil du tableau de bord
-            </h1>
-          </Link>
-        </footer>
       </section>
     </>
   );
