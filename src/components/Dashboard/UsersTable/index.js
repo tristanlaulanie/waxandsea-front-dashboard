@@ -67,7 +67,7 @@ function UsersTable() {
                 <h1>06 00 00 00 00</h1>
               </p>
               <p className="role">
-                <h1>Administrateur</h1>
+                <h1>Admin</h1>
               </p>
               <p className="users_set_icons">
                 <Link
@@ -95,7 +95,7 @@ function UsersTable() {
                 <h1>06 00 00 00 00</h1>
               </p>
               <p className="role">
-                <h1>Administrateur</h1>
+                <h1>Admin</h1>
               </p>
               <p className="users_set_icons">
                 <Link
@@ -122,7 +122,7 @@ function UsersTable() {
               <p className="phonenumber">
                 <h1>06 00 00 00 00</h1>
               </p>
-              <p className="role">Utilisateur</p>
+              <p className="role">User</p>
               <p className="users_set_icons">
                 <Link
                   to="/dashboard/users/set-user"
@@ -149,7 +149,7 @@ function UsersTable() {
                 <h1>06 00 00 00 00</h1>
               </p>
               <p className="role">
-                <h1>Utilisateur</h1>
+                <h1>User</h1>
               </p>
               <p className="users_set_icons">
                 <Link
@@ -177,7 +177,7 @@ function UsersTable() {
                 <h1>06 00 00 00 00</h1>
               </p>
               <p className="role">
-                <h1>Utilisateur</h1>
+                <h1>User</h1>
               </p>
               <p className="users_set_icons">
                 <Link

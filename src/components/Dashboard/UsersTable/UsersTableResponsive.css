@@ -515,11 +515,45 @@
 }
 
 @media screen and (width <= 900px) {
+    #firstname_id {
+        font-size: 35px;
+        left:1.2vw;
+    }
+
+    #role {
+        left: 5.5vw;
+    }
+
     #phonenumber-title {
         position: relative;
-        left: -2.8em;
+        top: 65px;
+        left: 3vw;
         font-size: 1.5em;
         height: 4em;
+    }
+
+    .number {
+        position: relative;
+        left: 21vw;
+    }
+
+    .firstname {
+        position: relative;
+        left: 10vw;
+    }
+
+    .phonenumber {
+        left: -4vw;
+    }
+
+    .role {
+        left: -12vw;
+    }
+
+    .users_set_icons {
+        position: relative;
+        left: -20vw;
+        font-size: 20px;
     }
 }
 
@@ -539,23 +573,223 @@
 
     #id_title {
         position: relative;
-        left: -0.5em;
-    }
-
-    #firstname_div {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
+        left: 3.5vw;
     }
 
     #firstname_id {
         position: relative;
-        left: -30px;
+        left: 1vw;
     }
 
     #name_id {
         position: relative;
+        left: 3vw;
     }
 
+    .number {
+        left: 24vw;
+    }
+
+    .phonenumber {
+        position: relative;
+        left: -6vw;
+        font-size: 23px;
+    }
+
+    .role {
+        position: relative;
+        left: -15vw;
+    }
+
+}
+
+@media screen and (width <= 770px) {
+    #firstname_id {
+        position: relative;
+        left: 1.8vw;
+        top: 0.3em;
+        font-size: 30px;
+    }
+    
+    #phonenumber-title {
+        position: relative;
+        left: 2vw;
+    }
+
+    #role {
+        left: 4.5vw;
+    }
+
+    .number {
+        left: 29vw;
+    }
+
+    .firstname {
+        left: 12vw;
+        font-size: 25px;
+    }
+
+    .lastname {
+        font-size: 25px;
+    }
+
+    .phonenumber {
+        left: -6vw;
+    }
+
+    .users_set_icons {
+        left: -25vw;
+    }
+}
+
+@media screen and (width <= 680px) {
+    #firstname_box {
+        width: 22vw;
+    }
+
+    #firstname_id {
+        position: relative;
+        left: 2.5vw;
+        top: 0.3em;
+        font-size: 28px;
+    }
+
+    #name_id {
+        font-size: 30px;
+        top: 9vh;
+    }
+
+    #role {
+        left: 2vw;
+    }
+
+    .number {
+        left: 32vw;
+    }
+
+    .firstname {
+        left: 13vw;
+    }
+
+    .lastname {
+        left: 3vw;
+    }
+
+    .phonenumber {
+        left: -11vw;
+    }
+
+    .role {
+        left: -20vw;
+        top: -1vh;
+    }
+
+    .users_set_icons {
+        left: -32vw;
+    }
+}
+
+@media screen and (width <= 570px) {
+    #id_title {
+        left: 2vw;
+    }
+
+    #firstname_id {
+        left: 3.5vw;
+    }
+
+    #lastname_box {
+        width: 18vw;
+    }
+
+    #name_id {
+        left: 3.5vw;
+    }
+
+    #phonenumber-title {
+        left: 1vw;
+        font-size: 28px;
+    }
+
+    #role {
+        left: 0;
+    }
+
+    #set_user {
+        left: -7vw;
+        font-size: 25px;
+    }
+
+    .number {
+        left: 42vw;
+    }
+
+    .firstname {
+        left: 18vw;
+    }
+
+    .phonenumber {
+        left: -14vw;
+    }
+
+    .role {
+        left: -26vw;
+    }
+
+    .users_set_icons {
+        left: -40vw;
+    }
+}
+
+@media screen and (width <= 500px) {
+    #firstname_box {
+        width: 27vw;
+    }
+
+    #firstname_id {
+        left: 4.5vw;
+    }
+
+    #phonenumber-title {
+        left: 1vw;
+        font-size: 25px;
+    }
+
+    #role_box {
+        width: 8vw;
+    }
+
+    #role {
+        left: -5vw;
+    }
+
+    #set_user {
+        left: -8vw;
+        font-size: 23px;
+    }
+
+    .number {
+        left: 55vw;
+    }
+
+    .firstname {
+        left: 26vw;
+    }
+
+    .lastname {
+        left: 9vw;
+    }
+
+    .phonenumber {
+        left: -9vw;
+    }
+
+    .role {
+        left: -28vw;
+    }
+
+    .users_set_icons {
+        left: -50vw;
+        font-size: 18px;
+    }
 }
