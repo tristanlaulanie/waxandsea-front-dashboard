@@ -257,7 +257,7 @@
 .firstname h1 {
     font-size: 1.2em;
     position: relative;
-    left: 1vw;
+    left: 4vw;
 }
 
 .lastname {
@@ -269,7 +269,7 @@
 .lastname h1 {
     font-size: 1.2em;
     position: relative;
-    left: 7vw;
+    left: 12vw;
 }
  
 .phonenumber {
@@ -284,7 +284,7 @@
     font-size: 1em;
     width: 13vw;
     position: relative;
-    left: 2vw;
+    left: 6vw;
 }
 
 .role {
@@ -296,7 +296,7 @@
 .role h1 {
     font-size: 1em;
     position: relative;
-    left: -3vw;
+    left: 0;
 }
 
 .users_set_icons {
