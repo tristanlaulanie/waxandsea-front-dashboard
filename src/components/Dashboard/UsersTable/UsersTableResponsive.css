@@ -144,41 +144,66 @@
 }
 
 @media screen and (max-width: 1280px) {
-    #id_title {
+    #id_box {
         position: relative;
-        left: -1.5vw;
+        left: -5vw;
+        width: 18vw;
+    }
+
+    #id_title {
+        width: 2.5vw;
+        height: 60px;
+        position: relative;
+        left: 5.5vw;
     }
 
     #firstname_box {
-        width: 15vw;
+        width: 19vw;
+        position: relative;
+        left: -5vw;
     }
 
     #firstname_id {
         position: relative;
-        left: -1vw;
+        left: 2.5vw;
+        top: 4.5vw;
+        width: 7.5vw;
+        height: 50px;
     }
 
     #lastname_box {
-        width: 15vw;
+        width: 25%;
+        position: relative;
+        left: -5vw;
     }
 
     #name_id {
         position: relative;
-        left: -1vw;
+        width: 4.5vw;
+        left: 4vw;
+        top: 4vw;
     }
 
     .utilisateur {
         width: 80vw;
     }
 
+    #phonenumber_box {
+        width: 30vw;
+        position: relative;
+        left: -5vw;
+    }
+
     #phonenumber-title {
-        width: 18vw;
+        width: 9.5vw;
+        position: relative;
+        left: 4vw;
     } 
 
     .phonenumber {
         width: 10vw;
         position: relative;
-        left: 4vw;
+        left: -8vw;
     }
 
     .identifiants h4 {
@@ -187,28 +212,57 @@
     }
 
     #role_box {
-        width: 18vw;
+        border-right: 1px solid white;
+        width: 20vw;
+        position: relative;
+        left: -5vw;
+    }
+
+    #role {
+        border: none;
+        padding: 0;
+        width: 4vw;
+        height: 60px;
+        position: relative;
+        left: 4vw;
+        top: 3vw;
+    }
+
+    .number {
+        position: relative;
+        left: -8vw;
     }
 
     .role {
         width: 16.6%;
         position: relative;
-        left: 4vw;
+        left: -3vw;
     }
 
     .firstname {
         position: relative;
-        left: -1vw;
+        left: -5vw;
     }
 
     .lastname {
         position: relative;
-        left: 1vw;
+        left: -14vw;
+    }
+
+    #setuser_box {
+        margin: 0;
+        padding: 0;
+        position: relative;
+        left: -5vw;
+        width: 18vw;
     }
 
     #set_user {
         position: relative;
-        left: -3vw;
+        top: 3vw;
+        left: 7vw;
+        width: 8vw;
+        font-size: 1.6em;
     } 
 
     .users_table {
