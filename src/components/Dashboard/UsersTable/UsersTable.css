@@ -106,8 +106,7 @@
     height: 6vh;
     position: relative;
     left: 40%;
-    top: 30%;
-    
+    top: 30%;  
 }
 
 #firstname_box {
@@ -237,7 +236,7 @@
 
 .number {
     position: relative;
-    left: -4vw;
+    left: -8vw;
     width: 16.6%;
 }
 
@@ -250,7 +249,7 @@
 .firstname {
     position: relative;
     margin-left: 2em;
-    left: 2vw;
+    left: -2vw;
     width: 16.6%;
 }
 
@@ -262,7 +261,7 @@
 
 .lastname {
     position: relative;
-    left: -3vw;
+    left: -9vw;
     width: 16.6%;
 }
 
@@ -274,7 +273,7 @@
  
 .phonenumber {
     position: relative;
-    margin-left: 1.5vw;
+    margin-left: -1vw;
     width: 16.6%;
     display: flex;
     flex-direction: row;
@@ -284,7 +283,7 @@
     font-size: 1em;
     width: 13vw;
     position: relative;
-    left: 6vw;
+    left: 3vw;
 }
 
 .role {
@@ -296,7 +295,7 @@
 .role h1 {
     font-size: 1em;
     position: relative;
-    left: 0;
+    left: -1.5vw;
 }
 
 .users_set_icons {

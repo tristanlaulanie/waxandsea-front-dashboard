@@ -1,4 +1,4 @@
-@media screen and (max-width <= 1780px) {
+@media screen and (width <= 1780px) {
     .users_set_icons {
         display: flex;
     }
@@ -9,25 +9,30 @@
     }
 }
 
-@media screen and (max-width <= 1730px) {
+@media screen and (width <= 1730px) {
     .number {
         position: relative;
-        left: -1.5vw;
+        left: -8vw;
     }
 
     .firstname {
         position: relative;
-        left: 0.5vw;
+        left: -1.5vw;
     }
 
     .lastname {
         position: relative;
-        left: 3vw;
+        left: -8vw;
     }
 
     .phonenumber {
         position: relative;
-        left: 4vw;
+        left: 1vw;
+    }
+
+    .role {
+        position: relative;
+        left: 5vw;
     }
 
     .users_set_icons {
@@ -36,68 +41,68 @@
     }
 }
 
-@media screen and (max-width <= 1620px) {
+@media screen and (width <= 1620px) {
     .number {
         position: relative;
-        left: 1.2vw;
+        left: -8vw;
     }
 
     .firstname {
         position: relative;
-        left: 3vw;
+        left: -1vw;
     }
 
     .lastname {
         position: relative;
-        left: 6vw;
+        left: -7vw;
     }
 
     .phonenumber {
         position: relative;
-        left: 7vw;
+        left: 2vw;
     }  
     
     .role {
         position: relative;
-        left: 6.5vw;
+        left: 6vw;
         font-size: 28px;
     }
 }
 
-@media screen and (max-width <= 1490px) {
+@media screen and (width <= 1490px) {
     .number {
         position: relative;
-        left: 2vw;
+        left: -7vw;
     }
 
     .firstname {
         position: relative;
-        left: 3vw;
+        left: 1vw;
     }
 
     .lastname {
         position: relative;
-        left: 5vw;
+        left: -6vw;
     }
 
     .phonenumber {
         position: relative;
-        left: 5.5vw;
+        left: 3vw;
     }  
     
     .role {
         position: relative;
-        left: 6.5vw;
-        font-size: 24px;
+        left: 6vw;
+        font-size: 30px;
     }
 
     .users_set_icons {
-        font-size: 20px;
-        left: 1.8em;
+        font-size: 23px;
+        left: 4vw;
     }
 }
 
-@media screen and (max-width <= 1390px) {
+@media screen and (width <= 1390px) {
     .utilisateur {
         width: 82vw;
     }
@@ -108,33 +113,33 @@
 
     .users_set_icons {
         position: relative;
-        left: -4vw;
+        left: -2.5vw;
     }
 
     #phonenumber-title {
         position: relative;
-        left: -2vw;
+        left: 3.5vw;
     }
 
     .number {
         position: relative;
-        left: 1vw;
+        left: -8vw;
     }
 
     .firstname {
         position: relative;
-        left: 0;
+        left: -2vw;
     }
 
     .lastname {
         position: relative;
-        left: 1.5vw;
+        left: -9vw;
     }
 
     .phonenumber {
         position: relative;
-        font-size: 25px;
-        left: 1.5vw;
+        font-size: 30px;
+        left: -1.5vw;
     }
 
     .role {
@@ -143,7 +148,7 @@
     }
 }
 
-@media screen and (max-width: 1280px) {
+@media screen and (width <= 1280px) {
     #id_box {
         position: relative;
         left: -5vw;
@@ -203,7 +208,7 @@
     .phonenumber {
         width: 10vw;
         position: relative;
-        left: -8vw;
+        left: -4vw;
     }
 
     .identifiants h4 {
@@ -230,23 +235,23 @@
 
     .number {
         position: relative;
-        left: -8vw;
+        left: -11vw;
     }
 
     .role {
         width: 16.6%;
         position: relative;
-        left: -3vw;
+        left: -1vw;
     }
 
     .firstname {
         position: relative;
-        left: -5vw;
+        left: -7vw;
     }
 
     .lastname {
         position: relative;
-        left: -14vw;
+        left: -15vw;
     }
 
     #setuser_box {
@@ -279,12 +284,12 @@
 @media screen and (width <= 1160px) {
     #set_user {
         position: relative;
-        left: -1.5em;
+        left: 6.5vw;
     }
 
     .number {
         position: relative;
-        left: -1vw;
+        left: -8vw;
     }
 
     .utilisateur {
@@ -293,26 +298,32 @@
 
     .firstname {
         position: relative;
-        left: -1vw;
+        left: -3vw;
     }
 
     .lastname {
         position: relative;
-        left: 1vw;
+        left: -13vw;
     }
 
     .phonenumber {
         position: relative;
-        left: 3vw;
+        left: -1vw;
+        width:18vw;
+    }
+
+    .phonenumber h1 {
+        width: 12vw;
+        left: -0.2vw;
     }
 
     .role {
         position: relative;
-        left: 3vw;
+        left: -3vw;
     }
 
     .users_set_icons {
-        font-size: 20px;
+        font-size: 25px;
         position: relative;
         left: -3vw;
     }
@@ -324,12 +335,12 @@
     }
 
     #firstname_box {
-        width: 16.6%;
+        width: 18vw;
     }
 
     #firstname_id {
         position: relative;
-        left: -2.5vw;
+        left: 3vw;
     }
 
     #lastname_box {
@@ -340,46 +351,57 @@
         width: 20vw;
     }
 
+    #phonenumber_box {
+        /* border: 2px solid red; */
+        width: 20vw;
+    }
+
     #phonenumber-title {
         position: relative;
-        left: -3vw;
+        left: 3vw;
     }
 
     #role_box {
         position: relative;
-        width: 16.6%;
+        width: 18vw;
     }
 
     #role {
         position: relative;
-        left: -1.7em;
+        left: 5vw;
+        top: 6vh;
     }
 
     #setuser_box {
         position: relative;
         left: 2vw;
-        width: 16.6%;
+        width: 5vw;
     }
 
     #set_user {
         position: relative;
-        left: -2.5em;
+        left: -5.5vw;
         width: 12vw;
     }
 
     .number {
         position: relative;
-        left: 1.5vw;
+        left: -4vw;
+    }
+
+    .firstname {
+        position: relative;
+        left: 2vw;
     }
 
     .lastname {
         position: relative;
-        left: 0;
+        left: -6.5vw;
     }
 
     .phonenumber {
         position: relative;
-        left: 1vw;
+        left: 5vw;
     }
 
     .role {
@@ -430,8 +452,8 @@
         border: none;
         height: 60px;
         position: relative;
-        top: 0.1em;
-        left: 0;
+        top: -0.5vh;
+        left: -2vw;
         padding: 0px 20px 0px 20px;
     }
 
@@ -445,7 +467,7 @@
     #name_id {
         border: none;
         position: relative;
-        top: 1.4em;
+        top: 7.5vh;
         left: 4vw;
         height: 60px;
         width: 60px;
@@ -508,7 +530,7 @@
         height: 60px;
         width: 4vw;
         position: relative;
-        left: 15.5vw;
+        left: 12vw;
     }
 
     .number h1 {
@@ -518,7 +540,7 @@
     
     .firstname {
         position: relative;
-        left: 6vw;
+        left: 1.5vw;
         height: 60px;
     }
 
@@ -528,7 +550,7 @@
     
     .lastname {
         position: relative;
-        left: 3.5vw;
+        left: -1vw;
         height: 60px;
     }
 
@@ -538,9 +560,9 @@
     
     .phonenumber {
         position: relative;
-        left: -2vw;
+        left: -5vw;
         width: 12vw;
-        font-size: 25px;
+        font-size: 28px;
     }
 
     .phonenumber h1 {
@@ -549,20 +571,20 @@
     
     .role {
         position: relative;
-        left: -8vw;
+        left: -9vw;
         width: 14vw;
     }
 
     .role h1 {
         left: 0;
-        font-size: 24px;
+        font-size: 33px;
     }
     
     .users_set_icons {
         display: flex;
         position: relative;
-        left: -15vw;
-        font-size: 25px;
+        left: -10vw;
+        font-size: 22px;
     }
 
 }
@@ -570,7 +592,7 @@
 @media screen and (width <= 900px) {
     #firstname_id {
         font-size: 35px;
-        left:1.2vw;
+        left: -1vw;
     }
 
     #role {
@@ -587,25 +609,44 @@
 
     .number {
         position: relative;
-        left: 21vw;
+        left: 17vw;
     }
 
     .firstname {
         position: relative;
-        left: 10vw;
+        left: 5vw;
+    }
+
+    .lastname {
+        position: relative;
+        left: 1vw;
     }
 
     .phonenumber {
+        width: 20vw;
         left: -4vw;
     }
 
+    .phonenumber h1 {
+        font-size: 24px;
+        left: -3vw;
+        width: 14vw;
+    }
+
     .role {
-        left: -12vw;
+        left: -14vw;
+    }
+
+    #set_user {
+        left: -7vw;
+        font-size: 30px;
+        position: relative;
+        top: 5vh;
     }
 
     .users_set_icons {
         position: relative;
-        left: -20vw;
+        left: -18vw;
         font-size: 20px;
     }
 }
