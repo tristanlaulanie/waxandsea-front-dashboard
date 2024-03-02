@@ -672,67 +672,111 @@
 
     #firstname_id {
         position: relative;
-        left: 1vw;
+        left: -1vw;
+        top: -1vw;
+        font-size: 30px;
     }
 
     #name_id {
         position: relative;
-        left: 3vw;
+        top: 8vh;
+        left: 3.5vw;
+        font-size: 35px;
+    }
+
+    #phonenumber_box {
+        width: 20vw;
+    }
+
+    #phonenumber-title {
+        font-size: 33px;
+        position: relative;
+        left: 3.5vw;
     }
 
     .number {
-        left: 24vw;
+        left: 22vw;
+    }
+
+    .firstname {
+        left: 7vw;
+        font-size: 25px;
+    }
+
+    .lastname {
+        position: relative;
+        left: -1vw;
+        font-size: 25px;
     }
 
     .phonenumber {
         position: relative;
         left: -6vw;
         font-size: 23px;
+        top: -1vh;
     }
 
     .role {
         position: relative;
         left: -15vw;
     }
-
 }
 
 @media screen and (width <= 770px) {
+    #firstname_box {
+        width: 21vw;
+    }
+
     #firstname_id {
         position: relative;
-        left: 1.8vw;
-        top: 0.3em;
+        left: -1vw;
+        top: -1vw;
         font-size: 30px;
+    }
+
+    #lastname_box {
+        width: 15vw;
     }
     
     #phonenumber-title {
         position: relative;
-        left: 2vw;
+        left: 3vw;
     }
 
     #role {
-        left: 4.5vw;
+        left: 1vw;
+    }
+
+    #role_box {
+        width: 12vw;
     }
 
     .number {
-        left: 29vw;
+        left: 24vw;
     }
 
     .firstname {
-        left: 12vw;
+        left: 10vw;
         font-size: 25px;
     }
 
     .lastname {
         font-size: 25px;
+        left: 3vw;
     }
 
     .phonenumber {
-        left: -6vw;
+        left: -0.5vw;
+    }
+
+    .role h1{
+        font-size: 27px;
+        left: 2vw;
+        top: -1vw;
     }
 
     .users_set_icons {
-        left: -25vw;
+        left: -20vw;
     }
 }
 
@@ -743,8 +787,8 @@
 
     #firstname_id {
         position: relative;
-        left: 2.5vw;
-        top: 0.3em;
+        left: -1vw;
+        top: -1vw;
         font-size: 28px;
     }
 
@@ -754,11 +798,11 @@
     }
 
     #role {
-        left: 2vw;
+        left: -0.5vw;
     }
 
     .number {
-        left: 32vw;
+        left: 35vw;
     }
 
     .firstname {
@@ -770,16 +814,38 @@
     }
 
     .phonenumber {
-        left: -11vw;
+        left: -2.5vw;
     }
 
     .role {
-        left: -20vw;
-        top: -1vh;
+        left: -19vw;
+        top: 0;
     }
 
     .users_set_icons {
-        left: -32vw;
+        left: -29vw;
+    }
+}
+
+@media screen and (width <= 600px) {
+    .number {
+        left: 39vw;
+    }
+
+    .firstname {
+        left: 16vw;
+    }
+
+    .phonenumber {
+        left: -5vw;
+    }
+
+    .role {
+        left: -22vw;
+    }
+
+    .users_set_icons {
+        left: -35vw;
     }
 }
 
@@ -788,8 +854,12 @@
         left: 2vw;
     }
 
+    #firstname_box {
+        width: 28vw;
+    }
+
     #firstname_id {
-        left: 3.5vw;
+        left: -1vw;
     }
 
     #lastname_box {
@@ -797,41 +867,63 @@
     }
 
     #name_id {
-        left: 3.5vw;
+        left: 5vw;
+    }
+
+    #phonenumber_box {
+        width: 17vw;
     }
 
     #phonenumber-title {
-        left: 1vw;
+        left: 2vw;
         font-size: 28px;
     }
 
     #role {
-        left: 0;
+        left: -3vw;
+        font-size: 32px;
+    }
+
+    #role_box {
+        width: 6vw;
+    }
+
+    #setuser_box {
+        width: 4vw;
     }
 
     #set_user {
-        left: -7vw;
+        top: 6vh;
+        left: -9.5vw;
         font-size: 25px;
     }
 
     .number {
-        left: 42vw;
+        left: 40vw;
     }
 
     .firstname {
         left: 18vw;
     }
 
-    .phonenumber {
-        left: -14vw;
+    .lastname {
+        left: 8vw;
     }
 
-    .role {
-        left: -26vw;
+    .phonenumber {
+        top: 1vh;
+        left: 1vw;
+        width: 8vw;
+    }
+
+    .role h1{
+        left: 6vw;
+        font-size: 23px;
     }
 
     .users_set_icons {
-        left: -40vw;
+        left: -34vw;
+        font-size: 15px;
     }
 }
 
@@ -841,7 +933,7 @@
     }
 
     #firstname_id {
-        left: 4.5vw;
+        left: -1.5vw;
     }
 
     #phonenumber-title {
@@ -858,32 +950,32 @@
     }
 
     #set_user {
-        left: -8vw;
+        left: -10vw;
         font-size: 23px;
     }
 
     .number {
-        left: 55vw;
+        left: 48vw;
     }
 
     .firstname {
-        left: 26vw;
+        left: 20vw;
     }
 
     .lastname {
-        left: 9vw;
+        left: 5vw;
     }
 
     .phonenumber {
-        left: -9vw;
+        left: -4vw;
     }
 
     .role {
-        left: -28vw;
+        left: -30vw;
     }
 
     .users_set_icons {
-        left: -50vw;
-        font-size: 18px;
+        left: -45vw;
+        font-size: 13px;
     }
 }
