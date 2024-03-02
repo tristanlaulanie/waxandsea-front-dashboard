@@ -20,6 +20,7 @@
     align-items: center;
     margin-top: 8em;
     gap: 2em;
+    font-size: 30px;
 }
 
 .categories_section {
@@ -39,7 +40,7 @@
 }
 
 .categories_title_info {
-    height: 14.1vh;
+    height: 14.8vh;
     width: 11vw;
     border: 1px solid white;
     text-align: center;

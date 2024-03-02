@@ -15,8 +15,8 @@
     align-items: center;
     color: white;
     background-color: black;
-    margin-bottom: -6em;
-    height: 200vh;
+    margin-bottom: -10vh;
+    height: 220vh;
 }
 
 .section_menu {
@@ -29,6 +29,7 @@
 
 .dash_home_header {
     letter-spacing: 8px;
+    margin-top: 20vh;
 }
 
 .dashboard_title {
