@@ -1,5 +1,6 @@
 import React from "react";
 import "./Articles.css";
+import "./ArticlesResponsive.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faPenToSquare } from "@fortawesome/free-solid-svg-icons";
 import { faTrash } from "@fortawesome/free-solid-svg-icons";
@@ -24,7 +25,7 @@ function Articles() {
           <div className="categories_tables">
             <h3 className="articles_title_name">Id</h3>
             <h3 className="articles_title_name">Code-Barre</h3>
-            <h3 className="articles_title_name">ArticleName</h3>
+            <h3 className="articles_title_name">Article<br></br>Name</h3>
             <h3 className="articles_title_name">Image(s)</h3>
             <h3 className="articles_title_name">Vignette(s)</h3>
             <h3 className="articles_title_name">Stock</h3>
@@ -42,7 +43,7 @@ function Articles() {
             <h3 className="articles_title_name">Socks.jpg</h3>
             <h3 className="articles_title_name">Socks.png</h3>
             <h3 className="articles_title_name">145</h3>
-            <h3 className="articles_title_name">Chaussettes de couleur bleu</h3>
+            <h3 className="articles_title_name">Chaussettes bleues</h3>
             <h3 className="articles_title_name">10€</h3>
             <h3 className="articles_title_name">20€</h3>
             <h3 className="articles_title_name">22€</h3>
@@ -50,8 +51,8 @@ function Articles() {
             <p className="articles_set_icons">
               <Link to="/dashboard/articles/set" className="articles_link_icons">
                 <FontAwesomeIcon icon={faPenToSquare} className="pen-square" />
+                <FontAwesomeIcon icon={faTrash} className="trash" />
               </Link>
-              <FontAwesomeIcon icon={faTrash} className="trash" />
             </p>
           </div>
           <div className="categories_tables">
@@ -61,7 +62,7 @@ function Articles() {
             <h3 className="articles_title_name">Tee-Shirts.jpg</h3>
             <h3 className="articles_title_name">Tee-Shirts.png</h3>
             <h3 className="articles_title_name">203</h3>
-            <h3 className="articles_title_name">Tee-Shirts de couleur rouge</h3>
+            <h3 className="articles_title_name">Tee-Shirt rouge</h3>
             <h3 className="articles_title_name">15€</h3>
             <h3 className="articles_title_name">30€</h3>
             <h3 className="articles_title_name">36€</h3>
@@ -69,8 +70,8 @@ function Articles() {
             <p className="articles_set_icons">
               <Link to="/dashboard/articles/set" className="articles_link_icons">
                 <FontAwesomeIcon icon={faPenToSquare} className="pen-square" />
+                <FontAwesomeIcon icon={faTrash} className="trash" />
               </Link>
-              <FontAwesomeIcon icon={faTrash} className="trash" />
             </p>
           </div>
           <div className="categories_tables">
@@ -80,7 +81,7 @@ function Articles() {
             <h3 className="articles_title_name">Pull.jpg</h3>
             <h3 className="articles_title_name">Pull.png</h3>
             <h3 className="articles_title_name">203</h3>
-            <h3 className="articles_title_name">Pull de couleur vert</h3>
+            <h3 className="articles_title_name">Pull <br></br> vert</h3>
             <h3 className="articles_title_name">7€</h3>
             <h3 className="articles_title_name">15€</h3>
             <h3 className="articles_title_name">18€</h3>
@@ -88,8 +89,8 @@ function Articles() {
             <p className="articles_set_icons">
               <Link to="/dashboard/articles/set" className="articles_link_icons">
                 <FontAwesomeIcon icon={faPenToSquare} className="pen-square" />
+                <FontAwesomeIcon icon={faTrash} className="trash" />
               </Link>
-              <FontAwesomeIcon icon={faTrash} className="trash" />
             </p>
           </div>
         </section>

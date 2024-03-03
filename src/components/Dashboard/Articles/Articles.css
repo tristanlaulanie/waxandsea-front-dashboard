@@ -65,19 +65,24 @@
     height: 15vh;
     width: 7vw;
     position: relative;
-    bottom: 1.35em;
+    bottom: 2.5vh;
     left: 0;
 }
 
 .articles_link_icons {
     color: white;
+    font-size: 13px;
 }
 
-.pen_square,
+.pen-square {
+    position: relative;
+    top: 1vh;
+
+}
+
 .trash {
-    font-size: 1.5em;
-    margin-top: 6vh;
-    color: white;
+    position: relative;
+    top: 9vh;
 }
 
 .pen-square:hover {
