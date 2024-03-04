@@ -28,10 +28,17 @@ function Categories() {
             <h3 className="categories_title_info">Homme</h3>
             <h3 className="categories_title_info">Man</h3>
             <p className="categories_set_icons">
-              <Link to="/dashboard/categories/set">
-                <FontAwesomeIcon icon={faPenSquare} className="pen-square" />
-              </Link>
-              <FontAwesomeIcon icon={faTrash} className="trash" />
+              <i className="pen-square_categories">
+                <Link
+                  to="/dashboard/categories/set"
+                  className="icons_link_style"
+                >
+                  <FontAwesomeIcon icon={faPenSquare} />
+                </Link>
+              </i>
+              <i className="trash_categories">
+                <FontAwesomeIcon icon={faTrash} />
+              </i>
             </p>
           </div>
           <div className="categories_tables">
@@ -39,10 +46,17 @@ function Categories() {
             <h3 className="categories_title_info">Femme</h3>
             <h3 className="categories_title_info">Woman</h3>
             <p className="categories_set_icons">
-              <Link to="/dashboard/categories/set">
-                <FontAwesomeIcon icon={faPenSquare} className="pen-square" />
-              </Link>
-              <FontAwesomeIcon icon={faTrash} className="trash" />
+              <i className="pen-square_categories">
+                <Link
+                  to="/dashboard/categories/set"
+                  className="icons_link_style"
+                >
+                  <FontAwesomeIcon icon={faPenSquare} />
+                </Link>
+              </i>
+              <i className="trash_categories">
+                <FontAwesomeIcon icon={faTrash} />
+              </i>
             </p>
           </div>
           <div className="categories_tables">
@@ -50,10 +64,17 @@ function Categories() {
             <h3 className="categories_title_info">Enfant</h3>
             <h3 className="categories_title_info">Child</h3>
             <p className="categories_set_icons">
-              <Link to="/dashboard/categories/set">
-                <FontAwesomeIcon icon={faPenSquare} className="pen-square" />
-              </Link>
-              <FontAwesomeIcon icon={faTrash} className="trash" />
+              <i className="pen-square_categories">
+                <Link
+                  to="/dashboard/categories/set"
+                  className="icons_link_style"
+                >
+                  <FontAwesomeIcon icon={faPenSquare} />
+                </Link>
+              </i>
+              <i className="trash_categories">
+                <FontAwesomeIcon icon={faTrash} />
+              </i>
             </p>
           </div>
         </section>
