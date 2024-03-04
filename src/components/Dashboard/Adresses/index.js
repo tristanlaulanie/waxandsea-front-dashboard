@@ -1,11 +1,13 @@
 import React from "react";
 import "./Adresses.css";
+import "./AdressesResponsive.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faPenToSquare } from "@fortawesome/free-solid-svg-icons";
+import { Link } from "react-router-dom";
 
 function Adresses() {
   return (
-    <body>
+    <body className="adresses_body">
       <section id="title">
         <h2>Table des Adresses</h2>
         <i>
@@ -13,34 +15,37 @@ function Adresses() {
         </i>
       </section>
 
-      <section className="">
+      <section className="adresses_section">
         <div className="adresses_tables">
-          <h3>Id</h3>
-          <h3>Nom</h3>
-          <h3>Numéro</h3>
-          <h3>Ville</h3>
-          <h3>Code Postale</h3>
-          <h3>Pays</h3>
+          <h3 className="adresses_titles">Id</h3>
+          <h3 className="adresses_titles">Nom</h3>
+          <h3 className="adresses_titles">Numéro</h3>
+          <h3 className="adresses_titles">Ville</h3>
+          <h3 className="adresses_titles">Code Postale</h3>
+          <h3 className="adresses_titles">Pays</h3>
           <p className="icons"></p>
         </div>
         <div className="adresses_tables">
-          <h3>301</h3>
-          <h3>Rue des Roissiers</h3>
-          <h3>42</h3>
-          <h3>Paris</h3>
-          <h3>75000</h3>
-          <h3>France</h3>
+          <h3 className="adresses_titles">301</h3>
+          <h3 className="adresses_titles">Rue des Roissiers</h3>
+          <h3 className="adresses_titles">42</h3>
+          <h3 className="adresses_titles">Paris</h3>
+          <h3 className="adresses_titles">75000</h3>
+          <h3 className="adresses_titles">France</h3>
           <p className="icons">
+            <Link to="/dashboard/adresses/set" className="pen_to_square link_style">
             <i>
               <FontAwesomeIcon icon={faPenToSquare} />
             </i>
-            <i className="fa-solid fa-trash trash"></i>
+            </Link>
           </p>
         </div>
       </section>
-      <footer>
-        <h1>Retourner sur l'accueil du tableau de bord</h1>
+      <Link to="/dashboard" className="link_style">
+      <footer className="adresses_footer">
+        <h1 >Retourner sur l'accueil du tableau de bord</h1>
       </footer>
+      </Link>  
     </body>
   );
 }

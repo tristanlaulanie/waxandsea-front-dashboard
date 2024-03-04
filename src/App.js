@@ -16,6 +16,8 @@ import SetCategory from "./components/Dashboard/Categories/SetCategory";
 import Articles from "./components/Dashboard/Articles";
 import SetArticle from "./components/Dashboard/Articles/SetArticle";
 import AddArticle from "./components/Dashboard/Articles/AddArticle";
+import Adresses from "./components/Dashboard/Adresses";
+import SetAdresses from "./components/Dashboard/Adresses/SetAdresses";
 
 import Footer from "./components/Footer";
 // CSS
@@ -46,6 +48,8 @@ function App() {
           <Route path="/dashboard/articles" element={<Articles />} />
           <Route path="/dashboard/articles/set" element={<SetArticle />} />
           <Route path="/dashboard/articles/add" element={<AddArticle />} />
+          <Route path="/dashboard/adresses" element={<Adresses />} />
+          <Route path="/dashboard/adresses/set" element={<SetAdresses />} />
         </Routes>
         <Footer />
       </div>

@@ -1,0 +1,17 @@
+@media screen and (width <= 1185px){
+    .adresses_titles {
+        font-size: 28px;
+        width: 12vw;
+    }
+
+    .pen_to_square {
+        font-size: 3vw;
+    }
+    
+}
+
+@media screen and (width <= 550px) {
+    .adresses_titles {
+        font-size: 22px;
+    }
+}

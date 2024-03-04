@@ -11,10 +11,11 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    background-color: black;
 }
 
 .dashboard_users_table {
-    height: 300vh;
+    height: 240vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -27,20 +28,19 @@
 
 .home_header {
     width: 100vw;
-    margin-top: -40vh;
+    margin-top: 20vh;
     text-align: center;
     color:black;
     background-color: white;
-    border-bottom: 2em solid black;
     font-size: 25px;
 }
 
-.link-style {
+.users_link-style {
     color:black;
     text-decoration: none;
 }
 
-.link-style-add {
+.link-style-add_user {
     color: white;
     text-decoration: none;
     font-size: 1.3em;
@@ -69,12 +69,20 @@
     align-items: center;
     justify-content: center;
     position: relative;
-    top: -10vh;
+    top: -5vh;
+} 
+
+.add-user_div {
+    position: relative;
+    top: 15vh;
+    left: -37vh;
 }
 
 .users_table_title {
-    font-size: 3em;
+    font-size: 1.8em;
     letter-spacing: 6px;
+    position: relative;
+    left: 10vw;
 }
 
 #title i {
@@ -90,6 +98,7 @@
     height: 30vh;
     width: 80vw;
     font-size: 1.3em;
+    margin-bottom: 8vh;
 }
 
 #id_box {
@@ -219,10 +228,11 @@
     grid-template-rows: 6fr;
     row-gap: 60px;
     font-size: 1.2em;
-    height: 120vh;
+    height: 200vh;
     position: relative;
-    top: -20vh;
-    width: 80vw;
+    left: 10vw;
+    top: -33vh;
+    width: 100vw;
 }
 
 .utilisateur {
@@ -312,7 +322,11 @@
     padding-right: 10px;
 }
 
-#penSquare_icon:hover {
+#penSquare_icon_users {
+    font-size: 50px;
+}
+
+#penSquare_icon_users:hover {
     color: greenyellow;
     cursor: pointer;
 }
