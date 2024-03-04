@@ -14,7 +14,7 @@
 }
 
 .dashboard_users_table {
-    height: 300vh;
+    height: 230vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -27,20 +27,19 @@
 
 .home_header {
     width: 100vw;
-    margin-top: -40vh;
+    margin-top: 20vh;
     text-align: center;
     color:black;
     background-color: white;
-    border-bottom: 2em solid black;
     font-size: 25px;
 }
 
-.link-style {
+.users_link-style {
     color:black;
     text-decoration: none;
 }
 
-.link-style-add {
+.link-style-add_user {
     color: white;
     text-decoration: none;
     font-size: 1.3em;
@@ -69,11 +68,11 @@
     align-items: center;
     justify-content: center;
     position: relative;
-    top: -10vh;
+    top: -20vh;
 }
 
 .users_table_title {
-    font-size: 3em;
+    font-size: 1.8em;
     letter-spacing: 6px;
 }
 
@@ -312,7 +311,11 @@
     padding-right: 10px;
 }
 
-#penSquare_icon:hover {
+#penSquare_icon_users {
+    font-size: 50px;
+}
+
+#penSquare_icon_users:hover {
     color: greenyellow;
     cursor: pointer;
 }

@@ -11,7 +11,7 @@ function UsersTable() {
   return (
     <>
       <section className="dashboard_users_table">
-        <Link to="/dashboard" className="link-style">
+        <Link to="/dashboard" className="users_link-style">
           <header className="home_header">
             <h1 className="home_header_h1">
               Retourner sur l'accueil du tableau de bord.
@@ -21,11 +21,11 @@ function UsersTable() {
         <main className="main_container">
           <section id="title">
             <h2 className="users_table_title">Table des utilisateurs</h2>
-            <Link to="/dashboard/users/add-user" className="link-style-add">
-              <i id="penSquare_icon">
-                <FontAwesomeIcon icon={faCirclePlus} />
-                <p>Ajouter un utilisateur</p>
+            <Link to="/dashboard/users/add-user" className="link-style-add_user">
+              <i >
+                <FontAwesomeIcon icon={faCirclePlus} id="penSquare_icon_users"/>
               </i>
+                <p>Ajouter un utilisateur</p>
             </Link>
           </section>
           <section className="users_table">
