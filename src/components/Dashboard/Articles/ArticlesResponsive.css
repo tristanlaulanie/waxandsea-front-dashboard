@@ -17,7 +17,7 @@
     }
 }
 
-@media screen and (width <= 978px) {
+@media screen and (width <= 980px) {
     .articles_title_name {
         font-size: 15px;
     }
@@ -28,12 +28,12 @@
 
     .pen-square {
         font-size: 22px;
-        left: -0.5vh;
+        left: 1vh;
     }
 
     .trash {
-        left: 1.8vh;
-        top: 5vh;
+        left: -1vh;
+        top: 9vh;
     }
 }
 
