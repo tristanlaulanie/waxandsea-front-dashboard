@@ -61,13 +61,8 @@ i {
     font-size: 1.5em;
 }
 
-.pen-square:hover {
+.pen_to_square:hover {
     color: greenyellow;
-    cursor: pointer;
-}
-
-.trash:hover {
-    color: rgb(254, 59, 59);
     cursor: pointer;
 }
 

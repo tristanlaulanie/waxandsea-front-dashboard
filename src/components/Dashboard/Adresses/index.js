@@ -1,5 +1,6 @@
 import React from "react";
 import "./Adresses.css";
+import "./AdressesResponsive.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faPenToSquare } from "@fortawesome/free-solid-svg-icons";
 import { Link } from "react-router-dom";
@@ -32,12 +33,11 @@ function Adresses() {
           <h3 className="adresses_titles">75000</h3>
           <h3 className="adresses_titles">France</h3>
           <p className="icons">
-            <Link to="/dashboard/adresses/set" className="link_style">
+            <Link to="/dashboard/adresses/set" className="pen_to_square link_style">
             <i>
               <FontAwesomeIcon icon={faPenToSquare} />
             </i>
             </Link>
-            <i className="fa-solid fa-trash trash"></i>
           </p>
         </div>
       </section>
