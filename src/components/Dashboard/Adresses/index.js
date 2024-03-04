@@ -32,9 +32,11 @@ function Adresses() {
           <h3 className="adresses_titles">75000</h3>
           <h3 className="adresses_titles">France</h3>
           <p className="icons">
+            <Link to="/dashboard/adresses/set" className="link_style">
             <i>
               <FontAwesomeIcon icon={faPenToSquare} />
             </i>
+            </Link>
             <i className="fa-solid fa-trash trash"></i>
           </p>
         </div>

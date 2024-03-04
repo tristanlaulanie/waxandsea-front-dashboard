@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC&family=Source+Code+Pro:wght@400;600;700&display=swap');
+
+.setAdresses_form_section {
+    font-family: 'Amatic SC', cursive;
+    position: relative;
+    left: 10vw;
+    height: 150vh;
+    width: 40vw;
+    display: flex;
+    flex-direction: column;
+}
+
+.setAdresses_dashboard_link {
+    position: relative;
+    top: 15vh;
+    font-size: 3rem;
+    text-align: center;
+    color: black;
+    margin-bottom: 3rem;
+    left: 11vw;
+    text-decoration: none;
+}
+
+.setAdresses_dashboard_link:hover {
+    color: rgb(223, 21, 21);
+    cursor: pointer;
+}
+
+.setAdresses_add_form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: white;
+    position: relative;
+    top: 35vh;
+    left: 50%;
+    border: 16px solid black;
+    border-radius: 20px;
+}
+
+.setAdresses_add_adresse {
+    color:black;
+    font-size: 3rem;
+    text-align: center;
+    margin-bottom: 1.5rem;
+    margin-top: 2rem;
+}
+
+.setAdresses_form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 2rem;
+    width: 750px;
+    border-radius: 10px;
+}
+
+.setAdresses_label {
+    position: relative;
+    right: 9.5rem;
+    font-size: 2em;
+}
+
+.setAdresses_input {
+    width: 24vw;
+    height: 50px;
+    margin-bottom: 1rem;
+    padding-left: 10px;
+    font-size: 1.2rem;
+    font-family: 'Source Code Pro', monospace;
+    border: 1px solid black;
+}
+
+.setAdresses_button {
+    width: 150px;
+    height: 50px;
+    background: black;
+    color: white;
+    font-size: 1.7rem;
+    border: 1px solid black;
+    border-radius: 10px;
+    margin-top: 1rem;
+    cursor: pointer;
+    font-family: 'Amatic SC', cursive;
+}
+
+.setAdresses_button:hover {
+    background: yellow;
+    color: black;
+    border: 3px solid black;
+    font-weight: 600;
+}
+
+.setAdresses_button_delete {
+    width: 150px;
+    height: 50px;
+    background: black;
+    color: white;
+    font-size: 1.7rem;
+    border: 1px solid black;
+    border-radius: 10px;
+    margin-top: 1rem;
+    cursor: pointer;
+    font-family: 'Amatic SC', cursive;
+}
+
+.setAdresses_button_delete:hover {
+    background: red;
+    color: black;
+    border: 3px solid black;
+    font-weight: 600;
+}

@@ -1,0 +1,35 @@
+@media screen and (width <= 1200px) {
+    .setAdresses_label {
+        position: relative;
+        left: -10vw;
+    }
+}
+
+@media screen and (width <= 845px) {
+    .setAdresses_dashboard_link {
+        position: relative;
+    }
+    .setAdresses_add_form {
+        margin-top: 30vh;
+    }
+}
+
+@media screen and (width <= 810px) {
+    .setAdresses_label {
+        position: relative;
+        left: -7vw;
+    }
+}
+
+@media screen and (width <= 615px) {
+    .setAdresses_label {
+        position: relative;
+        left: -3vw;
+    }
+}
+
+@media screen and (width <= 525px) {
+    .setAdresses_add_adresse {
+        font-size: 38px;
+    }
+}

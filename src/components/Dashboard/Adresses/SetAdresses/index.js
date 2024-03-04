@@ -1,75 +1,76 @@
 import React from "react";
 import "./SetAdresses.css";
+import "./SetAdressesResponsive.css";
 import { Link } from "react-router-dom";
 
 function SetAdresses() {
   return (
     <>
-      <section className="setUser_form">
-        <header>
-          <Link to="/dashboard/users" className="setUser_dashboard_link">
-          <h1 className="setUser_dashboard_link">
+      <section className="setAdresses_form_section">
+        <div>
+          <h1 className="setAdresses_dashboard_link">
+          <Link to="/dashboard/adresses" className="setAdresses_dashboard_link">
             Retour a la table des adresses.
-          </h1>
           </Link>
-        </header>
-        <section className="setUser_add_form">
-          <h2 className="setUser_add_user">Modification d'une adresse.</h2>
-          <form className="setUser_form">
-            <label className="setUser_label" htmlFor="Nom">
+          </h1>
+        </div>
+        <section className="setAdresses_add_form">
+          <h2 className="setAdresses_add_adresse">Modification d'une adresse.</h2>
+          <form className="setAdresses_form">
+            <label className="setAdresses_label" htmlFor="Nom">
               Nom
             </label>
             <input
-              className="setUser_input"
+              className="setAdresses_input"
               type="text"
               name="Nom"
               id="Nom"
               placeholder="Nom de l'utilisateur"
             />
-            <label className="setUser_label" htmlFor="Prenom">
+            <label className="setAdresses_label" htmlFor="Numero">
               Numero
             </label>
             <input
-              className="setUser_input"
+              className="setAdresses_input"
               type="text"
-              name="Prenom"
-              id="Prenom"
-              placeholder="Numéro de l'utilisateur"
+              name="Numero"
+              id="Numero"
+              placeholder="Adresse : Numéro"
             />
-            <label className="setUser_label" htmlFor="Téléphone">
+            <label className="setAdresses_label" htmlFor="Ville">
               Ville
             </label>
             <input
-              className="setUser_input"
+              className="setAdresses_input"
               type="text"
-              name="Téléphone"
-              id="Téléphone"
-              placeholder="Ville de l'utilisateur"
+              name="Ville"
+              id="Ville"
+              placeholder="Adresse : Ville"
             />
-            <label className="setUser_label" htmlFor="Rôle">
+            <label className="setAdresses_label" htmlFor="CodePostal">
               Code postal
             </label>
             <input
-              className="setUser_input"
+              className="setAdresses_input"
               type="text"
-              name="Rôle"
-              id="Rôle"
-              placeholder="Code postal de l'utilisateur"
+              name="CodePostal"
+              id="CodePostal"
+              placeholder="Adresse : Code postal"
             />
-            <label className="setUser_label" htmlFor="Rôle">
+            <label className="setAdresses_label" htmlFor="Pays">
               Pays
             </label>
             <input
-              className="setUser_input"
+              className="setAdresses_input"
               type="text"
-              name="Rôle"
-              id="Rôle"
-              placeholder="Pays de l'utilisateur"
+              name="Pays"
+              id="Pays"
+              placeholder="Adresse : Pays"
             />
-            <button className="setUser_button" type="submit">
+            <button className="setAdresses_button" type="submit">
               ENREGISTRER
             </button>
-            <button className="setUser_button_delete" type="submit">
+            <button className="setAdresses_button_delete" type="submit">
               SUPPRIMER
             </button>
           </form>
