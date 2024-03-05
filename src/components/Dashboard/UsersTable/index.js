@@ -22,12 +22,18 @@ function UsersTable() {
           <section id="title">
             <h2 className="users_table_title">Table des utilisateurs</h2>
             <div className="add-user_div">
-            <Link to="/dashboard/users/add-user" className="link-style-add_user">
-              <i >
-                <FontAwesomeIcon icon={faCirclePlus} id="penSquare_icon_users"/>
-              </i>
+              <Link
+                to="/dashboard/users/add-user"
+                className="link-style-add_user"
+              >
+                <i>
+                  <FontAwesomeIcon
+                    icon={faCirclePlus}
+                    id="penSquare_icon_users"
+                  />
+                </i>
                 <p>Ajouter un utilisateur</p>
-            </Link>
+              </Link>
             </div>
           </section>
           <section className="users_table">
@@ -62,7 +68,7 @@ function UsersTable() {
               <p className="firstname">
                 <h1>John</h1>
               </p>
-              <p className="lastname"> 
+              <p className="lastname">
                 <h1>Doe</h1>
               </p>
               <p className="phonenumber">
@@ -85,7 +91,7 @@ function UsersTable() {
             </div>
             <div className="utilisateur">
               <p className="number">
-                <h1>2</h1> 
+                <h1>2</h1>
               </p>
               <p className="firstname">
                 <h1>Jane</h1>

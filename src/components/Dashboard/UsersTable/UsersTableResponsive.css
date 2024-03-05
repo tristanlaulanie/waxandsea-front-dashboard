@@ -653,11 +653,13 @@
 
 @media screen and (width <= 845px) {
     .home_header {
-        display: none;
+        position: relative;
+        z-index: 0;
     }
 
-    .home_header_h1 {
-        display: none;
+    .users_table_title {
+        position: relative;
+        left: 20vw;
     }
 
     .link-style-add {
@@ -723,6 +725,11 @@
 }
 
 @media screen and (width <= 770px) {
+    .add-user_div {
+        position: relative;
+        top: 20vh;
+        left: -35%;
+    }
     #firstname_box {
         width: 21vw;
     }
@@ -928,6 +935,12 @@
 }
 
 @media screen and (width <= 500px) {
+    .home_header {
+        position: relative;
+        z-index: 0;
+        margin-top: 40vh;
+    }
+
     #firstname_box {
         width: 27vw;
     }
