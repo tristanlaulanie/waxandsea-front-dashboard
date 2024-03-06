@@ -20,7 +20,7 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    gap: 1rem;
+    gap: 2rem;
 }
 
 header .setCategory_title {
@@ -32,7 +32,8 @@ header .setCategory_title {
 .setCategory_title {
     text-decoration: underline;
     color: black;
-    font-size: 2rem;
+    font-size: 50px;
+    margin-top: 20vh;
     margin-bottom: 1rem;
 }
 
@@ -65,14 +66,19 @@ header .setCategory_title {
     font-size: 2rem;
 }
 
-.setCategory input {
+.setCategory_form {
+    position: relative;
+    left: 4vw;
+}
+
+.setCategory_form input {
     width: 300px;
-    height: 50px;
+    height: 8vh;
     margin-bottom: 1rem;
     padding-left: 10px;
     font-family: 'Source Code Pro', monospace;
     font-size: 1rem;
-    border: 1px solid black;
+    border: 3px solid black;
 }
 
 .setCategory_button {

@@ -7,7 +7,7 @@ function SetCategory() {
     <>
       <div className="set-category">
         <body clasname="setCategory_body">
-          <header>
+          <div>
             <h1 className="setCategory_title">
               <Link
                 to="/dashboard/categories"
@@ -16,7 +16,7 @@ function SetCategory() {
                 Retourner au tableau des categories.
               </Link>
             </h1>
-          </header>
+          </div>
           <main className="setCategory_main">
             <h2 className="setCategory_main_title">
               Modification d'une catégorie
