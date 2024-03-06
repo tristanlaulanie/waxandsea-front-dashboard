@@ -1,20 +1,21 @@
 import React from "react";
 import "./SetUser.css";
+import "./SetUserResponsive.css";
 import { Link } from "react-router-dom";
 
 function SetUser() {
   return (
     <>
       <section className="setUser_form">
-        <header>
+        <div>
           <Link to="/dashboard/users" className="setUser_dashboard_link">
           <h1 className="setUser_dashboard_link">
             Retour a la table utilisateurs.
           </h1>
           </Link>
-        </header>
+        </div>
         <section className="setUser_add_form">
-          <h2 className="setUser_add_user">Formulaire de modification d'un utilisateur.</h2>
+          <h2 className="setUser_add_user">Modification d'un utilisateur.</h2>
           <form className="setUser_form">
             <label className="setUser_label" htmlFor="Nom">
               Nom

@@ -1,0 +1,6 @@
+@media screen and (width <= 870px){
+    .setUser_label {
+        position: relative;
+        left: -10vw;
+    }
+}

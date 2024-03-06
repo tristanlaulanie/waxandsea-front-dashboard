@@ -1,7 +1,31 @@
 @import url('https://fonts.googleapis.com/css2?family=Amatic+SC&family=Source+Code+Pro:wght@400;600;700&display=swap');
 
 .setUser_form {
+    z-index: 0;
     font-family: 'Amatic SC', cursive;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: rgb(255, 254, 254);
+    padding: 2rem;
+    width: 40vw;
+    border-radius: 10px;
+    position: relative;
+    left: 0;
+}
+
+.setUser_add_form {
+    width: 50vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: white;
+    position: relative;
+    left: 30vw;
+    border: 16px solid black;
+    border-radius: 20px;
 }
 
 .setUser_dashboard_link {
@@ -12,7 +36,7 @@
     text-decoration: underline;
     margin-bottom: 3rem;
     position: relative;
-    left: 45%;
+    left: 15vw;
 }
 
 .setUser_dashboard_link:hover {
@@ -20,17 +44,6 @@
     cursor: pointer;
 }
 
-.setUser_add_form {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    background: white;
-    position: relative;
-    left: 50%;
-    border: 16px solid black;
-    border-radius: 20px;
-}
 
 .setUser_add_user {
     color:black;
@@ -40,16 +53,6 @@
     margin-top: 2rem;
 }
 
-.setUser_form {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    background: white;
-    padding: 2rem;
-    width: 750px;
-    border-radius: 10px;
-}
 
 .setUser_label {
     position: relative;
@@ -58,7 +61,7 @@
 }
 
 .setUser_input {
-    width: 300px;
+    width: 30vw;
     height: 50px;
     margin-bottom: 1rem;
     padding-left: 10px;
