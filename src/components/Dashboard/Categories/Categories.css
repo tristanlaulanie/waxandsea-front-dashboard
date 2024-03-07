@@ -60,7 +60,11 @@
     width: 11vw;
 }
 
-.pen-square_categories {
+.icons_link_style-penSquare {
+    color: white;
+}
+
+.icons_link_style-trash {
     color: white;
 }
 
@@ -69,6 +73,11 @@
     text-decoration: none;
     font-size: 2.5em;
     margin-right: 8px;
+}
+
+
+.icons_link_style-penSquare:hover {
+    color: red;
 }
 
 .trash_categories {

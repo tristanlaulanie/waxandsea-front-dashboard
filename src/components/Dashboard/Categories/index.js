@@ -31,13 +31,13 @@ function Categories() {
               <i className="pen-square_categories">
                 <Link
                   to="/dashboard/categories/set"
-                  className="icons_link_style"
+                  
                 >
-                  <FontAwesomeIcon icon={faPenSquare} />
+                  <FontAwesomeIcon className="icons_link_style-penSquare" icon={faPenSquare} />
                 </Link>
               </i>
               <i className="trash_categories">
-                <FontAwesomeIcon icon={faTrash} />
+                <FontAwesomeIcon className="icons_link_style-trash" icon={faTrash} />
               </i>
             </p>
           </div>
@@ -51,11 +51,11 @@ function Categories() {
                   to="/dashboard/categories/set"
                   className="icons_link_style"
                 >
-                  <FontAwesomeIcon icon={faPenSquare} />
+                  <FontAwesomeIcon className="icons_link_style-penSquare" icon={faPenSquare} />
                 </Link>
               </i>
               <i className="trash_categories">
-                <FontAwesomeIcon icon={faTrash} />
+                <FontAwesomeIcon className="icons_link_style-trash" icon={faTrash} />
               </i>
             </p>
           </div>
@@ -69,11 +69,11 @@ function Categories() {
                   to="/dashboard/categories/set"
                   className="icons_link_style"
                 >
-                  <FontAwesomeIcon icon={faPenSquare} />
+                  <FontAwesomeIcon className="icons_link_style-penSquare" icon={faPenSquare} />
                 </Link>
               </i>
               <i className="trash_categories">
-                <FontAwesomeIcon icon={faTrash} />
+                <FontAwesomeIcon className="icons_link_style-trash" icon={faTrash} />
               </i>
             </p>
           </div>
