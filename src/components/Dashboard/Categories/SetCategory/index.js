@@ -6,7 +6,7 @@ function SetCategory() {
   return (
     <>
       <div className="set-category">
-        <body clasname="setCategory_body">
+        <body clasname="setCategory_body"> 
           <div>
             <h1 className="setCategory_title">
               <Link

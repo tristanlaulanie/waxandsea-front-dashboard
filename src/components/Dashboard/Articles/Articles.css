@@ -77,6 +77,7 @@
 .pen-square {
     position: relative;
     top: 1vh;
+    font-size: 2vw;
 
 }
 

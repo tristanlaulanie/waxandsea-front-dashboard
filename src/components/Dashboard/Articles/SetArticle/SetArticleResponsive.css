@@ -1,0 +1,6 @@
+@media screen and (width <= 965px) {
+    .setArticle_form label {
+        position: relative;
+        left: -6vw;
+    }
+}

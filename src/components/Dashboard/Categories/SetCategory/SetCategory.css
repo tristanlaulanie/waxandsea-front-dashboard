@@ -13,6 +13,7 @@
     justify-content: center;
     background: black;
     font-family: 'Amatic SC', cursive;
+    border: 1px solid black;
 }
 
 .setCategory_main {
@@ -35,6 +36,8 @@ header .setCategory_title {
     font-size: 50px;
     margin-top: 20vh;
     margin-bottom: 1rem;
+    position: relative;
+    left: 2.5vw;
 }
 
 .setCategory_title:hover {
@@ -48,6 +51,8 @@ header .setCategory_title {
     text-align: center;
     margin-bottom: 1.5rem;
     margin-top: 2rem;
+    position: relative;
+    left: 2.5vw;
 }
 
 .setCategory {
@@ -68,7 +73,7 @@ header .setCategory_title {
 
 .setCategory_form {
     position: relative;
-    left: 4vw;
+    left: 2vw;
 }
 
 .setCategory_form input {

@@ -1,18 +1,19 @@
 import React from "react";
 import "./SetArticle.css";
+import "./SetArticleResponsive.css";
 import { Link } from "react-router-dom";
 
 function SetArticle() {
   return (
     <div className="set-article">
       <body className="setArticle_body">
-        <header>
+        <div>
         <Link to="/dashboard/articles" className="link-style">
           <h1 className="setArticle_dashboard_link">
             Retourner a la table des articles.
           </h1>
         </Link>
-        </header>
+        </div>
         <main className="setArticle_main_container">
           <h2 className="setArticle_title">Modifier un article</h2>
           <form className="setArticle_form" action="">
@@ -51,7 +52,7 @@ function SetArticle() {
               id="Quantité"
               placeholder="Quantité d'articles en stock"
             />
-            <label for="Description">Quantité en stock</label>
+            <label for="Description">Description</label>
             <input
               type="text"
               name="Description"
