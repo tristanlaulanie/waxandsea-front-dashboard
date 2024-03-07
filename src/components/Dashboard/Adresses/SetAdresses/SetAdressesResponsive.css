@@ -8,9 +8,10 @@
 @media screen and (width <= 845px) {
     .setAdresses_dashboard_link {
         position: relative;
+        top: 8vh;
     }
     .setAdresses_add_form {
-        margin-top: 30vh;
+        margin-top: -14vh;
     }
 }
 
