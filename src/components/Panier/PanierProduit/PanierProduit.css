@@ -1,3 +1,140 @@
 .PanierProduit {
-    margin-top: 20vh;
+    margin-top: 25vh;
+    /* border: 1px solid #0a0a0a; */
+    width: 99.2vw;
+    padding-left: 8em;
+    padding-right: 8em;
+}
+
+h1 {
+    font-size: 3.1em;
+}
+
+#panier_user-story {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 4vh;
+}
+
+#panier_user-story h2 {
+    width: 25%;
+    font-size: 2em;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    font-weight: bold;
+}
+
+#panier-title-story {
+    border-bottom: 3px solid black;
+}
+
+.user-story-titles {
+    border-bottom: 5px dotted grey;
+    margin-left: 5px;
+}
+
+#panier_container_title {
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    align-items: center;
+    gap: 80%;
+    width: 65%;
+    border-bottom: 4px solid black;
+    padding: 0;
+    margin: 0;
+}
+
+#panier_container_title h3 {
+    position: relative;
+    top: 4vh;
+    font-weight: bold;
+}
+
+#panier_title-icon-button {
+    position: relative;
+    top: 2vh;
+    display: flex;
+    gap: 0em;
+}
+
+#panier_title-icon-button i {
+    position: relative;
+    top: 8px;
+    right: 3vw;
+    font-size: 2em;
+}
+
+#panier_title-icon-button button {
+    position: relative;
+    right: 1.5vw;
+    width: 8vw;
+    font-size: 1.6em;
+    padding: 6px;
+    border: none;
+    background-color: greenyellow;
+}
+
+#panier_title-icon-button button:hover {
+    transition: 0.8s;
+    cursor: pointer;
+    color: greenyellow;
+    background-color: black;
+}
+
+#mon-panier_section-produit {
+    padding-top: 2em;
+    display: flex;
+    flex-direction: row;
+}
+
+#mon-panier_section-produit img {
+    width: 150px;
+    height: 170px;
+}
+
+#section-produit_text {
+    padding-left: 1em;
+}
+
+.section-produit_text-img h3 {
+    font-size: 1.8em;
+    font-weight: bold;
+}
+
+#produit_text {
+    position: relative;
+    top: -4vh;
+    display: flex;
+    gap: 8vw;
+}
+
+.section-produit_text-img p {
+    /* border: 3px solid red; */
+    font-size: 1.8em;
+}
+
+#produit_quantity {
+    position: relative;
+    top: -2vh;
+    height: 6.5vh;
+    width: 42%;
+    padding: 8px;
+    font-size: 2em;
+    display: flex;
+    gap: 3vw;
+    border: 3px solid black;
+}
+
+.quantity_operator {
+    font-size: 2em;
+    position: relative;
+    top: -2vh;
+}
+
+.quantity_operator:hover {
+    cursor: pointer;
+    color: red;
 }
