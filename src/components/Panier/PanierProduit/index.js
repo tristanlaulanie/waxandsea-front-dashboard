@@ -39,13 +39,20 @@ function PanierProduit() {
                 <p>1</p>
                 <div className="quantity_operator">+</div>
               </div>
-              <p>Supprimer</p>
+              <p id="produit_delete">Supprimer</p>
             </div>
+          </div>
+          <div id="section-produit_total">
+            <p>
+              <strong>
+                Total___€ <br></br> par article{"(s)"}
+              </strong>
+            </p>
           </div>
         </section>
       </container>
       <section>
-        <h3>Ma commande</h3>*
+        <h3>Ma commande</h3>
         <div>
           <p>Montant des achats : </p>
           <p>

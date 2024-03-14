@@ -118,9 +118,9 @@ h1 {
 
 #produit_quantity {
     position: relative;
-    top: -2vh;
-    height: 6.5vh;
-    width: 42%;
+    top: -1.8vh;
+    height: 6.8vh;
+    width: 43%;
     padding: 8px;
     font-size: 2em;
     display: flex;
@@ -137,4 +137,30 @@ h1 {
 .quantity_operator:hover {
     cursor: pointer;
     color: red;
+}
+
+#produit_delete {
+    font-size: 2em;
+    font-weight: bold;
+    position: relative;
+    left: 13.5vw;
+    top: -3.8vw;
+    border: 1px dashed black;
+    width: 6vw;
+}
+
+#produit_delete:hover {
+    cursor: pointer;
+    color: red;
+}
+
+#section-produit_total {
+    text-align: left;
+    position: relative;
+    left: 19%;
+    font-size: 2em;
+}
+
+#section-produit_total p strong {
+    font-weight: bold;
 }
