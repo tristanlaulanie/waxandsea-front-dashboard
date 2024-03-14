@@ -66,7 +66,6 @@ function Contact() {
             <input type="radio" />
             <label htmlFor="RGPD">RGPD</label>
           </div>
-
           <div className="button">
             <button id="button_msg" type="submit">
               J'ENVOIE MON MESSAGE

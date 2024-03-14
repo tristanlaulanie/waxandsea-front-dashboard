@@ -5,6 +5,7 @@ import Accueil from "./components/Accueil";
 import Contact from "./components/Contact";
 import Connexion from "./components/Connexion";
 import Panier from "./components/Panier";
+import PanierProduit from "./components/Panier/PanierProduit";
 import Paiement from "./components/Paiement";
 import Enregistrement from "./components/Enregistrement";
 import Dashboard from "./components/Dashboard";
@@ -36,6 +37,7 @@ function App() {
           <Route path="/accueil" element={<Accueil />} />
           <Route path="/connexion" element={<Connexion />} />
           <Route path="/panier" element={<Panier />} />
+          <Route path="/panier/produit" element={<PanierProduit />} />
           <Route path="/paiement" element={<Paiement />} />
           <Route path="/enregistrement" element={<Enregistrement />} />
           <Route path="/contact" element= {<Contact />}/>
