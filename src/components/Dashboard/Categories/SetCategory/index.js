@@ -22,7 +22,7 @@ function SetCategory() {
               Modification d'une catégorie
             </h2>
             <form className="setCategory_form" action="">
-              <label for="Nom">Nom de la catégorie</label>
+              <label id="category_form_name" for="Nom">Nom de la catégorie</label>
               <input
                 type="text"
                 name="Nom"

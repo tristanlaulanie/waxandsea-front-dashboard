@@ -37,7 +37,7 @@ function PanierProduit() {
               <div id="section-produit_quantity">
                 <div id="produit_quantity">
                   <div className="quantity_operator">-</div>
-                  <p>1</p>
+                  <p className="quantity_number">1</p>
                   <div className="quantity_operator">+</div>
                 </div>
                 <p id="produit_delete">Supprimer</p>
@@ -54,37 +54,39 @@ function PanierProduit() {
         </container>
         <container id="mon-panier_commande">
           <h3>Ma commande</h3>
-          <div>
-            <p>Montant des achats : </p>
-            <p>
-              <strong>Total achats €</strong>
-            </p>
-          </div>
-          <div>
-            <p>Frais de port : </p>
-            <p>
-              <strong>Frais de port €</strong>
-            </p>
-          </div>
-          <em>Plus que x euros pour les frais de ports offerts</em>
-          <span>
-            <div>
-              <p>Total : </p>
+          <section>
+            <div id="commande_total-achats">
+              <p>Montant des achats : </p>
               <p>
-                <strong>Total €</strong>
+                <strong>Total achats €</strong>
               </p>
             </div>
-            <div>
-              <p>TVA</p>
+            <div id="commande_frais-de-ports">
+              <p>Frais de port : </p>
               <p>
-                <strong>TVA €</strong>
+                <strong>Frais de port €</strong>
               </p>
             </div>
-          </span>
-          <span>
-            <button>Continuer mes achats</button>
-            <button>Valider mon panier</button>
-          </span>
+            <em>Plus que x euros pour les frais de ports offerts</em>
+            <span>
+              <div id="commande_total">
+                <p>Total : </p>
+                <p>
+                  <strong>Total €</strong>
+                </p>
+              </div>
+              <div id="commande_tva">
+                <p>TVA</p>
+                <p>
+                  <strong>TVA €</strong>
+                </p>
+              </div>
+            </span>
+            <span id="achats_panier_buttons">
+              <button>Continuer mes achats</button>
+              <button>Valider mon panier</button>
+            </span>
+          </section>
         </container>
       </div>
     </div>
