@@ -1,0 +1,89 @@
+#mon-panier_commande {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 15.8vh;
+}
+
+#mon-panier_commande h3 {
+    border-bottom: 4px solid black;
+    width: 20vw;
+    font-weight: bold;
+    position: relative;
+    left: 1vw;
+}
+
+#mon-panier_commande section {
+    position: relative;
+    top: -2vh;
+    left: 1vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* border: 1px solid red; */
+    height: 48vh;
+    width: 85%;
+    font-size: 1.5em;
+}
+
+#commande_total-achats {
+    display: flex;
+    flex-direction: row;
+    gap: 4vw;
+    margin-bottom: 1vh;
+    width: 20vw;
+}
+
+#commande_frais-de-ports {
+    display: flex;
+    flex-direction: row;
+    gap: 7.4vw;
+    margin-bottom: 1vh;
+    width: 20vw;
+}
+
+#commande_total {
+    display: flex;
+    flex-direction: row;
+    gap: 13.5vw;
+    margin-top: 1vh;
+    width: 20vw;
+    margin-bottom: 1vh;
+}
+
+#commande_tva {
+    display: flex;
+    flex-direction: row;
+    gap: 15.9vw;
+    width: 20vw;
+}
+
+#achats_panier_buttons {
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    justify-content: left;
+    gap: 4vh;
+    position: relative;
+    top: 4vh;
+    right: 3vw;
+}
+
+#achats_panier_buttons button {
+    border: 3px solid black;
+    border-radius: 4px;
+    width: 12vw;
+    height: 6vh;
+    font-size: 24px;
+    font-weight: bold;
+    color: white;
+    background-color: rgba(1, 185, 148, 0.776);
+}
+
+#achats_panier_buttons button:hover {
+    cursor: pointer;
+    background-color: black;
+    transition: 0.8s;
+}
