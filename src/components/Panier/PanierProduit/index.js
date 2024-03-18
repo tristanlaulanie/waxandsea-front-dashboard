@@ -1,6 +1,7 @@
 import React from "react";
 // COMPOSANT
 import MaCommande from "../MaCommande";
+import { Link } from "react-router-dom";
 // CSS
 import "./PanierProduit.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
@@ -55,7 +56,14 @@ function PanierProduit() {
             </div>
           </section>
         </container>
-        <MaCommande />
+        <div id="panier-produit_commande_component">
+          <MaCommande />
+          <div id="valid_button">
+            <Link to="/panier/coordonnees">
+              <button type="submit">VALIDER MON PANIER</button>
+            </Link>
+          </div>
+        </div>
       </div>
     </div>
   );

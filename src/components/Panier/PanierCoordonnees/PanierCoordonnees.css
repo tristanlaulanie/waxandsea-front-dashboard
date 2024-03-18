@@ -26,13 +26,12 @@ form input {
     font-size: 22px;
 }
 
-
 h1 {
     font-size: 2.5em;
     font-weight: bold;
     text-align: left;
     position: relative;
-    right: 23vw;
+    right: 160%;
 }
 
 #panier_user-story {

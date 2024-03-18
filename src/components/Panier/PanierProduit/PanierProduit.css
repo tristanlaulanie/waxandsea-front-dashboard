@@ -43,6 +43,11 @@ h1 {
     align-items: center;
 }
 
+#mon-panier_produit {
+    position: relative;
+    top: -14vh;
+}
+
 #panier_container_title {
     display: flex;
     flex-direction: row;
@@ -178,4 +183,31 @@ h1 {
 #section-produit_total p strong {
     font-weight: bold;
     font-size: 0.9em;
+}
+
+#panier-produit_commande_component {
+    position: relative;
+    top: -7vh;
+}
+
+#valid_button button {
+    position: relative;
+    top: 2vh;
+    border: 3px solid black;
+    border-radius: 4px;
+    width: 12vw;
+    height: 6vh;
+    font-size: 24px;
+    font-weight: bold;
+    color: white;
+    background-color: rgba(1, 185, 148, 0.776);
+    position: relative;
+    right: 9%;
+    margin-top: 4vh;
+}
+
+#valid_button button:hover {
+    cursor: pointer;
+    background-color: black;
+    transition: 0.8s;
 }
