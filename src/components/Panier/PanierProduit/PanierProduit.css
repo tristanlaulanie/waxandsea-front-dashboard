@@ -132,7 +132,7 @@ h1 {
 
 #produit_quantity {
     position: relative;
-    top: 1.5vh;
+    top: -1.5vh;
     height: 6.8vh;
     width: 43%;
     padding: 8px;
@@ -145,7 +145,7 @@ h1 {
 .quantity_operator {
     font-size: 2em;
     position: relative;
-    top: -4vh;
+    top: -2.5vh;
 }
 
 .quantity_operator:hover {
@@ -155,7 +155,7 @@ h1 {
 
 .quantity_number {
     position: relative;
-    top: -1vh;
+    top: 0;
 }
 
 #produit_delete {

@@ -3,6 +3,7 @@ import React from "react";
 import MaCommande from "../MaCommande";
 // CSS
 import "./PanierCoordonnees.css";
+import { Link } from "react-router-dom";
 
 function PanierCoordonnees() {
   return (
@@ -18,7 +19,7 @@ function PanierCoordonnees() {
         <form>
           {/* Form content here */}
           <div>
-            <h1>Dénomination sociale :</h1>
+            <h3 id="social-status_title">Dénomination sociale :</h3>
           </div>
           <section id="firstname-lastname_form">
             <div>
@@ -136,7 +137,9 @@ function PanierCoordonnees() {
         <div className="command_component_coordonnees">
           <MaCommande />
           <div id="confirm_button">
-            <button type="submit">CONFIRMER MES COORDONNÉES</button>
+            <Link to="/panier/livraison">
+              <button type="submit">CONFIRMER MES COORDONNÉES</button>
+            </Link>
           </div>
         </div>
       </container>
