@@ -36,7 +36,6 @@ function MaCommande() {
             </span>
             <span id="achats_panier_buttons">
               <button>Continuer mes achats</button>
-              <button>Valider mon panier</button>
             </span>
           </section>
         </container>
