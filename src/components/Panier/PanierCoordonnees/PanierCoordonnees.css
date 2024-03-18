@@ -1,7 +1,7 @@
 .PanierCoordonnes {
     margin-top: 20vh;
     /* border: 1px solid #0a0a0a; */
-    height: 210vh;
+    height: 240vh;
     width: 99.2vw;
     padding-left: 5em;
     padding-right: 5em;
@@ -10,8 +10,15 @@
 form {
     margin-top: 5vh;
     position: relative;
-    right: 14%;
+    right: 16.5%;
 }
+
+form input {
+    padding: 0.5em;
+    font-family: 'Roboto', sans-serif;
+    font-size: 22px;
+}
+
 
 h1 {
     font-size: 2.5em;
@@ -62,7 +69,7 @@ h1 {
 
 #company-name_form {
     position: relative;
-    right: 18vw;
+    right: 18%;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -75,13 +82,13 @@ h1 {
     margin-bottom: 2vh;
     letter-spacing: 3px;
     position: relative;
-    left: 3.3vw;
+    left: 0;
 }
 
 #company-name_form input {
-    width: 63vw;
+    width: 222%;
     position: relative;
-    left: 18vw;
+    left: 61%;
 }
 
 #billing-adress_title {
@@ -89,7 +96,7 @@ h1 {
     font-weight: bold;
     text-align: left;
     position: relative;
-    right: 10%;
+    right: 15%;
 }
 
 #billing-form {
@@ -101,7 +108,7 @@ h1 {
 #billing-adress_country {
     font-size: 2.5em;
     position: relative;
-    right: 53%;
+    right: 58.5%;
     margin-top: 3vh;
 }
 
@@ -116,8 +123,9 @@ h1 {
     align-items: left;
     gap: 4vh;
     margin-bottom: 4vh;
+    position: relative;
+    right: 13.5%;
 }
-
 
 #street-name-number label {
     font-size: 2.5em;
@@ -127,5 +135,114 @@ h1 {
 }
 
 #street-name-number input {
-    width: 30%;
+    width: 56%;
+    position: relative;
+    left: -1%;
+}
+
+#building::placeholder {
+    font-family: 'Amatic SC', cursive;
+    font-size: 1.2em;
+    color: rgb(152, 152, 152);
+}
+
+#billing_city_postal-code {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    left: 21%;
+    margin-bottom: 10vh;
+}
+
+
+#postal-code {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    right: 47%;
+    gap: 2vh;
+}
+
+#postal-code label {
+    font-size: 2.5em;
+    position: relative;
+    right: 24%;
+}
+
+#billing-city {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    right: 23%;
+    gap: 2vh;
+}
+
+#billing-city label {
+    font-size: 2.5em;
+    position: relative;
+    right: 36.5%;
+}
+
+#billing-city input {
+    width: 24vw;
+}
+
+#billing_phone-number {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    gap: 2vh;
+    margin-bottom: 4vh;
+    position: relative;
+    left: 3.5%;
+
+}
+
+#billing_phone-number label {
+    font-size: 2.5em;
+    position: relative;
+    right: 25%;
+}
+
+#billing_email-adress {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2vh;
+    position: relative;
+    left: 4%;
+    margin-bottom: 4vh;
+
+}
+
+#billing_email-adress label {
+    font-size: 2.5em;
+    position: relative;
+    right: 7%;
+}
+
+#billing_email-adress input {
+    width: 24vw;
+    position: relative;
+    left: 7%;
+
+}
+
+#billing_email_phone-number {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 20%;
+    position: relative;
+    right: 19%;
 }

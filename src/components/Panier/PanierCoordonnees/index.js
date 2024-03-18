@@ -51,38 +51,39 @@ function PanierCoordonnees() {
                   id="billing_address"
                   name="billing_address"
                 />
-                <input
+                <input 
+                  id="building"
                   type="text"
                   name="building"
                   placeholder="Bâtiment, Appartement etc. (facultatif)"
                 />
               </div>
-              <div id="postal-code">
-                <label htmlFor="billing_postal_code">Code postal * :</label>
-                <input
-                  type="text"
-                  id="billing_postal_code"
-                  name="billing_postal_code"
-                />
-              </div>
-              <input
-                type="text"
-                id="billing_city"
-                name="billing_city"
-                placeholder="Ville *"
-              />
-              <input
-                type="text"
-                id="billing_phone"
-                name="billing_phone"
-                placeholder="Téléphone *"
-              />
-              <input
-                type="email"
-                id="billing_email"
-                name="billing_email"
-                placeholder="Adresse de messagerie *"
-              />
+              <section id="billing_city_postal-code">
+                <div id="postal-code">
+                  <label htmlFor="billing_postal_code">Code postal * :</label>
+                  <input
+                    type="text"
+                    id="billing_postal_code"
+                    name="billing_postal_code"
+                  />
+                </div>
+                <div id="billing-city">
+                  <label htmlFor="billing_city">Ville * :</label>
+                  <input type="text" id="billing_city" name="billing_city" />
+                </div>
+              </section>
+              <section id="billing_email_phone-number">
+                <div id="billing_phone-number">
+                  <label htmlFor="billing_phone">Téléphone * :</label>
+                  <input type="text" id="billing_phone" name="billing_phone" />
+                </div>
+                <div id="billing_email-adress">
+                  <label htmlFor="billing_email">
+                    Adresse de messagerie * :
+                  </label>
+                  <input type="email" id="billing_email" name="billing_email" />
+                </div>
+              </section>
             </div>
             <div>
               <input type="checkbox" id="same_address" name="same_address" />
@@ -133,7 +134,6 @@ function PanierCoordonnees() {
             <button type="submit">CONFIRMER MES COORDONNÉES</button>
           </div>
         </form>
-        {/* Assuming MaCommande is a component you have created */}
         <MaCommande />
       </div>
     </div>
