@@ -1,0 +1,131 @@
+.PanierCoordonnes {
+    margin-top: 20vh;
+    /* border: 1px solid #0a0a0a; */
+    height: 210vh;
+    width: 99.2vw;
+    padding-left: 5em;
+    padding-right: 5em;
+}
+
+form {
+    margin-top: 5vh;
+    position: relative;
+    right: 14%;
+}
+
+h1 {
+    font-size: 2.5em;
+    font-weight: bold;
+    text-align: left;
+    position: relative;
+    right: 23vw;
+}
+
+#panier_user-story {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 4vh;
+}
+
+#panier_user-story h2 {
+    width: 25%;
+    font-size: 2em;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    font-weight: bold;
+}
+
+#panier-title-story,
+#coordonnees-title-story {
+    border-bottom: 3px solid black;
+}
+
+.user-story-titles {
+    border-bottom: 5px dotted grey;
+    margin-left: 5px;
+}
+
+#firstname-lastname_form {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 4vw;
+    margin-top: 4vh;
+}
+
+#firstname-lastname_form label {
+    font-size: 2.5em;
+}
+
+#company-name_form {
+    position: relative;
+    right: 18vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#company-name_form label {
+    font-size: 2.5em;
+    margin-top: 5vh;
+    margin-bottom: 2vh;
+    letter-spacing: 3px;
+    position: relative;
+    left: 3.3vw;
+}
+
+#company-name_form input {
+    width: 63vw;
+    position: relative;
+    left: 18vw;
+}
+
+#billing-adress_title {
+    font-size: 2.5em;
+    font-weight: bold;
+    text-align: left;
+    position: relative;
+    right: 10%;
+}
+
+#billing-form {
+    margin-top: 5vh;
+    position: relative;
+    left: 8vw;
+}
+
+#billing-adress_country {
+    font-size: 2.5em;
+    position: relative;
+    right: 53%;
+    margin-top: 3vh;
+}
+
+#billing-adress_country strong {
+    font-weight: bold;
+}
+
+#street-name-number {
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    align-items: left;
+    gap: 4vh;
+    margin-bottom: 4vh;
+}
+
+
+#street-name-number label {
+    font-size: 2.5em;
+    position: relative;
+    right: 36%;
+    margin-top: 2vh;
+}
+
+#street-name-number input {
+    width: 30%;
+}
