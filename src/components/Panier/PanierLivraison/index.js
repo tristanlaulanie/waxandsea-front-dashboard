@@ -30,8 +30,8 @@ function PanierLivraison() {
             />
             <FontAwesomeIcon id="cube-icon" icon={faCube} />
             <h1 id="colissimo-title">Colissimo - Domicile</h1>
-            <h2 className="delivery-titles">Frais de ports offerts</h2>
-            <div className="deliveries-infos">
+            <h2 className="free-delivery-price">Frais de ports offerts</h2>
+            <div className="deliveries-infos delivery-adress">
               <h2 className="delivery-titles delivery-title">
                 Votre adresse de livraison
               </h2>

@@ -1,6 +1,6 @@
 .PanierPaiement {
   margin-top: 20vh;
-  height: 120vh;
+  height: 150vh;
   width: 99.2vw;
   padding-left: 5em;
   padding-right: 5em;
@@ -29,6 +29,13 @@
   border-bottom: 3px solid black;
 }
 
+#paiement-command-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: left;
+  align-items: baseline;
+}
+
 h2 {
   font-size: 2.4em;
   font-weight: bold;
@@ -37,7 +44,7 @@ h2 {
 }
 
 .stripe-container {
-  width: 70%;
+  width: 90%;
   border: 2px solid black;
   margin-top: 6vh;
   display: flex;
@@ -52,7 +59,6 @@ h2 {
   justify-content: center;
   align-items: center;
   gap: 2vw;
-  margin-top: 5vh;
   position: relative;
   left: 5%;
 }
@@ -74,8 +80,8 @@ h2 {
 }
 
 #stripe-logo {
-  height: 12vh;
-  width: 12vw;
+  height: 14vh;
+  width: 12.5vw;
   border-radius: 10px;
 }
 
@@ -88,7 +94,6 @@ h2 {
   gap: 0;
   /* border: 4px solid red; */
   width: 100%;
-
 }
 
 form {
@@ -105,10 +110,10 @@ form {
 #card-number {
   width: 68%;
   position: relative;
-  right: 5.5vw;
+  right: 25%;
   letter-spacing: 2px;
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
   /* border: 4px solid red; */
@@ -117,14 +122,14 @@ form {
 #card-number label {
   text-align: left;
   position: relative;
-  left: 7%;
+  left: 11%;
   /* border: 3px solid red; */
   width: 20vw;
 
 }
 
 #card-number input {
-  width: 14vw;
+  width: 16vw;
   position: relative;
   left: 2%;
 }
@@ -186,10 +191,47 @@ form {
   width: 58%;
 }
 
+.paypal-container {
+  height: 40vh;
+  width: 90%;
+  border: 2px solid black;
+  margin-top: 6vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.select-radio-paypal {
+  position: relative;
+  right: 1vw;
+}
+
 #paypal-logo {
   height: 13vh;
   width: 12vw;
   position: relative;
-  top: 8vh;
+  top: 0;
   left: 1vw;
 }
+
+#my-command_component {
+  position: relative;
+  right: 2%;
+  bottom: 9vh;
+}
+
+.check-CGV {
+  position: relative;
+  top: 6vh;
+  right: 18%;
+  font-size: 2em;
+  font-weight: bold;
+}
+
+.check-CGV input {
+  scale : 2.2;
+  position: relative;
+  left: 1vw;
+  bottom: 0.5vh;
+}
+

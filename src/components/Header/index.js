@@ -80,7 +80,7 @@ function Header() {
           <span id="cart_title">
             <FontAwesomeIcon className="logo-panier" icon={faShoppingCart} />
             <p>
-              <Link to="/panier">Panier</Link>
+              <Link to="/panier/produit">Panier</Link>
             </p>
           </span>
           <p id="payment_title">
