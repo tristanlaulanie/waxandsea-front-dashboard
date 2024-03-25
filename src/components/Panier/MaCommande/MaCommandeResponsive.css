@@ -15,6 +15,47 @@
     }
 }
 
+@media screen and (width <= 1760px) {
+    #commande_total {
+        /* border: 4px dashed rgb(254, 4, 254); */
+        display: inline-block;
+        height: 4.5vh;
+    }
+
+    #total-command_title {
+        position: relative;
+        left: -42%;
+    }
+
+    #total-command_amount {
+        position: relative;
+        left: 40%;
+        bottom: 4vh;
+    }
+
+    #commande_tva {
+        /* border: 2px dotted red; */
+        display: inline-block;
+        height: 4.5vh;
+        position: relative;
+        bottom: 4vh;
+        left: 0.3vw;
+    }
+
+    #tva-title {
+        position: relative;
+        left: -45%;
+    }
+
+    #tva-amount {
+        /* border: 2px dotted red; */
+        display: inline-block;
+        position: relative;
+        left: 40%;
+        bottom: 4vh;
+    }
+}
+
 @media screen and (width <= 1750px) {
     .fees_price {
         display: inline-block;

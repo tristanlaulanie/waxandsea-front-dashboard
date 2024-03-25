@@ -28,16 +28,12 @@ function MaCommande() {
           </div>
           <span>
             <div id="commande_total">
-              <p>Total : </p>
-              <p>
-                <strong>Total €</strong>
-              </p>
+              <p id="total-command_title">Total :</p>
+              <p id="total-command_amount">Total €</p>
             </div>
             <div id="commande_tva">
-              <p>TVA</p>
-              <p>
-                <strong>TVA €</strong>
-              </p>
+              <p id="tva-title">TVA :</p>
+              <p id="tva-amount">TVA €</p>
             </div>
           </span>
           <span id="achats_panier_buttons">
