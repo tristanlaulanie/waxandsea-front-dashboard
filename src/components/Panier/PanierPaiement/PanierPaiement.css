@@ -22,6 +22,17 @@
   font-weight: bold;
 }
 
+.user-story_style {
+  color: black;
+  font-weight: bold;
+  border-color: white;
+  text-decoration: none;
+}
+
+.user-story_style:hover {
+  color: rgb(21, 150, 109);
+}
+
 #panier-title-story,
 #coordonnees-title-story,
 #livraison-title-story,

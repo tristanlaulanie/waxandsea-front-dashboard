@@ -10,7 +10,11 @@ function PanierCoordonnees() {
     <div className="PanierCoordonnes">
       <h1>Mon Panier</h1>
       <div id="panier_user-story">
-        <h2 id="panier-title-story">Panier</h2>
+        <h2 id="panier-title-story">
+          <Link className="user-story_style" to="/panier/produit">
+            Panier
+          </Link>
+        </h2>
         <h2 id="coordonnees-title-story">Coordonnées</h2>
         <h2 className="user-story-titles">Livraison</h2>
         <h2 className="user-story-titles">Paiement</h2>

@@ -1,5 +1,6 @@
 import React from "react";
 // COMPOSANT
+import { Link } from "react-router-dom";
 import MaCommande from "../MaCommande";
 
 // ICONS
@@ -13,10 +14,24 @@ function PanierPaiement() {
     <div className="PanierPaiement">
       <h1>Mon Panier</h1>
       <div id="panier_user-story">
-        <h2 id="panier-title-story">Panier</h2>
-        <h2 id="coordonnees-title-story">Coordonnées</h2>
-        <h2 id="livraison-title-story">Livraison</h2>
-        <h2 id="paiement-title-story">Paiement</h2>
+        <h2 id="panier-title-story">
+        <Link className="user-story_style" to="/panier/produit">
+          Panier
+        </Link>
+        </h2>
+        <h2 id="coordonnees-title-story">
+        <Link className="user-story_style" to="/panier/coordonnees">
+          Coordonnées
+        </Link>
+        </h2>
+        <h2 id="livraison-title-story">
+        <Link className="user-story_style" to="/panier/livraison">
+          Livraison
+        </Link> 
+        </h2>
+        <h2 id="paiement-title-story">
+          Paiement
+        </h2>
       </div>
       <div id="paiement-command-container">
         <div id="title-stripe-paypal-container">
@@ -89,7 +104,6 @@ function PanierPaiement() {
         </div>
         <div id="my-command_component">
           <MaCommande />
-          
           <label class="check-CGV">
             J'accepte les C.G.V.
             <input id="checkbox" type="checkbox" checked="checked" />

@@ -15,8 +15,16 @@ function PanierLivraison() {
     <div className="PanierLivraison">
       <h1>Mon Panier</h1>
       <div id="panier_user-story">
-        <h2 id="panier-title-story">Panier</h2>
-        <h2 id="coordonnees-title-story">Coordonnées</h2>
+        <h2 id="panier-title-story">
+        <Link className="user-story_style" to="/panier/produit">
+          Panier
+        </Link>
+        </h2>
+        <h2 id="coordonnees-title-story">
+        <Link className="user-story_style" to="/panier/coordonnees">
+          Coordonnées
+        </Link>
+        </h2>
         <h2 id="livraison-title-story">Livraison</h2>
         <h2 className="user-story-titles">Paiement</h2>
       </div>
@@ -61,8 +69,8 @@ function PanierLivraison() {
           </section>
         </container>
         <div id="command_component">
-        <MaCommande />
-        <div id="confirm_delivery">
+          <MaCommande />
+          <div id="confirm_delivery">
             <Link to="/panier/paiement">
               <button type="submit">VALIDER MA LIVRAISON</button>
             </Link>
