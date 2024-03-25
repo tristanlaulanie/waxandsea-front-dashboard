@@ -1,9 +1,12 @@
+// REACT
 import React from "react";
-// COMPOSANT
+
+// COMPOSANTS
 import MaCommande from "../MaCommande";
+import { Link } from "react-router-dom";
+
 // CSS
 import "./PanierCoordonnees.css";
-import { Link } from "react-router-dom";
 
 function PanierCoordonnees() {
   return (
