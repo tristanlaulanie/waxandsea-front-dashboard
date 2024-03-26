@@ -4,6 +4,8 @@ import MaCommande from "../MaCommande";
 import { Link } from "react-router-dom";
 // CSS
 import "./PanierProduit.css";
+import "./PanierProduitResponsive.css";
+
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faTrash } from "@fortawesome/free-solid-svg-icons";
 
@@ -22,9 +24,9 @@ function PanierProduit() {
           <section id="panier_container_title">
             <h3>Mon Panier</h3>
             <div id="panier_title-icon-button">
-              <i>
+              <div>
                 <FontAwesomeIcon icon={faTrash} />
-              </i>
+              </div>
               <button>Vider mon panier</button>
             </div>
           </section>
@@ -49,9 +51,7 @@ function PanierProduit() {
             </div>
             <div id="section-produit_total">
               <p>
-                <strong>
                   Total___€ <br></br> par article{"(s)"}
-                </strong>
               </p>
             </div>
           </section>

@@ -1,0 +1,13 @@
+@media screen and (width <= 1180px) {
+  #panier_title-icon-button {
+    position: relative;
+    left: -18vw;
+    transition: 0.5s;
+  }
+}
+
+@media screen and (width <= 1740px) {
+  #panier_title-icon-button {
+    right: 7.5vw;
+  }
+}
