@@ -26,7 +26,7 @@ function MaCommande() {
           <div id="free-shipping">
             <em>Plus que x euros pour les frais de ports offerts</em>
           </div>
-          <span>
+          <span id="total_tva_command">
             <div id="commande_total">
               <p id="total-command_title">Total :</p>
               <p id="total-command_amount">Total €</p>

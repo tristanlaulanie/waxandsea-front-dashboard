@@ -7,7 +7,7 @@
     position: relative;
     left: 2vw;
     top: 15.5vh;
-    border: 2px solid blue;
+    /* border: 2px solid blue; */
 }
 
 #mon-panier_commande h3 {
@@ -57,12 +57,24 @@
     margin-bottom: 1vh;
 }
 
-
 #commande_tva {
     display: flex;
     flex-direction: row;
-    gap: 15.9vw;
+    gap: 14vw;
     width: 20vw;
+    position: relative;
+    bottom: 1vh;
+}
+
+#tva-title {
+    /* border: 2px solid red; */
+    height: 5vh;
+    width: 5vw;
+}
+
+#tva-amount {
+    /* border: 2px solid red; */
+    width: 8vw;
 }
 
 #achats_panier_buttons {
@@ -85,6 +97,10 @@
     font-weight: bold;
     color: white;
     background-color: rgba(1, 185, 148, 0.776);
+    transition: 0.5s;
+    position: relative;
+    right: 0.6vw;
+    bottom: 2vh;  
 }
 
 #achats_panier_buttons button:hover {

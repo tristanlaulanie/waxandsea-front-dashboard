@@ -29,8 +29,15 @@
 
   #total-command_amount {
     position: relative;
-    left: 40%;
+    left: 78%;
     bottom: 4vh;
+    /* border: 2px solid red; */
+    width: 5vw;
+  }
+
+  #total_tva_command {
+    position: relative;
+    bottom: 0vh;
   }
 
   #commande_tva {
@@ -44,7 +51,7 @@
 
   #tva-title {
     position: relative;
-    left: -39%;
+    left: -25%;
     display: inline-block;
     /* border: 2px solid red; */
   }
@@ -53,8 +60,14 @@
     /* border: 2px dotted red; */
     display: inline-block;
     position: relative;
-    left: 35.5%;
+    left: 29%;
     bottom: 0;
+  }
+
+  #achats_panier_buttons button {
+    position: relative;
+    bottom: 4vh;
+    right: 1vw;
   }
 }
 
@@ -89,12 +102,35 @@
     position: relative;
     bottom: 4vh;
   }
+
+  #total_tva_command {
+    position: relative;
+    bottom: 3.5vh;
+  }
+
+  #achats_panier_buttons button {
+    position: relative;
+    bottom: 7.5vh;
+  }
 }
 
 @media screen and (width <= 1510px) {
   .fees_price {
     display: inline-block;
     width: 10vw;
+  }
+}
+
+@media screen and (width <= 1490px) {
+  #total_tva_command {
+    position: relative;
+    bottom: 7vh;
+  }
+
+  #achats_panier_buttons button {
+    position: relative;
+    bottom: 12vh;
+    right: 1vw;
   }
 }
 
