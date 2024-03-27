@@ -48,6 +48,11 @@
     /* border: 2px solid red; */
 }
 
+.fees_price {
+    position: sticky;
+    margin-left: 1.1vw;
+}
+
 #commande_total {
     display: flex;
     flex-direction: row;
@@ -99,7 +104,7 @@
     background-color: rgba(1, 185, 148, 0.776);
     transition: 0.5s;
     position: relative;
-    right: 0.6vw;
+    left: 5.3vw;
     bottom: 2vh;  
 }
 

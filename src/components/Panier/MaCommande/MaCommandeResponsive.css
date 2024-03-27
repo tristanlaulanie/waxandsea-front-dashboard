@@ -117,7 +117,11 @@
 @media screen and (width <= 1510px) {
   .fees_price {
     display: inline-block;
-    width: 10vw;
+    width: 9vw;
+    position: relative;
+    left: 6vw;
+    bottom: 5vh;
+    /* border: 2px dotted red; */
   }
 }
 
@@ -140,7 +144,7 @@
     /* border: 3px solid rgba(251, 0, 247, 0.251); */
     position: relative;
     left: 8.1vw;
-    bottom: 4vh;
+    bottom: 5vh;
   }
 
   #commande_total-achats {
@@ -151,6 +155,11 @@
     left: -1vw;
   }
 
+  #commande_frais-de-ports {
+    position: relative;
+    bottom: 5vh;
+  }
+
   #purchases-amout_title {
     /* border: 2px dashed red; */
     display: inline-block;
@@ -158,5 +167,95 @@
     font-size: 28px;
     position: relative;
     left: -3vw;
+  }
+
+  #shipping-fees_title {
+    position: relative;
+    left: -6.5vw;
+  }
+
+  .fees_price {
+    position: relative;
+    bottom: 5vh;
+  }
+
+  #free-shipping {
+    position: relative;
+    bottom: 10vh;
+    left: 0.5vw;
+  }
+
+  #commande_total {
+    position: relative;
+    bottom: 5vh;
+  }
+
+  #commande_tva {
+    position: relative;
+    bottom: 9vh;
+  }
+
+  #achats_panier_buttons button {
+    position: relative;
+    bottom: 17vh;
+  }
+}
+
+@media screen and (width <= 1390px) {
+  #purchases-amout_title {
+    /* border: 2px dashed red; */
+    width: 13vw;
+  }
+}
+
+@media screen and (width <= 1342px) {
+  .fees_price {
+    width: 10vw;
+  }
+}
+
+@media screen and (width <= 1290px) {
+  #achats_panier_buttons button {
+    position: relative;
+    bottom: 18vh;
+    font-size: 20px;
+  }
+}
+
+@media screen and (width <= 1280px) {
+  #purchases-amout_title {
+    width: 14vw;
+  }
+}
+
+@media screen and (width <= 1230px) {
+
+  #command_texts{
+    border: 2px dotted red;
+    font-size: 0.8em;
+    transition: 0.5s;
+    height: 20vh;
+    width: 105%;
+    position: relative;
+    bottom: 1vh;
+  }
+
+  #purchases-amout_title {
+    font-size: 1em;
+    position: relative;
+    bottom: 1vh; 
+  }
+
+  #shipping-fees_title {
+    width: 13vw;
+    position: relative;
+    left: -8vw;
+  }
+
+  .fees_price {
+    position: relative;
+    bottom: 4vh;
+    left: 5vw;
+    transition: 0.5s; 
   }
 }
