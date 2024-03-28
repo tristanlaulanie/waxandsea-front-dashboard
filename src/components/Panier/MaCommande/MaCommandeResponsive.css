@@ -231,10 +231,10 @@
 @media screen and (width <= 1230px) {
 
   #command_texts{
-    border: 2px dotted red;
-    font-size: 0.8em;
+    /* border: 2px dotted red; */
+    font-size: 0.9em;
     transition: 0.5s;
-    height: 20vh;
+    height: 14vh;
     width: 105%;
     position: relative;
     bottom: 1vh;
@@ -246,6 +246,15 @@
     bottom: 1vh; 
   }
 
+  #commande_total-achats {
+    margin-bottom: 3vh;
+  }
+
+  .total_purchases {
+    position: relative;
+    bottom: 4.5vh;
+  }
+
   #shipping-fees_title {
     width: 13vw;
     position: relative;
@@ -254,8 +263,37 @@
 
   .fees_price {
     position: relative;
-    bottom: 4vh;
+    bottom: 3.5vh;
     left: 5vw;
+    margin-bottom: 2vh;
     transition: 0.5s; 
+  }
+
+  #free-shipping {
+    margin-bottom: 2vh;
+  }
+
+  #achats_panier_buttons button {
+    position: relative;
+    left: 6vw;
+  }
+}
+
+@media screen and (width <= 1101px) {
+  #command_texts {
+    font-size: 0.8em;
+    height: 15vh;
+  }
+  #purchases-amout_title {
+    /* border: 2px dotted red; */
+    width: 13vw;
+  }
+
+  #achats_panier_buttons button {
+    padding-top: 0.4vh;
+    padding-bottom: 0.4vh;
+    padding-left: 0.2vw;
+    padding-right: 0.2vw;
+    height: 7vh;
   }
 }

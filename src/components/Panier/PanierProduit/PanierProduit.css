@@ -142,7 +142,7 @@ h1 {
 
 #produit_quantity {
     position: relative;
-    top: 1.2vh;
+    top: -1.5vh;
     height: 6.8vh;
     width: 43%;
     padding: 8px;
@@ -155,7 +155,7 @@ h1 {
 .quantity_operator {
     font-size: 2em;
     position: relative;
-    top: -4vh;
+    top: -2.5vh;
 }
 
 .quantity_operator:hover {
@@ -165,7 +165,7 @@ h1 {
 
 .quantity_number {
     position: relative;
-    top: -1vh;
+    top: 0vh;
 }
 
 #produit_delete {
@@ -204,7 +204,7 @@ h1 {
 
 #valid_button button {
     position: relative;
-    top: 4vh;
+    top: -4vh;
     border: 3px solid black;
     border-radius: 4px;
     width: 12vw;
@@ -214,7 +214,7 @@ h1 {
     color: white;
     background-color: rgba(1, 185, 148, 0.776);
     position: relative;
-    right: 3.5%;
+    right: -1.5vw;
     margin-top: 4vh;
 }
 
@@ -222,4 +222,9 @@ h1 {
     cursor: pointer;
     background-color: black;
     transition: 0.8s;
+}
+
+#panier-produit_commande_component {
+    position: relative;
+    top: -8.8vh;
 }

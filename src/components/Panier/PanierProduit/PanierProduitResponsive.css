@@ -1,3 +1,23 @@
+@media screen and (width <= 1905px) {
+  #valid_button button {
+    top: 1vh;
+  }
+}
+
+@media screen and (width <= 1750px) {
+  #valid_button button {
+    top: -1vh;
+    right: 4%;
+  }
+}
+
+@media screen and (width <= 1445px) {
+  #valid_button button {
+    top: -3vh;
+  }
+
+}
+
 @media screen and (width <= 1180px) {
   #panier_title-icon-button {
     position: relative;
@@ -11,3 +31,42 @@
     right: 7.5vw;
   }
 }
+
+@media screen and (width <= 790px) {
+    #panier_title-icon-button {
+      left: -25vw;
+    }
+  }
+
+  @media screen and (width <= 670px) {
+    #panier_title-icon-button button {
+        display: inline-block;
+        padding: 5px;
+    }
+  }
+
+  @media screen and (width <= 650px) {
+    #panier_title-icon-button button {
+        padding: 3px;
+        font-size: 22px;
+    }
+  }
+  
+  @media screen and (width <= 645px) {
+    #panier_title-icon-button button {
+        padding: 3px;
+        position: relative;
+        font-size: 22px;
+    }
+  } 
+
+  @media screen and (width <= 500px) {
+    #panier_title-icon-button {
+        position: relative;
+        left: -28vw;
+    }
+    
+    #panier_title-icon-button button {
+        font-size: 20px;
+    }
+  }
