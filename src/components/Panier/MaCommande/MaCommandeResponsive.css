@@ -284,6 +284,7 @@
     font-size: 0.8em;
     height: 15vh;
   }
+
   #purchases-amout_title {
     /* border: 2px dotted red; */
     width: 13vw;
@@ -295,5 +296,101 @@
     padding-left: 0.2vw;
     padding-right: 0.2vw;
     height: 7vh;
+  }
+}
+
+@media screen and (width <= 1054px) {
+
+  #commande_total-achats {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 2vh;
+  }
+
+  #purchases-amout_title {
+    width: 14vw;
+    position: relative;
+    left: 4vw;
+  }
+
+  .total_purchases {
+    position: relative;
+    left: -4vw;
+  }
+}
+
+@media screen and (width <= 979px) {
+  #purchases-amout_title {
+    width: 15vw;
+  }
+}
+
+@media screen and (width <= 932px) {
+  .total_purchases {
+    width: 11vw;
+  }
+
+  .fees_price {
+    width: 11vw;
+  }
+
+  #commande_total {
+    margin-bottom: 3vh;
+  }
+
+  #total-command_amount {
+    width: 6vw;
+  }
+}
+
+@media screen and (width <= 914px) {
+  #purchases-amout_title {
+    width: 16vw;
+  }
+}
+
+@media screen and (width <= 857px) {
+  #purchases-amout_title {
+    width: 17vw;
+  }
+
+  .total_purchases {
+    left: -3vw;
+    width: 13vw;
+  }
+}
+
+@media screen and (width <= 857px) {
+  .fees_price {
+    width: 12vw;
+  }
+}
+
+@media screen and (width <= 806px) {
+  #purchases-amout_title {
+    width: 18vw;
+  }
+
+  .total_purchases {
+    width: 14vw;
+  }
+}
+
+@media screen and (width <= 778px) {
+  .fees_price {
+    width: 14vw;
+    position: relative;
+    top: -30px;
+    left: 3vw;
+  }
+
+  #total-command_amount {
+    width: 8vw;
+  }
+}
+
+@media screen and (width <= 760px) {
+  #purchases-amout_title {
+    width: 19vw;
   }
 }
