@@ -37,7 +37,7 @@ function PanierProduit() {
                 <h3>Nom du produit</h3>
                 <div id="produit_text">
                   <p id="produit_text_ref">Référence : xxx</p>
-                  <p id="produit_text_price">Prix unitaire : Prix €</p>
+                  <p id="produit_text_price">Prix unitaire : <br/> Prix €</p>
                 </div>
               </div>
               <div id="section-produit_quantity">

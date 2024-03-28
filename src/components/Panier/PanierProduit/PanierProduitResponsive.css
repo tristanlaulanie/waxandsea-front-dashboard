@@ -11,16 +11,21 @@
   }
 }
 
+@media screen and (width <= 1740px) {
+  #panier_title-icon-button {
+    right: 7.5vw;
+  }
+}
+
 @media screen and (width <= 1445px) {
   #valid_button button {
     top: -3vh;
   }
-
 }
 
 @media screen and (width <= 1255px) {
   #produit_delete {
-    top: -6vh;
+    top: -10vh;
     width: 30%;
     left: 17vw;
   }
@@ -55,57 +60,86 @@
     width: 18vw;
     left: -4.5vw;
   }
+
+  #produit_delete {
+    left: 17vw;
+    top: -6.5vh;
+  }
+
+  #produit_quantity {
+    width: 13vw;
+    top: -2vh;
+  }
 }
 
-@media screen and (width <= 1740px) {
-  #panier_title-icon-button {
-    right: 7.5vw;
+@media screen and (width <= 950px) {
+  #section-produit_total {
+    position: relative;
+    left: -4vw;
+  }
+
+  #produit_text_price {
+    left: -7vw;
+  }
+
+  #produit_delete {
+    left: 14.5vw;
+  }
+}
+
+@media screen and (width <= 854px) {
+  #produit_text_ref {
+    width: 16vw;
+  }
+
+  #section-produit_total {
+    position: relative;
+    left: -10vw;
   }
 }
 
 @media screen and (width <= 790px) {
-    #panier_title-icon-button {
-      left: -25vw;
-    }
-
-    #section-produit_total {
-      /* border: 1px solid red; */
-      width: 23vw;
-      position: relative;
-      left: -2vw;
-    }
-
+  #panier_title-icon-button {
+    left: -25vw;
   }
 
-  @media screen and (width <= 670px) {
-    #panier_title-icon-button button {
-        display: inline-block;
-        padding: 5px;
-    }
+  #section-produit_total {
+    /* border: 1px solid red; */
+    width: 23vw;
+    position: relative;
+    left: -2vw;
+  }
+}
+
+@media screen and (width <= 670px) {
+  #panier_title-icon-button button {
+    display: inline-block;
+    padding: 5px;
+  }
+}
+
+@media screen and (width <= 650px) {
+  #panier_title-icon-button button {
+    padding: 3px;
+    font-size: 22px;
+  }
+}
+
+@media screen and (width <= 645px) {
+  #panier_title-icon-button button {
+    padding: 3px;
+    position: relative;
+    font-size: 22px;
+  }
+}
+
+@media screen and (width <= 500px) {
+  #panier_title-icon-button {
+    position: relative;
+    left: -28vw;
   }
 
-  @media screen and (width <= 650px) {
-    #panier_title-icon-button button {
-        padding: 3px;
-        font-size: 22px;
-    }
+  #panier_title-icon-button button {
+    font-size: 20px;
   }
-  
-  @media screen and (width <= 645px) {
-    #panier_title-icon-button button {
-        padding: 3px;
-        position: relative;
-        font-size: 22px;
-    }
-  } 
-
-  @media screen and (width <= 500px) {
-    #panier_title-icon-button {
-        position: relative;
-        left: -28vw;
-    }
-    
-    #panier_title-icon-button button {
-        font-size: 20px;
-    }
-  }
+}

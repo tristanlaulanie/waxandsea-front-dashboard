@@ -135,6 +135,10 @@ h1 {
     gap: 8vw;
 }
 
+#produit_text_price {
+    text-align: left;
+}
+
 .section-produit_text-img p {
     /* border: 3px solid red; */
     font-size: 1.8em;
@@ -142,9 +146,9 @@ h1 {
 
 #produit_quantity {
     position: relative;
-    top: -1.5vh;
+    top: -5vh;
     height: 6.8vh;
-    width: 43%;
+    width: 48%;
     padding: 8px;
     font-size: 2em;
     display: flex;
@@ -172,8 +176,8 @@ h1 {
     font-size: 1.9em;
     font-weight: bold;
     position: relative;
-    left: 15vw;
-    top: -2.2vw;
+    left: 14vw;
+    top: -10vh;
     border: 1px dashed black;
     width: 7vw;
 }
