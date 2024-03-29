@@ -47,7 +47,7 @@ h1 {
     padding: 0;
     margin: 0;
     position: relative;
-    top: -15.2vh;
+    top: -23.6vh;
     /* border: 3px solid red; */
     height: 42.5vh;
     width: 70%;
@@ -159,7 +159,7 @@ h1 {
 .quantity_operator {
     font-size: 2em;
     position: relative;
-    top: -2.5vh;
+    top: -4vh;
 }
 
 .quantity_operator:hover {
@@ -169,7 +169,7 @@ h1 {
 
 .quantity_number {
     position: relative;
-    top: 0vh;
+    top: -1vh;
 }
 
 #produit_delete {
@@ -206,20 +206,24 @@ h1 {
     top: -7vh;
 }
 
-#valid_button button {
+#command_component {
+    /* border: 2px dotted red; */
+    /* height: 20vh; */
     position: relative;
-    top: -4vh;
+    margin-top: 20vh;
+}
+
+#valid_button button {
     border: 3px solid black;
     border-radius: 4px;
     width: 12vw;
-    height: 6vh;
+    height: 7vh;
     font-size: 24px;
     font-weight: bold;
-    color: white;
+    color: #ffffff;
     background-color: rgba(1, 185, 148, 0.776);
     position: relative;
-    right: -1.5vw;
-    margin-top: 4vh;
+    right: -2vw;
 }
 
 #valid_button button:hover {
