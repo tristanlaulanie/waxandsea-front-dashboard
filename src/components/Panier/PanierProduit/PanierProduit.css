@@ -1,7 +1,7 @@
 .PanierProduit {
     margin-top: 25vh;
     /* border: 4px solid #c314e6; */
-    height: 96vh;
+    height: 130vh;
     width: 99.2vw;
     padding-left: 5em;
     padding-right: 5em;
@@ -11,12 +11,24 @@ h1 {
     font-size: 3.1em;
 }
 
+#user-story-titles_panier {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 4vh;
+    /* border: 1px solid red; */
+
+}
+
 #panier_user-story {
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
     margin-top: 4vh;
+    /* border: 1px solid red; */
 }
 
 #panier_user-story h2 {
@@ -31,7 +43,7 @@ h1 {
     border-bottom: 3px solid black;
 }
 
-.user-story-titles {
+.panier_user-story-titles {
     border-bottom: 5px dotted grey;
     margin-left: 5px;
 }

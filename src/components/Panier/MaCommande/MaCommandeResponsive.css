@@ -296,6 +296,14 @@
     padding-left: 0.2vw;
     padding-right: 0.2vw;
     height: 7vh;
+    width: 15vw;
+    font-size: 1em;
+  }
+}
+
+@media screen and (width <= 1020px) {
+  #achats_panier_buttons button {
+    width: 16vw;
   }
 }
 
@@ -322,6 +330,19 @@
 @media screen and (width <= 979px) {
   #purchases-amout_title {
     width: 15vw;
+  }
+}
+
+@media screen and (width <= 955px) {
+  #achats_panier_buttons button {
+    width: 18vw;
+
+  }
+}
+
+@media screen and (width <= 965px) {
+  #total-command_amount {
+    width: 8vw;
   }
 }
 
@@ -366,13 +387,28 @@
   }
 }
 
+@media screen and (width <= 850px) {
+  #achats_panier_buttons button {
+    width: 19vw;
+
+  }
+}
+
 @media screen and (width <= 806px) {
   #purchases-amout_title {
     width: 18vw;
   }
 
+  #total-command_amount {
+    width: 8vw;
+  }
+
   .total_purchases {
     width: 14vw;
+  }
+
+  #achats_panier_buttons button {
+    width: 21vw;
   }
 }
 
@@ -392,5 +428,45 @@
 @media screen and (width <= 760px) {
   #purchases-amout_title {
     width: 19vw;
+  }
+}
+
+@media screen and (width <= 740px) {
+  #shipping-fees_title {
+    position: relative;
+    margin-top: 2vh;
+    bottom: 2vh;
+    left: -8vw;
+  }
+  
+  .fees_price {
+    position: relative;
+    top: -2vh;
+    left: -8vw;
+    margin-bottom: 35px;
+  }
+
+  #commande_frais-de-ports {
+    position: relative;
+    left: 12.5vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+}
+
+@media screen and (width <= 726px) {
+  #achats_panier_buttons button {
+    width: 22vw;
+
+  }
+}
+
+@media screen and (width <= 721px) {
+  #purchases-amout_title {
+    width: 21vw;
+    position: relative;
+    left: 2.5vw;
   }
 }

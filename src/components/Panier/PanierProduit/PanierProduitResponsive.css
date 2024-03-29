@@ -157,6 +157,20 @@
     flex-direction: row;
     gap: 5.5vw;
   }
+
+  #panier-produit_commande_component {
+    position: relative;
+    left: 25vw;
+  }
+
+  #valid_button button {
+    margin-top: 5vh;
+    margin-bottom: 20vh;
+    width: 20vw;
+    position: relative;
+    left: 3vw;
+    
+  }
 }
 
 @media screen and (width <= 752px) {
@@ -170,6 +184,12 @@
 
   #section-produit_total {
     position: sticky;
+  }
+}
+
+@media screen and (width <= 740px) {
+  .shipping-title {
+    position: relative;
   }
 }
 
@@ -214,6 +234,12 @@
     width: 20vw;
   }
 }
+
+@media screen and (width <= 630px) {
+  #user-story-titles_panier {
+    font-size: 0.85em;
+  }
+} 
 
 @media screen and (width <= 670px) {
   #panier_title-icon-button button {
@@ -279,6 +305,12 @@
   #section-produit_total {
     position: relative;
     left: -23vw;
+  }
+}
+
+@media screen and (width <= 540px) {
+  #user-story-titles_panier {
+    font-size: 0.7em;
   }
 }
 

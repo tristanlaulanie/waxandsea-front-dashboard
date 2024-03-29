@@ -21,7 +21,7 @@ function MaCommande() {
               </p>
             </div>
             <div id="commande_frais-de-ports">
-              <p id="shipping-fees_title">Frais de port : </p>
+              <p id="shipping-fees_title">Frais de port :</p> 
               <div className="fees_price total_fees_command">
                 Frais de port €
               </div>

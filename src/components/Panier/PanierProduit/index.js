@@ -14,10 +14,12 @@ function PanierProduit() {
     <div className="PanierProduit">
       <h1>Mon Panier</h1>
       <container id="panier_user-story">
-        <h2 id="panier-title-story">Panier</h2>
-        <h2 className="user-story-titles">Coordonnées</h2>
-        <h2 className="user-story-titles">Livraison</h2>
-        <h2 className="user-story-titles">Paiement</h2>
+        <div id="user-story-titles_panier">
+          <h2 id="panier-title-story">Panier</h2>
+          <h2 className="panier_user-story-titles">Coordonnées</h2>
+          <h2 className="panier_user-story-titles shipping-title">Livraison</h2>
+          <h2 className="panier_user-story-titles">Paiement</h2>
+        </div>
       </container>
       <div id="mon-panier_produit_commande">
         <div id="mon-panier_produit">
@@ -37,7 +39,9 @@ function PanierProduit() {
                 <h3>Nom du produit</h3>
                 <div id="produit_text">
                   <p id="produit_text_ref">Référence : xxx</p>
-                  <p id="produit_text_price">Prix unitaire : <br/> Prix €</p>
+                  <p id="produit_text_price">
+                    Prix unitaire : <br /> Prix €
+                  </p>
                 </div>
               </div>
               <div id="section-produit_quantity">
@@ -51,7 +55,7 @@ function PanierProduit() {
             </div>
             <div id="section-produit_total">
               <p>
-                  Total___€ <br></br> par article{"(s)"}
+                Total___€ <br></br> par article{"(s)"}
               </p>
             </div>
           </section>
