@@ -6,8 +6,8 @@
 
 @media screen and (width <= 1750px) {
   #valid_button button {
-    top: -9vh;
-    right: 7%;
+    top: -1vh;
+    right: 4%;
   }
 }
 
@@ -19,7 +19,7 @@
 
 @media screen and (width <= 1445px) {
   #valid_button button {
-    top: -9vh;
+    top: -3vh;
   }
 }
 
@@ -44,12 +44,6 @@
     /* border: 3px dotted red; */
     font-size: 0.85em;
     width: 100%;
-  }
-
-  #valid_button button {
-    top: -11vh;
-    right: 7%;
-    height: 9vh;
   }
 }
 

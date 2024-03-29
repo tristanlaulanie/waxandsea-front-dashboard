@@ -37,9 +37,7 @@ function PanierProduit() {
                 <h3>Nom du produit</h3>
                 <div id="produit_text">
                   <p id="produit_text_ref">Référence : xxx</p>
-                  <p id="produit_text_price">
-                    Prix unitaire : <br /> Prix €
-                  </p>
+                  <p id="produit_text_price">Prix unitaire : <br/> Prix €</p>
                 </div>
               </div>
               <div id="section-produit_quantity">
@@ -53,15 +51,13 @@ function PanierProduit() {
             </div>
             <div id="section-produit_total">
               <p>
-                Total___€ <br></br> par article{"(s)"}
+                  Total___€ <br></br> par article{"(s)"}
               </p>
             </div>
           </section>
         </div>
         <div id="panier-produit_commande_component">
-          <div id="command_component">
-            <MaCommande />
-          </div>
+          <MaCommande />
           <div id="valid_button">
             <Link to="/panier/coordonnees">
               <button type="submit">VALIDER MON PANIER</button>
