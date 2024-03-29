@@ -20,11 +20,11 @@ function PanierProduit() {
         <h2 className="user-story-titles">Paiement</h2>
       </container>
       <div id="mon-panier_produit_commande">
-        <container id="mon-panier_produit">
+        <div id="mon-panier_produit">
           <section id="panier_container_title">
             <h3>Mon Panier</h3>
             <div id="panier_title-icon-button">
-              <div>
+              <div id="panier_title-icon">
                 <FontAwesomeIcon icon={faTrash} />
               </div>
               <button>Vider mon panier</button>
@@ -55,7 +55,7 @@ function PanierProduit() {
               </p>
             </div>
           </section>
-        </container>
+        </div>
         <div id="panier-produit_commande_component">
           <MaCommande />
           <div id="valid_button">
