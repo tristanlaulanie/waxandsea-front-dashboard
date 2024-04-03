@@ -1,7 +1,7 @@
 .PanierProduit {
     margin-top: 25vh;
     /* border: 4px solid #c314e6; */
-    height: 130vh;
+    height: 145vh;
     width: 99.2vw;
     padding-left: 5em;
     padding-right: 5em;
@@ -19,7 +19,6 @@ h1 {
     align-items: center;
     margin-top: 4vh;
     /* border: 1px solid red; */
-
 }
 
 #panier_user-story {
@@ -158,7 +157,7 @@ h1 {
 
 #produit_quantity {
     position: relative;
-    top: -5.5vh;
+    top: -3.5vh;
     height: 6.8vh;
     width: 48%;
     padding: 8px;

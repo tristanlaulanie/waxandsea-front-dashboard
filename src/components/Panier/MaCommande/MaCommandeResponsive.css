@@ -470,3 +470,132 @@
     left: 2.5vw;
   }
 }
+
+@media screen and (width <= 690px) {
+  #achats_panier_buttons button {
+    height: 10vh;
+  }
+}
+
+@media screen and (width <= 666px) {
+  .total_purchases {
+    width: 16vw;
+  }
+  
+  .fees_price {
+    width: 16vw;
+  } 
+
+  #free-shipping {
+    top: -11vh;
+  }
+}
+
+@media screen and (width <= 652px) {
+  #purchases-amout_title {
+    width: 22vw;
+  }
+}
+
+@media screen and (width <= 625px) {
+  #purchases-amout_title {
+    width: 23vw;
+  }
+}
+
+@media screen and (width <= 602px) {
+  #purchases-amout_title {
+    width: 24vw;
+  }
+
+  #total-command_amount {
+    width: 9vw;
+  }
+
+  #tva-title {
+    width: 10vw;
+  }
+}
+
+@media screen and (width <= 595px) {
+  #purchases-amout_title {
+    width: 24vw;
+  }
+
+  #total-command_amount {
+    width: 9vw;
+  }
+
+  #tva-title {
+    width: 10vw;
+  }
+}
+
+@media screen and (width <= 588px) {
+  #shipping-fees_title {
+    text-align: left;
+    padding-right: 2vw;
+  }
+
+  #purchases-amout_title {
+    width: 24vw;
+  }
+
+  #total-command_amount {
+    width: 9vw;
+  }
+
+  #tva-title {
+    width: 10vw;
+  }
+}
+
+@media screen and (width <= 582px) {
+  .total_purchases {
+    width: 18vw;
+  }
+
+  .fees_price {
+    width: 20vw;
+  }
+}
+
+@media screen and (width <= 572px) {
+  #purchases-amout_title {
+    width: 25vw;
+  }
+
+  #total-command_amount {
+    width: 10vw;
+  }
+
+  #tva-title {
+    width: 11vw;
+  }
+}
+
+@media screen and (width <= 550px) {
+  #purchases-amout_title {
+    width: 26vw;
+  }
+}
+
+@media screen and (width <= 527px) {
+  #purchases-amout_title {
+    width: 27vw;
+  }
+}
+
+@media screen and (width <= 517px) {
+  .total_purchases {
+    width: 29.5vw;
+  }
+}
+
+@media screen and (width <= 507px) {
+  #purchases-amout_title {
+    width: 28vw;
+  }
+}
+
+
