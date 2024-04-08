@@ -1,0 +1,109 @@
+@media screen and (width <= 1530px) {
+  #social-status_form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: left;
+  }
+
+  #social-status_title {
+    position: relative;
+    left: -0.2em;
+  }
+
+  #company_name {
+    position: relative;
+  }
+
+  #company-name_form {
+    padding: 0;
+    width: 60.8em;
+    /* border: 2px solid red; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: left;
+    position: relative;
+    left: -1vw;
+  }
+
+  #company-name_form_container {
+    position: relative;
+    left: -14.8vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: left;
+    flex-wrap: wrap;
+  }
+
+  #company_name_label {
+    position: sticky;
+  }
+
+  #company-name_form input {
+    position: relative;
+    left: 15vw;
+    width: 63vw;
+  }
+
+  #billing-adress_title {
+    position: relative;
+    left: -18vw;
+  }
+
+  #street-name-number label {
+    position: relative;
+    left: -13.5vw;
+  }
+
+  #postal-code label {
+    position: relative;
+    left: -3.5vw;
+  }
+
+  #billing-adress_country {
+    position: relative;
+    left: -15vw;
+  }
+
+  #billing-city label {
+    position: relative;
+    left: -8vw;
+  }
+
+  #billing_phone-number label {
+    position: relative;
+    left: -4vw;
+  }
+
+  #billing_email-adress label {
+    position: relative;
+    left: 0;
+  }
+
+  #billing_adress_form {
+    position: relative;
+    left: -3vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: left;
+  }
+
+  #delivery_adress_form {
+    position: relative;
+    left: -3vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: left;
+  }
+
+  #confirm_button button {
+    position: relative;
+    top: 4vh;
+    left: 1vw;
+    height: 10vh;
+  }
+}

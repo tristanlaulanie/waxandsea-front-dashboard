@@ -1,6 +1,6 @@
-.PanierCoordonnes {
+.PanierCoordonnees {
     margin-top: 20vh;
-    height: 250vh;
+    height: 280vh;
     width: 99.2vw;
     padding-left: 5em;
     padding-right: 5em;
@@ -11,12 +11,13 @@
     flex-direction: row;
     align-items: right;
     justify-content: space-between;
+    flex-wrap: wrap;
 }
 
 form {
     /* border: 3px solid red; */
     position: relative;
-    top: 2vh;
+    top: 20px;
     right: -0.5%;
 }
 
@@ -31,7 +32,7 @@ form input {
     font-weight: bold;
     text-align: left;
     position: relative;
-    right: 160%;
+    right: 35%;
 }
 
 #panier_user-story {
@@ -94,7 +95,8 @@ form input {
 }
 
 #company-name_form input {
-    width: 222%;
+    /* width: 222%; */
+    width: 50vw;
     position: relative;
     left: 61%;
 }
