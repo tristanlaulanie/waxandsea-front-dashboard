@@ -32,8 +32,8 @@ function PanierCoordonnees() {
                 <label htmlFor="first_name">Prénom * :</label>
                 <input type="text" id="first_name" name="first_name" required />
               </div>
-              <div>
-                <label htmlFor="last_name">Nom * :</label>
+              <div id="last-name_label_input">
+                <label id="last_name_label" htmlFor="last_name">Nom * :</label>
                 <input type="text" id="last_name" name="last_name" required />
               </div>
             </section>
