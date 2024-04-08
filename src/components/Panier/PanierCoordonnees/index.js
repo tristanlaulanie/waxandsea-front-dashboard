@@ -39,10 +39,16 @@ function PanierCoordonnees() {
             </section>
             <section id="company-name_form">
               <div id="company-name_form_container">
-                <label id="company_name_label" htmlFor="company_name">
-                  Nom de l'entreprise (facultatif):
-                </label>
-                <input type="text" id="company_name_input" name="company_name" />
+                <div id="company-name_label_input">
+                  <label id="company_name_label" htmlFor="company_name">
+                    Nom de l'entreprise (facultatif):
+                  </label>
+                  <input
+                    type="text"
+                    id="company_name_input"
+                    name="company_name"
+                  />
+                </div>
               </div>
             </section>
           </div>

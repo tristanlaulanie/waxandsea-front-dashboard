@@ -1,6 +1,19 @@
-@media screen and (width <= 2000px) {
+
+
+@media screen and (width <= 2400px) {
   #valid_button button {
     top: 8px;
+    margin-top: 30px;
+  }
+
+  #produit_quantity {
+    position: relative;
+    top: -50px;
+  }
+
+  #panier-produit_commande_component {
+    position: relative;
+    top: -84px;
   }
 }
 @media screen and (width <= 1760px) {
@@ -41,6 +54,20 @@
   #panier-produit_commande_component {
     position: relative;
     top: -81px;
+  }
+}
+
+
+
+@media screen and (width <= 1456px) {
+  #valid_button button {
+    top: -5px;
+  }
+}
+
+@media screen and (width <= 1454px) {
+  #valid_button button {
+    top: -40px;
   }
 }
 
