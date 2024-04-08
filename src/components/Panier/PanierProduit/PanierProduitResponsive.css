@@ -1,7 +1,13 @@
 @media screen and (width <= 2000px) {
   #valid_button button {
-    top: 3vh;
+    top: 8px;
   }
+}
+@media screen and (width <= 1760px) {
+  #valid_button button {
+    right: 4%;
+  }
+
 }
 
 @media screen and (width <= 1750px) {
@@ -20,27 +26,27 @@
 @media screen and (width <= 1530px) {
   .quantity_number {
     position: relative;
-    top: -1vh;
+    top: 0px;
   }
 
   .quantity_operator {
     position: relative;
-    top: -4vh;
+    top: -25px;
   }
 
   #valid_button button {
-    top: 4vh;
+    top: -20px;
   }
 
   #panier-produit_commande_component {
     position: relative;
-    top: -6.9vh;
+    top: -81px;
   }
 }
 
 @media screen and (width <= 1445px) {
   #valid_button button {
-    top: 4vh;
+    top: -40px;
     left: -15px;
   }
 }
@@ -75,7 +81,7 @@
   }
 
   #valid_button button {
-    top: 2vh;
+    top: -55px;
     left: 0.5vw;
     width: 15vw;
   }
@@ -83,7 +89,7 @@
 
 @media screen and (width <= 1055px) {
   #valid_button button {
-    top: 6.5vh;
+    top: -18px;
     left: 0.5vw;
     width: 15vw;
   }
@@ -232,6 +238,10 @@
   .shipping-title {
     position: relative;
   }
+
+  #valid_button button {
+    top: 5px;
+  } 
 }
 
 @media screen and (width <= 720px) {
@@ -255,9 +265,13 @@
   }
 }
 
-@media screen and (width <= 678px) {
+@media screen and (width <= 680px) {
   #shipping-fees_title {
     width: 15vw;
+  }
+
+  #valid_button button {
+    top: 25px;
   }
 }
 
