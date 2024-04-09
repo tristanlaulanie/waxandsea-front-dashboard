@@ -1,13 +1,29 @@
 @media screen and (width <= 2400px) {
-  
+  #social-status_title {
+    left: -0.6vw;
+  }
+
   #last_name_label {
     position: relative;
     left: -0.2em;
   }
 
+  #first-name_label_input {
+    /* border: 2px dashed red; */
+    height: 70px;
+  }
+
   #last-name_label_input {
     position: relative;
-    left: -1vw;
+    left: 0.5vw;
+    /* border: 2px dashed red; */
+    width: 28vw;
+    height: 70px;
+  }
+
+  #firstname-lastname_form {
+    /* border: 2px dashed red; */
+    width: 98%;
   }
 
   #company-name_form_container {
@@ -44,7 +60,6 @@
   #confirm_button button {
     position: relative;
     left: 3.3vw;
-  
   }
 
   #billing-adress_form {
@@ -58,7 +73,58 @@
 
   #delivery-adress_form {
     left: 5vw;
-  
+  }
+}
+
+@media screen and (width <= 1760px) {
+  #confirm_button {
+    position: relative;
+    top: 10px;
+    left: -2.2vw;
+  }
+}
+
+@media screen and (width <= 1627px) {
+  #confirm_button button {
+    height: 70px;
+  }
+}
+
+@media screen and (width <= 1610px) {
+  #last-name_label_input {
+    /* border: 2px dashed red; */
+    width: 28vw;
+  }
+
+  #last-name_label_input-container {
+    /* border: 2px dotted blue; */
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    width: 27vw;
+    height: 58px;
+    position: relative;
+    top: 7px;
+    left: 0.5vw;
+  }
+
+  #last_name_label {
+    /* border: 2px dotted blue; */
+    width: 28vw;
+    top: -2px;
+  }
+
+  #last_name_input {
+    /* border: 2px solid red;  */
+    width: 80vw;
+    top: -2px;
+  }
+}
+
+@media screen and (width <= 1540px) {
+  #last_name_label {
+    /* border: 2px dotted blue; */
+    width: 29vw;
   }
 }
 
@@ -101,14 +167,13 @@
     position: relative;
     top: 40px;
     left: 0;
-    height: 110px; 
+    height: 110px;
     width: 64vw;
-    padding: 0 15px; /* Ajout de padding pour l'esthétique */
+    padding: 0 15px;
     display: flex;
     flex-direction: column;
-    justify-content: flex-start; 
-    align-items: flex-start; 
-    
+    justify-content: flex-start;
+    align-items: flex-start;
   }
 
   #company-name_label_input {
@@ -118,7 +183,6 @@
   }
 
   #company-name_form_container label {
-    border: 2px dotted blue;
     position: absolute;
     top: -105px;
     left: 15vw;
@@ -185,9 +249,188 @@
 
   #confirm_button button {
     position: relative;
-    top: 4vh;
+    top: -30px;
+    left: 3.2vw;
+    height: 80px;
+  }
+}
+
+@media screen and (width <= 1500px) {
+  #social-status_title {
+    position: relative;
+    left: 3.5vw;
+  }
+
+  #firstname-lastname_form {
+    left: 2.5vw;
+  }
+
+  #first-name_label_input_container {
+    /* border: 2px dotted blue; */
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    height: 65px;
+    padding: 5px;
+  }
+
+  #first-name_label_input label {
+    /* border: 2px dashed blue; */
+    width: 10vw;
+  }
+
+  #last-name_label_input {
+    /* border: 2px dashed red; */
+    width: 35vw;
+    display: flex;
+    gap: 0;
+  }
+
+  #last_name_label {
+    display: inline;
+    /* border: 2px dashed rgb(164, 90, 229); */
+    width: 28vw;
+    text-align: left;
+    margin: 0;
+    position: relative;
+    left: 0;
+  }
+
+  #last_name_input {
+    position: relative;
+    left: 3vw;
+  }
+
+  #company-name_label_input {
+    left: -12.1vw;
+  }
+
+  #company-name_label_input input {
+    width: 66vw;
+  }
+
+  .command_component_coordonnees {
+    left: -4.5vw;
+  }
+}
+
+@media screen and (width <= 1354px) {
+  #social-status_title {
+    position: absolute;
+    top: -1em;
+    left: 1.5em;
+  }
+
+  #company-name_form {
+    position: relative;
+    top: -10px;
+  }
+
+  #first-name_label {
+    position: relative;
+    left: 1.5vw;
+  }
+
+  #last-name_label_input-container {
+    position: relative;
+    left: -1.8vw;
+  }
+}
+
+@media screen and (width <= 1349px) {
+  #last-name_label_input-container {
+    width: 31vw;
+  }
+
+  #last_name_input {
+    top: 0.3px;
+    left: 0vw;
+  }
+}
+
+@media screen and (width <= 1270px) {
+  #firstname-lastname_form {
+    top: 0;
+    left: 3vw;
+  }
+
+  #company-name_form {
+    top: -22px;
     left: 1vw;
-    height: 10vh;
+  }
+}
+
+@media screen and (width <= 1257px) {
+  #first-name_label_input_container {
+    /* border: 2px dashed darkmagenta; */
+    width: 32vw;
+    position: relative;
+    left: 1vw;
+  }
+
+  #first-name_label_input_container label {
+    /* border: 2px dotted blue; */
+    left: 0;
+    display: inline-block;
+    width: 1200px;
+    margin: 0;
+  }
+
+  #company-name_label_input input {
+    width: 63vw;
+  }
+}
+
+@media screen and (width <= 1230px) {
+  #first-name_label_input_container label {
+    /* border: 3px dotted darkmagenta; */
+    width: 12vw;
+  }
+  #company-name_form {
+    top: -8px;
+    left: 0;
+  }
+}
+
+@media screen and (width <= 1180px) {
+
+  #first-name_label_input_container label,
+  #last-name_label_input-container label {
+    font-size: 2.3em;
+    top: 5px;
+  }
+}
+
+@media screen and (width <= 1160px) {
+  #social-status_title {
+    left: 1.5vw;
+  }
+
+  #firstname-lastname_form {
+    display: flex;
+    flex-direction: column;
+    justify-content: baseline;
+    align-items: flex-start;
+  }
+
+  #first-name_label_input {
+    position: relative;
+    left: -3.5vw;
+    display: flex;
+  }
+
+  #first-name_label_input_container input {
+    position: relative;
+    left: -1em;
+  }
+} 
+
+@media screen and (width <= 1100px) {
+  #confirm_button button {
+    height: 85px;
+    width: 59%;
+    left: 4.9vw;
+    top: -60px;
   }
 }
 
@@ -195,5 +438,31 @@
   #company-name_form_container label {
     width: 100%;
     text-align: left;
+  }
+}
+
+@media screen and (width <= 1054px) {
+  #confirm_button button {
+    height: 85px;
+    width: 60.5%;
+    left: 4.7vw;
+    top: -30px;
+  }
+}
+
+@media screen and (width <= 861px) {
+  #confirm_button button {
+    height: 100px;
+    width: 71%;
+    left: 6vw;
+  }
+}
+
+@media screen and (width <= 740px) {
+  #confirm_button button {
+    height: 100px;
+    width: 84%;
+    left: 7.8vw;
+    top: 10px;
   }
 }

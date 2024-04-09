@@ -28,13 +28,29 @@ function PanierCoordonnees() {
           <div id="social-status_form">
             <h3 id="social-status_title">Dénomination sociale :</h3>
             <section id="firstname-lastname_form">
-              <div>
-                <label htmlFor="first_name">Prénom * :</label>
-                <input type="text" id="first_name" name="first_name" required />
+              <div id="first-name_label_input">
+                <div id="first-name_label_input_container">
+                  <label id="first-name_label" htmlFor="first_name">Prénom * :</label>
+                  <input
+                    type="text"
+                    id="first_name"
+                    name="first_name"
+                    required
+                  />
+                </div>
               </div>
               <div id="last-name_label_input">
-                <label id="last_name_label" htmlFor="last_name">Nom * :</label>
-                <input type="text" id="last_name" name="last_name" required />
+                <div id="last-name_label_input-container">
+                  <label id="last_name_label" htmlFor="last_name">
+                    Nom * :
+                  </label>
+                  <input
+                    type="text"
+                    id="last_name_input"
+                    name="last_name"
+                    required
+                  />
+                </div>
               </div>
             </section>
             <section id="company-name_form">
