@@ -1,5 +1,4 @@
 
-
 @media screen and (width <= 2400px) {
   #valid_button button {
     top: 8px;
@@ -37,9 +36,14 @@
 }
 
 @media screen and (width <= 1530px) {
+  #produit_quantity {
+    position: relative;
+    top: -30px;
+  }
+
   .quantity_number {
     position: relative;
-    top: 0px;
+    top: -5px;
   }
 
   .quantity_operator {
@@ -48,7 +52,8 @@
   }
 
   #valid_button button {
-    top: -20px;
+    top: 26px;
+    left: -1.1vw;
   }
 
   #panier-produit_commande_component {

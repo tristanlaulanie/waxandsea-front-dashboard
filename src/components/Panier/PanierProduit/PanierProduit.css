@@ -219,7 +219,6 @@ h1 {
 
 #valid_button button {
     position: relative;
-    top: -3vh;
     border: 3px solid black;
     border-radius: 4px;
     width: 12vw;
