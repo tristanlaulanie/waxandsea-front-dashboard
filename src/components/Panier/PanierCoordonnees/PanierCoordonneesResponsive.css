@@ -46,6 +46,20 @@
     left: 3.3vw;
   
   }
+
+  #billing-adress_form {
+    position: relative;
+    left: -3.5vw;
+  }
+
+  #delivery_same-adress {
+    left: -22.5vw;
+  }
+
+  #delivery-adress_form {
+    left: 5vw;
+  
+  }
 }
 
 @media screen and (width <= 1530px) {
