@@ -76,6 +76,22 @@
   }
 }
 
+@media screen and (width <= 2400px) and (height <= 960px) {
+  #confirm_button button {
+    position: relative;
+    top: 15vh;
+    left: -1.5vw;
+  }
+} 
+
+@media screen and (width <= 1910px) and (height <= 960px) {
+  #confirm_button button {
+    position: relative;
+    top: 18vh;
+    left: -1.6vw;
+  }
+}
+
 @media screen and (width <= 1760px) {
   #confirm_button {
     position: relative;
@@ -252,6 +268,15 @@
     top: -30px;
     left: 3.2vw;
     height: 80px;
+  }
+}
+
+
+@media screen and (width <= 1530px) and (height <= 960px) {
+  #confirm_button button {
+    position: relative;
+    top: 15vh;
+    left: -1.5vw;
   }
 }
 
