@@ -104,16 +104,26 @@
     left: -5.5em;
   }
 
+  #shop_title {
+    position: relative;
+    left: 8vw;
+  }
+
   .first-header-right i {
     position: relative;
     left: 15px;
   }
 }
 
-@media screen and (width<=1330px) {
+@media screen and (width <= 1330px) {
   .social-div {
     position: relative;
     left: -2.5em;
+  }
+
+  #shop_title {
+    position: relative;
+    left: 8vw;
   }
 }
 
@@ -143,6 +153,16 @@
     position: relative;
     left: -7em;
   }
+
+  #shop_title {
+    position: relative;
+    left: 11.5vw;
+  }
+
+  #cart_payment_signup_container {
+    position: relative;
+    left: 2vw;
+  }
 }
 
 @media screen and (width <= 1190px) {
@@ -152,10 +172,27 @@
   }
 }
 
+@media screen and (width <= 1120px) {
+  #shop_title {
+    position: relative;
+    left: 14vw;
+  }
+
+  #payment_title {
+    position: relative;
+    left: 6vw;
+  }
+
+  #signup_title {
+    position: relative;
+    left: 2.7vw;
+  }
+}
+
 @media screen and (width <= 1110px) {
   .first-header-left {
     position: relative;
-    left: 12em;
+    left: 7em;
   }
 
   .header-logo-links-left {
@@ -168,6 +205,11 @@
     left: -1em;
   }
 
+  .first-header-center {
+    position: relative;
+    left: 6vw;
+  }
+
   #logo-waxandsea-header {
     position: relative;
     left: -3.2em;
@@ -178,9 +220,19 @@
     left: -9em;
   }
 
+  #shop_title {
+    position: relative;
+    left: 14vw;
+  }
+
+  #cart_payment_signup_container {
+    position: relative;
+    left: 4vw;
+  }
+
   #cart_title {
     position: relative;
-    left: 5em;
+    left: 8vw;
   }
 
   #signup_title {
@@ -204,76 +256,12 @@
 
   .accueil-link {
     position: relative;
-    left: -7.5em;
+    left: -6em;
   }
 
   .nav-connexion {
     position: relative;
-    left: 1.5em;
-  }
-
-  #logo-waxandsea-header {
-    position: relative;
-    left: -1em;
-  }
-}
-
-@media screen and (width <= 981px) {
-  .header-logo-links-left {
-    position: relative;
-    left: 8em;
-  }
-
-  .accueil-link {
-    position: relative;
-    left: -2em;
-  }
-
-  .connexion-link {
-    position: relative;
-    left: -2.5em;
-  }
-
-  .first-header-right {
-    position: relative;
-    left: -10em;
-  }
-}
-
-@media screen and (width <= 935px) {
-  /* HEADER */
-  .social-div {
-    position: relative;
-    left: -5em;
-  }
-
-  .header-logo-links-left {
-    position: relative;
-    font-size: 1.6em;
-  }
-
-  .accueil-link {
-    position: relative;
-    left: -7.5em;
-  }
-
-  .connexion-link {
-    position: relative;
-    left: -9em;
-  }
-
-  .first-header-right {
-    position: relative;
-    margin: 0;
-    left: -8.2em;
-    font-size: 1.6em;
-    display: flex;
-    gap: 1em;
-  }
-
-  #payment_title {
-    position: relative;
-    left: 3em;
+    left: 1em;
   }
 
   #logo-waxandsea-header {
@@ -281,380 +269,246 @@
     left: -6em;
   }
 
+  #shop_title {
+    position: relative;
+    left: 12vw;
+  }
+
+  #cart_payment_signup_container {
+    position: relative;
+    left: 1vw;
+  }
+
+  #payment_title {
+    position: relative;
+    left: 5vw;
+  }
+
   #signup_title {
+    position: relative;
+    left: 2.5vw;
+}
+
+}
+
+
+@media screen and (width <= 935px) {
+  .social-div {
+    position: relative;
+    left: -0.2em;
+  }
+
+  .accueil-link {
+    position: relative;
+    left: -5em;
+  }
+
+  #nav-li-connexion {
     position: relative;
     left: 1em;
   }
 }
 
 @media screen and (width <= 845px) {
-  /* HEADER */
-
-  header {
-    position: fixed;
-    top: 0;
-    z-index: 1;
-   }
-
   .first-header {
-    display: flex;
-    flex-direction: row;
-    right: 0;
+    font-size: 14px;
   }
 
-  .social-div {
+  .header-logo-links li a  {
+    font-size: 1.8em;
+    /* border: 2px solid red; */
+  }
+
+  #shop_title {
     position: relative;
-    left: -15em;
+    left: 9vw;
   }
 
-  .accueil-link {
+  #cart_payment_signup_container {
     position: relative;
-    left: -8.5em;
-  }
-
-  .connexion-link {
-    position: relative;
-    left: -10em;
-  }
-
-  .first-header-right {
-    position: relative;
-    left: -15.5em;
-    font-size: 25px;
-  }
-
-  #cart_title {
-    position: relative;
-    left: 5.4em;
-  }
-
-  #logo-waxandsea-header {
-    position: relative;
-    left: -17em;
-  }
-
-  .first-header-left {
-    position: relative;
-    left: 15em;
-  }
-
-  .header-logo-links-left {
-    position: relative;
-    left: 4.5em;
-  }
-
-  .first-header-right {
-    position: relative;
-    left: -16.5em;
-  }
-
-  #stages-couture-link-header {
-    position: relative;
-    left: 9em;
-  }
-
-  #nav-accueil {
-    position: relative;
-    left: 9em;
-  }
-
-  .first-header {
-    position: relative;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
-}
-
-@media screen and (width <= 830px) {
-  .header-logo-links li a {
-    font-size: 2em;
-  }
-
-  .social-div {
-    position: relative;
-    left: -16em;
-  }
-
-  .header-logo-links-left {
-    position: relative;
-    /* border: 3px solid red; */
-    left: 20em;
-    display: flex;
-    gap: 20em;
-    font-size: 0.5em;
-  }
-
-  .accueil-link .connexion-link {
-    position: relative;
-    left: -3em;
-  }
-
-  .accueil-link {
-    position: relative;
-    left: -10.8em;
-  }
-
-  .connexion-link {
-    position: relative;
-    left: -16.2em;
-  }
-
-  #logo-waxandsea-header {
-    position: relative;
-    left: -28em;
-  }
-
-  .first-header-right {
-    position: relative;
-    left: -22.2em;
-    display: flex;
-    flex-direction: row;
+    left: -2vw;
   }
 }
 
 @media screen and (width <= 770px) {
-  .social-div {
+#payment_title {
+  position: relative;
+  left: 3vw;
+}
+
+#signup_title {
     position: relative;
-    left: -8;
+    left: -1vw;
+}
+}
+
+@media screen and (width <= 750px) {
+  .social-div {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    left: 1vw;
   }
 
   .logo-enveloppe {
     position: relative;
-    top: 5px;
-    right: 13px;
-    font-size: 30px;
+    right: 9px;
+  }
+
+  .header-logo-links-left {
+    position: relative;
+    left: 22.5vw;
   }
 
   #logo-waxandsea-header {
     position: relative;
-    left: -10;
+    left: -4.5em;
   }
 
-  .first-header-right {
+  #shop_title {
     position: relative;
-    left: -23.4em;
-    display: flex;
-    flex-direction: row;
+    left: 13vw;
   }
 
-}
-
-@media screen and (width <= 750px) {
-  /* HEADER */
-
-  #logo-waxandsea-header {
-    position: relative;
-    left: -28em;
-  }
-
-  .first-header-right {
-    position: relative;
-    left: -25.5em;
-    bottom: 0.9em;
-  }
-
-  #cart_title {
-    position: relative;
-    top: 1em;
-    left: 7.5em;
-  }
-
-  #payment_title {
-    position: relative;
-    top: 25px;
-    left: 5em;
-  }
-
-  #signup_title {
-    position: relative;
-    left: 2.3em;
-    bottom: -1em;
-  }
-}
-
-@media screen and (width <= 710px) {
-  .first-header-left {
-    position: relative;
-  }
-
-  .social-div {
-    position: relative;
-    left: -16.5em;
-  }
-
-  .accueil-link {
-    position: relative;
-    left: -11em;
-  }
-
-  .nav-connexion {
+  #cart_payment_signup_container {
     position: relative;
     left: 0;
   }
 
-  #logo-waxandsea-header {
-    position: relative;
-    left: -30em;
-  }
 
-  .first-header-right {
-    position: relative;
-    left: -27em;
-  }
-
-  .logo-panier {
-    position: relative;
-    top: 5px;
-  }
 }
 
-@media screen and (width <= 655px) {
-  /* HEADER */
-  .first-header {
-    font-size: 12px;
-  }
-
-  .social-div {
-    position: relative;
-    left: -14.5em;
-  }
-
-  .logo-enveloppe {
-    margin-top: 4px;
-  }
-
-  #facebook-icon-header {
-    height: 3em;
-    width: 3em;
-    margin-top: 5px;
-  }
-
-  #instagram-icon-header {
-    height: 3em;
-    width: 3em;
-    margin-top: 5px;
-  }
-
-  .header-logo-links-left {
-    position: relative;
-    left: 1em;
-  }
-
-  #nav-li-contact {
-    position: relative;
-    left: -7em;
-    margin-bottom: 15px;
-  }
-
-  #nav-li-mon-histoire {
-    position: relative;
-    left: -5em;
-  }
-
+@media screen and (width <= 710px) {
   #logo-waxandsea-header {
     position: relative;
-    left: -28em;
-  }
-
-  #accueil-link {
-    position: relative;
-    left: 7.5em;
-  }
-
-  .accueil-link {
-    position: relative;
-    left:-6.3em;
-  }
-
-  .nav-connexion {
-    position: relative;
-    left: 28em;
-  }
-
-  .first-header-left {
-    position: relative;
-    left: 13.2em;
-  }
-
-  .header-logo-links {
-    position: relative;
-    left: 5em;
-  }
-
-  .first-header-right {
-    position: relative;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    left: -21.1em;
-    top: -0.5em;
-  }
-
-  #cart_title {
-    position: relative;
-    top: 1.5em;
-    left: 5.5em;
-  }
-
-  #payment_title {
-    position: relative;
-    top: 10px;
-    left: 6.2em;
+    left: -11vw;
   }
 
   #signup_title {
     position: relative;
-    left: 6em;
-    bottom: 0.6em;
+    left: -3vw;
   }
 }
 
-@media screen and (width <= 560px) {
-  .header-logo-links-left {
+@media screen and (width <= 655px) {
+  .social-div {
     position: relative;
-    left: 15em;
-    display: flex;
-    flex-direction: column;
-    gap: 5px;
-    /* border: 1px solid red; */
-    }
-
-  #logo-waxandsea-header {
-    position: relative;
-    left: -15em;
-  }
-
-  .header-logo-links li a {
-    font-size: 1.8em;
+    left: 5vw;
   }
 
   .accueil-link {
     position: relative;
-    left: -10.3em;
-    top: 0.7em;
+    left: -12vw;
   }
 
   .connexion-link {
     position: relative;
-    left: -14em;
-    bottom: 0.8em;
-
+    left: -17.5vw;
   }
 
+  #shop_title {
+    position: relative;
+    left: -0.5vw;
+    font-size: 1.15em;
+  }
+
+  #signup_title {
+    position: relative;
+    top: -3.5vh;
+    left: -5.5vw;
+    font-size: 1em;
+  }
+
+  #cart_title {
+    position: relative;
+    top: 2vh;
+    left: 10.5vw;
+  }
+
+  #payment_title {
+    position: relative;
+    top: 2vh;
+    left: 11vw;
+    font-size: 1.15em;
+  }
+
+  #cart_payment_signup_container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  #logo-waxandsea-header {
+    position: relative;
+    left: -8.2vw;
+  }
+}
+
+@media screen and (width <= 560px) {
   .social-div {
     position: relative;
-    left: -14.5em;
+    left: 10vw;
   }
 
-  .logo-enveloppe {
+  .accueil-link {
     position: relative;
-    right: 13px;
+    left: -7vw;
   }
 
-  .first-header-right {
+  .connexion-link {
     position: relative;
-    left: -16em;
+    left: -13vw;
   }
+
+  #shop_title {
+    position: relative;
+    left: 7.5vw;
+    top: -2vh;
+    font-size: 1.15em;
+  }
+
+  #signup_title {
+    position: relative;
+    top: -1.5vh;
+    left: -17.5vw;
+  } 
+
+  #logo-waxandsea-header {
+    position: relative;
+    left: -5.5vw;
+  }
+
+  #cart_title {
+    position: relative;
+    left: 3vw;
+  }
+
+  #payment_title {
+    position: relative;
+    left: 4vw;
+  }
+}
+
+@media screen and (width <= 500px) {
+  .header-logo-links-left {
+    display: flex;
+    flex-direction: column;
+  }
+  .social-div {
+    position: relative;
+    left: 9vw;
+  }
+
+  .accueil-link {
+    position: relative;
+    top: 1vh;
+    left: -4vw;
+  }
+
+  .connexion-link {
+    position: relative;
+    left: -10vw;
+  }
+
 }

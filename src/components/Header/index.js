@@ -77,18 +77,26 @@ function Header() {
           </nav>
         </div>
         <div className="first-header-right">
-          <span id="cart_title">
-            <FontAwesomeIcon className="logo-panier" icon={faShoppingCart} />
-            <p>
-              <Link to="/panier/produit">Panier</Link>
-            </p>
-          </span>
-          <p id="payment_title">
-            <Link to="/paiement">Paiement</Link>
-          </p>
-          <p id="signup_title">
-            <Link to="/enregistrement">M'enregistrer</Link>
-          </p>
+          <div id="first-header-right_container">
+            <p id="shop_title">Boutique</p>
+            <div id="cart_payment_signup_container">
+              <span id="cart_title">
+                <FontAwesomeIcon
+                  className="logo-panier"
+                  icon={faShoppingCart}
+                />
+                <p>
+                  <Link to="/panier/produit">Panier</Link>
+                </p>
+              </span>
+              <p id="payment_title">
+                <Link to="/paiement">Paiement</Link>
+              </p>
+              <p id="signup_title">
+                <Link to="/enregistrement">M'enregistrer</Link>
+              </p>
+            </div>
+          </div>
         </div>
       </section>
     </header>
