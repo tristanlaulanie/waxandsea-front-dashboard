@@ -1,3 +1,15 @@
+@media screen and (height <= 960px) {
+#mon-panier_commande {
+  position: relative;
+  top: 33vh;
+}
+
+#valid_button button {
+  position: relative;
+  margin-top: -10cm;
+}
+}
+
 @media screen and (width <= 1805px) {
   #commande_total-achats {
     width: 100%;

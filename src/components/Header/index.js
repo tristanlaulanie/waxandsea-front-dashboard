@@ -78,7 +78,9 @@ function Header() {
         </div>
         <div className="first-header-right">
           <div id="first-header-right_container">
-            <p id="shop_title">Boutique</p>
+            <p id="shop_title">
+              <Link to="/boutique">Boutique</Link>
+            </p>
             <div id="cart_payment_signup_container">
               <span id="cart_title">
                 <FontAwesomeIcon

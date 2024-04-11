@@ -5,6 +5,7 @@ import Accueil from "./components/Accueil";
 import Contact from "./components/Contact";
 import Connexion from "./components/Connexion";
 import Panier from "./components/Panier";
+import Boutique from "./components/Boutique";
 import PanierProduit from "./components/Panier/PanierProduit";
 import PanierCoordonnees from "./components/Panier/PanierCoordonnees";
 import PanierLivraison from "./components/Panier/PanierLivraison";
@@ -39,6 +40,7 @@ function App() {
           <Route path="/" element={<Accueil />} />
           <Route path="/accueil" element={<Accueil />} />
           <Route path="/connexion" element={<Connexion />} />
+          <Route path="/boutique" element={<Boutique />} />
           <Route path="/panier" element={<Panier />} />
           <Route path="/panier/produit" element={<PanierProduit />} />
           <Route path="/panier/coordonnees" element={<PanierCoordonnees />} />

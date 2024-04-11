@@ -11,7 +11,7 @@
     left: -5.5vw;
   
 }
- }
+}
 
 @media screen and (width <= 1630px) {
   .first-header-right {
@@ -298,7 +298,6 @@
 }
 
 }
-
 
 @media screen and (width <= 935px) {
   .social-div {
