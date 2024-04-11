@@ -23,49 +23,55 @@ function PanierProduit() {
       </container>
       <div id="mon-panier_produit_commande">
         <div id="mon-panier_produit">
-          <section id="panier_container_title">
-            <h3>Mon Panier</h3>
-            <div id="panier_title-icon-button">
-              <div id="panier_title-icon">
-                <FontAwesomeIcon icon={faTrash} />
+          <div id="mon-panier_produit_container">
+            <section id="panier_container_title">
+              <h3>Mon Panier</h3>
+              <div id="panier_title-icon-button">
+                <div id="panier_title-icon">
+                  <FontAwesomeIcon icon={faTrash} />
+                </div>
+                <button>Vider mon panier</button>
               </div>
-              <button>Vider mon panier</button>
-            </div>
-          </section>
-          <section id="mon-panier_section-produit">
-            <img src="https://fakeimg.pl/150/" alt="grey neutral card" />
-            <div id="section-produit_text">
-              <div className="section-produit_text-img">
-                <h3>Nom du produit</h3>
-                <div id="produit_text">
-                  <p id="produit_text_ref">Référence : xxx</p>
-                  <p id="produit_text_price">
-                    Prix unitaire : <br /> Prix €
-                  </p>
+            </section>
+            <section id="mon-panier_section-produit">
+              <img src="https://fakeimg.pl/150/" alt="grey neutral card" />
+              <div id="section-produit_text">
+                <div className="section-produit_text-img">
+                  <h3>Nom du produit</h3>
+                  <div id="produit_text">
+                    <p id="produit_text_ref">Référence : xxx</p>
+                    <p id="produit_text_price">
+                      Prix unitaire : <br /> Prix €
+                    </p>
+                  </div>
+                </div>
+                <div id="section-produit_quantity">
+                  <div id="produit_quantity">
+                    <div className="quantity_operator">-</div>
+                    <p className="quantity_number">1</p>
+                    <div className="quantity_operator">+</div>
+                  </div>
+                  <p id="produit_delete">Supprimer</p>
                 </div>
               </div>
-              <div id="section-produit_quantity">
-                <div id="produit_quantity">
-                  <div className="quantity_operator">-</div>
-                  <p className="quantity_number">1</p>
-                  <div className="quantity_operator">+</div>
-                </div>
-                <p id="produit_delete">Supprimer</p>
+              <div id="section-produit_total">
+                <p>
+                  Total___€ <br></br> par article{"(s)"}
+                </p>
               </div>
-            </div>
-            <div id="section-produit_total">
-              <p>
-                Total___€ <br></br> par article{"(s)"}
-              </p>
-            </div>
-          </section>
+            </section>
+          </div>
         </div>
         <div id="panier-produit_commande_component">
-          <MaCommande />
-          <div id="valid_button">
-            <Link to="/panier/coordonnees">
-              <button type="submit">VALIDER MON PANIER</button>
-            </Link>
+          <div id="command_component_container ">
+            <div id="command_component">
+              <MaCommande />
+            </div>
+            <div id="valid_button">
+              <Link to="/panier/coordonnees">
+                <button type="submit">VALIDER MON PANIER</button>
+              </Link>
+            </div>
           </div>
         </div>
       </div>

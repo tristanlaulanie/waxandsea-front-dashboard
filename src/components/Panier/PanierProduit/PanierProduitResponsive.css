@@ -1,3 +1,43 @@
+@media screen and (height <= 756px) {
+  #mon-panier_produit {
+    /* border: 4px dotted blue; */
+    position: relative;
+    top: -2vh;
+    height: 40vh;
+    width: 70vw;
+  }
+
+  #mon-panier_produit_container {
+    /* border: 2px dashed red; */
+    position: relative;
+    top: -4.5vh;
+    height: 43.5vh;
+  }
+
+  #panier-produit_commande_component {
+    position: relative;
+    top: 15vh;
+    /* border: 2px dashed red; */
+    height: 50vh;
+    width: 33vw;
+  }
+
+  #command_component {
+    /* border: 3px dotted blue; */
+    padding: 0;
+    position: relative;
+    /* margin-top: 7vh; */
+    left: 4vw;
+    height: 50vh;
+    width: 27vw;
+    display: inline-block;
+  }
+
+  #valid_button button {
+    position: relative;
+    top: 5vh;
+  }
+}
 
 @media screen and (width <= 2400px) {
   #valid_button button {
@@ -15,11 +55,11 @@
     top: -84px;
   }
 }
+
 @media screen and (width <= 1760px) {
   #valid_button button {
     right: 4%;
   }
-
 }
 
 @media screen and (width <= 1750px) {
@@ -52,7 +92,7 @@
   }
 
   #valid_button button {
-    top: 26px;
+    top: 23vh;
     left: -1.1vw;
   }
 
@@ -62,23 +102,15 @@
   }
 }
 
-
-
-@media screen and (width <= 1456px) {
-  #valid_button button {
-    top: -5px;
-  }
-}
-
 @media screen and (width <= 1454px) {
   #valid_button button {
-    top: -40px;
+    top: 18vh;
   }
 }
 
 @media screen and (width <= 1445px) {
   #valid_button button {
-    top: -40px;
+    top: 18vh;
     left: -15px;
   }
 }
@@ -105,6 +137,17 @@
   }
 }
 
+@media screen and (width <= 1137px) {
+  #mon-panier_produit {
+    position: relative;
+    top: -1.5vh;
+  }
+
+  #valid_button button {
+    height: 9.1vh;
+  }
+}
+
 @media screen and (width <= 1100px) {
   #section-produit_total p {
     /* border: 3px dotted red; */
@@ -113,7 +156,7 @@
   }
 
   #valid_button button {
-    top: -55px;
+    top: 14vh;
     left: 0.5vw;
     width: 15vw;
   }
@@ -121,20 +164,9 @@
 
 @media screen and (width <= 1055px) {
   #valid_button button {
-    top: -18px;
+    top: 19vh;
     left: 0.5vw;
     width: 15vw;
-  }
-}
-
-@media screen and (width <= 1137px) {
-  #mon-panier_produit {
-    position: relative;
-    top: -16.5vh;
-  }
-
-  #valid_button button {
-    height: 9.1vh;
   }
 }
 
@@ -160,6 +192,16 @@
   #produit_quantity {
     width: 13vw;
     top: -2vh;
+  }
+
+  #command_component {
+    position: relative;
+    left: 1vw;
+  }
+
+  #valid_button button {
+    left: -2.5vw;
+    width: 15vw;
   }
 }
 
@@ -246,9 +288,9 @@
   #valid_button button {
     margin-top: 5vh;
     margin-bottom: 20vh;
-    width: 20vw;
+    width: 21vw;
     position: relative;
-    left: 3vw;
+    left: 0.5vw;
   }
 }
 
@@ -272,8 +314,8 @@
   }
 
   #valid_button button {
-    top: 5px;
-  } 
+    top: 20vh;
+  }
 }
 
 @media screen and (width <= 720px) {
@@ -291,8 +333,8 @@
 
 @media screen and (width <= 690px) {
   #valid_button button {
-    top: 10vh;
-    left: 4vw;
+    top: 23vh;
+    left: 1vw;
     width: 22vw;
   }
 }
@@ -302,9 +344,6 @@
     width: 15vw;
   }
 
-  #valid_button button {
-    top: 25px;
-  }
 }
 
 @media screen and (width <= 662px) {
@@ -331,6 +370,11 @@
   .PanierProduit {
     height: 155vh;
   }
+
+  #valid_button button {
+    top: 29vh;
+}
+
 }
 
 @media screen and (width <= 645px) {
@@ -399,8 +443,7 @@
 
 @media screen and (width <= 606px) {
   #valid_button button {
-    top: 13vh;
-    left: 4vw;
+    top: 36vh;
     width: 22vw;
   }
 }
@@ -409,7 +452,7 @@
   .PanierProduit {
     height: 160vh;
   }
-  
+
   #valid_button button {
     margin-top: 10vh;
   }
@@ -430,11 +473,6 @@
   }
 }
 
-@media screen and (width <= 570px) {
-  #valid_button button {
-    top: 16.5vh;
-  }
-}
 
 @media screen and (width <= 540px) {
   #user-story-titles_panier {
@@ -457,10 +495,6 @@
 
   #produit_quantity {
     gap: 3.5vw;
-  }
-
-  #valid_button button {
-    top: 12vh;
   }
 }
 

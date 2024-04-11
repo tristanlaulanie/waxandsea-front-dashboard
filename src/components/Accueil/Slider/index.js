@@ -30,7 +30,7 @@ function Slider() {
     perView: 1,
     autoplay: 1200,
     hoverpause: true,
-    animationDuration: 1000,
+    animationDuration: 1500,
     gap: 8,
     });
 
