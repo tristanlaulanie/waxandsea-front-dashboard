@@ -35,6 +35,13 @@ function Boutique() {
           <FontAwesomeIcon icon={faArrowPointer} flip="horizontal" />
         </i>
         Cliquez sur un des produits pour passer votre commande.
+        <i id="product-order_cart-icon">
+          <FontAwesomeIcon
+            className="description_cart-icon add-product-to-cart"
+            icon={faCartPlus}
+            size="l"
+          />
+        </i>
       </h3>
       <div className="images-shop">
         <div className="images-grid">
