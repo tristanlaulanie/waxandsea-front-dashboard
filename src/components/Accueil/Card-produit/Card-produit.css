@@ -42,3 +42,9 @@
     font-family: 'Amatic SC', cursive;
     font-weight: bolder;
 }
+
+.card_button {
+    text-decoration: none;
+    background-color: black;
+    color: yellow;
+}
