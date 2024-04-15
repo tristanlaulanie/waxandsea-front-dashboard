@@ -5,7 +5,7 @@
   } 
 }
 
-@media screen and (height <= 756px) {
+@media screen and (height <= 760px) {
   #mon-panier_produit {
     /* border: 4px dotted blue; */
     position: relative;
@@ -23,7 +23,7 @@
 
   #panier-produit_commande_component {
     position: relative;
-    top: 15vh;
+    top: 18vh;
     /* border: 2px dashed red; */
     height: 50vh;
     width: 33vw;
@@ -33,7 +33,7 @@
     /* border: 3px dotted blue; */
     padding: 0;
     position: relative;
-    /* margin-top: 7vh; */
+    margin-top: 5vh;
     left: 4vw;
     height: 50vh;
     width: 27vw;
@@ -42,6 +42,7 @@
 
   #valid_button button {
     position: relative;
+    margin-top: 5em;
     top: 5vh;
   }
 }
@@ -113,8 +114,8 @@
 
 @media screen and (width <= 1530px) and (height <= 960px) {
   #valid_button button {
-    top: -2vh;
-    left: -7vw;
+    top: 12vh;
+    left: -1vw;
   }
 }
 
