@@ -25,6 +25,19 @@
   }
 }
 
+@media screen and (width <= 1530px) {
+  .social-div {
+    position: relative;
+    left: -3.5vw;
+  }
+
+  .accueil-link {
+    position: relative;
+    left: -5em;
+  }
+}
+
+
 @media screen and (width <= 1510px) {
   .first-header-right {
     position: relative;
@@ -338,6 +351,8 @@
 }
 
 @media screen and (width <= 770px) {
+
+
 #payment_title {
   position: relative;
   left: 3vw;
