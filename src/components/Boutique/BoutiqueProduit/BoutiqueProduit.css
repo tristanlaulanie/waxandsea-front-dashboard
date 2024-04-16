@@ -39,13 +39,6 @@
     top: -5vh;
 }
 
-#product_description {
-    margin-top: 2em;
-    height: 53vh;
-    width: 53%;
-    line-height: 37px;
-}
-
 #product_images {
     display: flex;
     justify-content: space-between;
@@ -73,11 +66,20 @@
 }
 
 #product_description {
-    font-size: 1.8em;
+    margin-top: 2em;
+    height: 62vh;
+    width: 53%;
+    line-height: 37px;
+    font-size: 30px;
     text-align: left;
     padding: 0.8em;
     letter-spacing: 3px;
     border: 2px dashed rgba(0, 0, 0, 0.328);
+}
+
+#product_description_container {
+    /* border: 2px solid red; */
+    margin: 1vh;
 }
 
 #product_colors_sizes_quantity_cart {

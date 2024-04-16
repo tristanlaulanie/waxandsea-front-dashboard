@@ -3,6 +3,7 @@ import React from "react";
 
 // CSS
 import "./BoutiqueProduit.css";
+import "./BoutiqueProduitResponsive.css";
 
 // FONTAWESOME IMPORT
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
@@ -35,13 +36,15 @@ function BoutiqueProduit() {
             <h2> Nom du produit</h2>
             <p id="product_price"> Prix : xx €</p>
             <p id="product_description">
-              Description du produit :<br></br> <br></br>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-              Vestibulum lacinia, lacus ut rutrum accumsan, <br></br>
-              lectus dolor eleifend lacus, id finibus ex lorem id urna. Integer
-              laoreet vestibulum molestie. <br></br>
-              In hac habitasse platea dictumst. Nulla facilisi. Integer nunc
-              dolor, sodales eget.
+              <div id="product_description_container">
+                Description du produit :<br></br> <br></br>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                Vestibulum lacinia, lacus ut rutrum accumsan, <br></br>
+                lectus dolor eleifend lacus, id finibus ex lorem id urna.
+                Integer laoreet vestibulum molestie. <br></br>
+                In hac habitasse platea dictumst. Nulla facilisi. Integer nunc
+                dolor, sodales eget.
+              </div>
             </p>
           </div>
         </section>

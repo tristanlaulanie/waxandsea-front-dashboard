@@ -4,6 +4,7 @@ import { Link } from "react-router-dom";
 
 // CSS
 import "./Boutique.css";
+import "./BoutiqueResponsive.css";
 
 // FONTAWESOME IMPORT
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";

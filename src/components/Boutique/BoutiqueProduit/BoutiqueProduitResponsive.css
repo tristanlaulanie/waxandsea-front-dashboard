@@ -1,0 +1,138 @@
+@media screen and (height <= 960px) {
+    #product_sizes {
+        padding-bottom: 14vh;
+    }
+}
+
+@media screen and (height <= 835px) {
+    #product_description {
+        height: 65vh;
+    }
+}
+
+@media screen and (height <= 780px) {
+    #product_description {
+        height: 65vh;
+    }
+}
+
+@media screen and (height <= 730px) {
+    #product_description {
+        height: 70vh;
+    }
+}
+
+@media screen and (height <= 690px) {
+    #product_description {
+        height: 75vh;
+    }
+}
+
+@media screen and (height <= 640px) {
+    #product_description {
+        height: 80vh;
+    }
+}
+
+@media screen and (height <= 620px) {
+    #product_description {
+        height: 85vh;
+    }
+}
+
+@media screen and (height <= 565px) {
+    #product_description {
+        height: 90vh;
+    }
+
+}
+
+@media screen and (height <= 530px) {
+    #product_description {
+        height: 100vh;
+    }
+}
+
+@media screen and (height <= 525px) {
+    #product_description {
+        height: 100vh;
+    }
+}
+
+@media screen and (height <= 480px) {
+    #product_description {
+        height: 110vh;
+    }
+}
+
+@media screen and (height <= 475px) {
+    #product_description {
+        height: 115vh;
+    }
+}
+
+@media screen and (height <= 420px) {
+    #product_description {
+        height: 125vh;
+    }
+}
+
+@media screen and (height <= 380px) {
+    #product_description {
+        height: 135vh;
+    }
+}
+
+@media screen and (height <= 355px) {
+    #product_description {
+        height: 145vh;
+    }
+}
+
+@media screen and (height <= 330px) {
+    #product_description {
+        height: 155vh;
+    }
+}
+
+@media screen and (height <= 310px) {
+    #product_description {
+        height: 165vh;
+    }
+}
+
+@media screen and (height <= 290px) {
+    #product_description {
+        height: 175vh;
+    }
+}
+
+@media screen and (height <= 275px) {
+    #product_description {
+        height: 190vh;
+    }
+}
+
+@media screen and (height <= 250px) {
+    #product_description {
+        height: 205vh;
+    }
+}
+
+@media screen and (height <= 235px) {
+    #product_description {
+        height: 220vh;
+    }
+}
+
+@media screen and (height <= 220px) {
+    #product_description {
+        height: 235vh;
+    }
+}
+
+@media screen and (height <= 205px) {
+    #product_description {
+        height: 270vh;
+    }
+}

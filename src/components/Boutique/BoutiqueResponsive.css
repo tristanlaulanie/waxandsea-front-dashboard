@@ -1,0 +1,5 @@
+@media screen and (height <= 960px) {
+    .Boutique {
+        height: 280vh;
+    }
+}
