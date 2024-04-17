@@ -1,138 +1,195 @@
+@media screen and (height <= 1530px) {
+  .BoutiqueProduit {
+    height: 290vh;
+  }
+
+  #product_main-container {
+    position: relative;
+    top: -10vh;
+  }
+
+  #product_images {
+    height: 70.8vh;
+    width: 60vw;
+  }
+
+  #product_description {
+    height: 85vh;
+  }
+
+  #product_description_container {
+    height: 75vh;
+
+  }
+
+  #product_colors {
+    position: relative;
+    left: 2vw;
+    top: -20vh;
+  }
+
+  #product_sizes {
+    position: relative;
+    left: 1.5vw;
+    top: -11vh;
+  }
+
+  #sizes-select {
+    position: relative;
+    top: -2vh;
+    left: 2.2vw;
+    width: 15vw;
+  }
+
+  #product_quantity {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    left: -4vw;
+  }
+
+  #product_quantity_input {
+    padding: 20px;
+  }
+
+  #product_add-to-cart p {
+    font-weight: bolder;
+    position: relative;
+    left: -1.5vw;
+  }
+
+  #product_add-to-cart_button {
+    height: 3em;
+    position: relative;
+    left: -1.5vw;
+  }
+
+
+}
+
 @media screen and (height <= 960px) {
-    #product_sizes {
-        padding-bottom: 14vh;
-    }
+  #product_sizes {
+    padding-bottom: 14vh;
+  }
 }
 
-@media screen and (height <= 835px) {
-    #product_description {
-        height: 65vh;
-    }
-}
-
-@media screen and (height <= 780px) {
-    #product_description {
-        height: 65vh;
-    }
-}
 
 @media screen and (height <= 730px) {
-    #product_description {
-        height: 70vh;
-    }
+  #product_description {
+    height: 70vh;
+  }
 }
 
 @media screen and (height <= 690px) {
-    #product_description {
-        height: 75vh;
-    }
+  #product_description {
+    height: 75vh;
+  }
 }
 
 @media screen and (height <= 640px) {
-    #product_description {
-        height: 80vh;
-    }
+  #product_description {
+    height: 80vh;
+  }
 }
 
 @media screen and (height <= 620px) {
-    #product_description {
-        height: 85vh;
-    }
+  #product_description {
+    height: 85vh;
+  }
 }
 
 @media screen and (height <= 565px) {
-    #product_description {
-        height: 90vh;
-    }
-
+  #product_description {
+    height: 90vh;
+  }
 }
 
 @media screen and (height <= 530px) {
-    #product_description {
-        height: 100vh;
-    }
+  #product_description {
+    height: 100vh;
+  }
 }
 
 @media screen and (height <= 525px) {
-    #product_description {
-        height: 100vh;
-    }
+  #product_description {
+    height: 100vh;
+  }
 }
 
 @media screen and (height <= 480px) {
-    #product_description {
-        height: 110vh;
-    }
+  #product_description {
+    height: 110vh;
+  }
 }
 
 @media screen and (height <= 475px) {
-    #product_description {
-        height: 115vh;
-    }
+  #product_description {
+    height: 115vh;
+  }
 }
 
 @media screen and (height <= 420px) {
-    #product_description {
-        height: 125vh;
-    }
+  #product_description {
+    height: 125vh;
+  }
 }
 
 @media screen and (height <= 380px) {
-    #product_description {
-        height: 135vh;
-    }
+  #product_description {
+    height: 135vh;
+  }
 }
 
 @media screen and (height <= 355px) {
-    #product_description {
-        height: 145vh;
-    }
+  #product_description {
+    height: 145vh;
+  }
 }
 
 @media screen and (height <= 330px) {
-    #product_description {
-        height: 155vh;
-    }
+  #product_description {
+    height: 155vh;
+  }
 }
 
 @media screen and (height <= 310px) {
-    #product_description {
-        height: 165vh;
-    }
+  #product_description {
+    height: 165vh;
+  }
 }
 
 @media screen and (height <= 290px) {
-    #product_description {
-        height: 175vh;
-    }
+  #product_description {
+    height: 175vh;
+  }
 }
 
 @media screen and (height <= 275px) {
-    #product_description {
-        height: 190vh;
-    }
+  #product_description {
+    height: 190vh;
+  }
 }
 
 @media screen and (height <= 250px) {
-    #product_description {
-        height: 205vh;
-    }
+  #product_description {
+    height: 205vh;
+  }
 }
 
 @media screen and (height <= 235px) {
-    #product_description {
-        height: 220vh;
-    }
+  #product_description {
+    height: 220vh;
+  }
 }
 
 @media screen and (height <= 220px) {
-    #product_description {
-        height: 235vh;
-    }
+  #product_description {
+    height: 235vh;
+  }
 }
 
 @media screen and (height <= 205px) {
-    #product_description {
-        height: 270vh;
-    }
+  #product_description {
+    height: 270vh;
+  }
 }

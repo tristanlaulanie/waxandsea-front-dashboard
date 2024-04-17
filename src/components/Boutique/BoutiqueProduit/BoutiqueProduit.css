@@ -31,7 +31,6 @@
     flex-direction: row;
     justify-content: flex-start;
     gap: 10em;
-    width: 85vw;
 }
 
 #product_name_price_description {
@@ -54,10 +53,15 @@
     background-color: black;
 }
 
+#product_side_images {
+    display: flex;
+    flex-direction: column;
+}
+
 #product_side_images img {
     margin-bottom: 1.5em;
     border: 3px dotted black;
-    width: 150%;
+    width: 10vw;
 }
 
 #product_price {
