@@ -1,0 +1,28 @@
+@media screen and (height <= 760px) {
+    .PanierLivraison {
+        height: 150vh;
+    }
+
+    #command_component_delivery {
+        position: relative;
+        top: -30vh;
+        left: 2.5vw;
+    }
+
+    #confirm_delivery button {
+        position: relative;
+        top: 21vh;
+        left: -5vw;
+    }
+
+    #colissimo_mondial-relay_container {
+        position: relative;
+        top: 8vh;
+    }
+
+    #mondial-relay_section {
+        position: relative;
+        top: 12vh;
+        height: 50vh;
+    }
+}

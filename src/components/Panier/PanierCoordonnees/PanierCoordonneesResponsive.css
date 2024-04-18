@@ -1,3 +1,22 @@
+@media screen and (height <= 760px) {
+  .command_component_coordonnees {
+    position: relative;
+    top: -24vh;
+    left: 0.5vw;
+  }
+
+  #billing_delivery-adress_form {
+    position: relative;
+    left: 3vw;
+  }
+
+  #confirm_button button {
+    position: relative;
+    margin-top: 9vh; 
+    margin-right: 0.5vw;
+  }
+}
+
 @media screen and (width <= 2400px) {
   #social-status_title {
     left: -0.6vw;
