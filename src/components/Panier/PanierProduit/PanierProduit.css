@@ -23,9 +23,8 @@ h1 {
 
 #panier_user-story {
     display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
+    flex-direction: column;
+    align-items: flex-start;
     margin-top: 4vh;
     /* border: 1px solid red; */
 }
@@ -56,9 +55,10 @@ h1 {
 
 #mon-panier_produit {
     padding: 0;
-    margin: 0;
-    position: relative;
-    top: -15.2vh;
+    margin: 7.2vh 0 0;
+    /* position: relative;
+    top: -15.2vh; */
+    align-self: flex-start;
     /* border: 3px solid red; */
     height: 42.5vh;
     width: 70%;

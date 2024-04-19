@@ -1,8 +1,53 @@
-@media screen and (height <= 950px) {
+@media screen and (height <= 960px) {
+
+  #mon-panier_produit_commande {
+    /* border: 3px dotted blue; */
+    height: 35em;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 5.7vw;
+  }
+  
+  #command_component {
+    height: 28em;
+    width: 25em;
+    position: relative;
+    margin-top: 41.5em;
+  }
+
+  #mon-panier_produit {
+    /* border: 3px dashed blue; */
+    position: relative;
+    top: -2em;
+  }
+
+  #mon-panier_produit_container {
+    height: 23em;
+    width: 100%;
+    position: absolute;
+    top: -2.5em;
+    /* border: 2px dotted red; */
+  }
+
+  #panier_container_title {
+    /* border: 3px solid green; */
+    height: 7.5em;
+  }
+
   #valid_button button {
     position: relative;
-    left: -2.4cm;
-  } 
+    left: -2.5vw;
+    top: -9em;
+  }
+
+}
+
+@media screen and (height > 760px) and (height < 960px) {
+  #panier-produit_commande_component {
+    position: relative;
+  }
 }
 
 @media screen and (height <= 760px) {
@@ -41,18 +86,13 @@
   }
 
   #valid_button button {
+    margin-top: 4.5em;
     position: relative;
-    margin-top: 5em;
-    top: 5vh;
+    left: 1.2vw;
   }
 }
 
 @media screen and (width <= 2400px) {
-  #valid_button button {
-    top: 8px;
-    margin-top: 30px;
-    left: -2.4cm;
-  }
 
   #produit_quantity {
     position: relative;
@@ -74,7 +114,7 @@
 @media screen and (width <= 1750px) {
   #valid_button button {
     position: relative;
-    top: -1vh;
+    top: -1em;
     left: -7vw;
   }
 }
@@ -102,7 +142,6 @@
   }
 
   #valid_button button {
-    top: 23vh;
     left: -1.1vw;
   }
 

@@ -68,8 +68,10 @@ function PanierProduit() {
               <MaCommande />
             </div>
             <div id="valid_button">
-              <Link to="/panier/coordonnees">
-                <button type="submit">VALIDER MON PANIER</button>
+            <Link to="/panier/coordonnees">
+              <button id="panier_produit_valid_button" type="submit">
+                VALIDER MON PANIER
+              </button>
               </Link>
             </div>
           </div>

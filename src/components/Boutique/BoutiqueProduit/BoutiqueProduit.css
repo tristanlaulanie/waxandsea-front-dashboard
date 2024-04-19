@@ -1,5 +1,5 @@
 .BoutiqueProduit {
-    height: 220vh;
+    height: 130em;
     width: 100vw;
     margin-left: 10%;
     margin-right: 10%;
@@ -12,9 +12,9 @@
 #product_main_title {
     text-align: center;
     margin-right: 20%;
-    margin-bottom: 10vh;
+    margin-bottom: 10em;
     position: absolute;
-    top: 20vh;
+    top: 4em;
     
 }
 
@@ -23,7 +23,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: left;
-    margin-top: 50vh;
+    margin-top: 36em;
 }
 
 #product_images_description {

@@ -1,3 +1,9 @@
+.MaCommande {
+    position: relative;
+    top: -20em;
+    left: -2vw;
+}
+
 #mon-panier_commande {
     width: 29vw;
     display: flex;
