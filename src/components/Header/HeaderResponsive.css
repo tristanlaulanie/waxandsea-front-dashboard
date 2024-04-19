@@ -535,3 +535,11 @@
   }
 
 }
+
+/* HEIGHT RESPONSIVE */
+
+@media screen and (height <= 1530px) {
+  .first-header {
+    height: 7.2em;
+  }
+}

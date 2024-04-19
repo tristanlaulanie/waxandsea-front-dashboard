@@ -9,6 +9,7 @@ import { faEarthAfrica } from "@fortawesome/free-solid-svg-icons";
 
 // CSS
 import "./PanierLivraison.css";
+import "./PanierLivraisonResponsive.css";
 
 function PanierLivraison() {
   return (
@@ -16,14 +17,14 @@ function PanierLivraison() {
       <h1>Mon Panier</h1>
       <div id="panier_user-story">
         <h2 id="panier-title-story">
-        <Link className="user-story_style" to="/panier/produit">
-          Panier
-        </Link>
+          <Link className="user-story_style" to="/panier/produit">
+            Panier
+          </Link>
         </h2>
         <h2 id="coordonnees-title-story">
-        <Link className="user-story_style" to="/panier/coordonnees">
-          Coordonnées
-        </Link>
+          <Link className="user-story_style" to="/panier/coordonnees">
+            Coordonnées
+          </Link>
         </h2>
         <h2 id="livraison-title-story">Livraison</h2>
         <h2 className="user-story-titles">Paiement</h2>
@@ -68,7 +69,7 @@ function PanierLivraison() {
             </div>
           </section>
         </container>
-        <div id="command_component">
+        <div id="command_component_delivery">
           <MaCommande />
           <div id="confirm_delivery">
             <Link to="/panier/paiement">
