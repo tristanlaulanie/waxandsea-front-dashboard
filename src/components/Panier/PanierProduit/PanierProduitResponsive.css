@@ -16,7 +16,6 @@
     height: 28em;
     width: 25em;
     position: relative;
-    margin-top: 40em;
   }
 
   #mon-panier_produit {
@@ -46,12 +45,6 @@
 
 }
 
-@media screen and (height > 760px) and (height < 960px) {
-  #panier-produit_commande_component {
-    position: relative;
-  }
-}
-
 @media screen and (height <= 760px) {
   #mon-panier_produit {
     /* border: 4px dotted blue; */
@@ -70,28 +63,27 @@
 
   #panier-produit_commande_component {
     position: relative;
-    top: 18vh;
+    top: 28vh;
     /* border: 2px dashed red; */
     height: 50vh;
     width: 33vw;
   }
 
   #command_component {
-    /* border: 3px dotted blue; */
     padding: 0;
     position: relative;
-    margin-top: 5vh;
+    top: 10vh;
     left: 4vw;
-    height: 50vh;
+    height: 56vh;
     width: 27vw;
     display: inline-block;
+    margin-top: 18vh;
   }
 
   #valid_button button {
-    margin-top: 4.5em;
+    margin-top: 56vh;
     position: relative;
-    left: 1.2vw;
-    left: 0;
+    margin-left: 5.2vw;
   }
 }
 
@@ -177,6 +169,13 @@
   }
 }
 
+@media screen and (width <= 1455px) {
+  #valid_button button {
+    margin-top: 59vh;
+  }
+
+}
+
 @media screen and (width <= 1454px) {
   #valid_button button {
     top: 18vh;
@@ -231,9 +230,15 @@
   }
 }
 
+@media screen and (width <= 1136px) and (max-height: 750px) {
+  #panier-produit_commande_component {
+    position: relative;
+    top: -12.5vh;
+  }
+}
+
+
 @media screen and (width <= 1137px) {
-
-
   #valid_button button {
     height: 9.1vh;
   }
@@ -307,6 +312,8 @@
 
   #valid_button button {
     width: 15vw;
+    position: relative;
+    margin-left: -6vw;
   }
 
   #section-produit_total {
@@ -319,6 +326,14 @@
   #valid_button button {
     top: -70vh;
     left: 3.8vw;
+  }
+}
+
+@media screen and (width <= 1040px) and (max-height: 750px) {
+  #mon-panier_produit {
+    position: relative;
+    left: 6vw;
+    top: -3.3vh;
   }
 }
 
@@ -420,6 +435,31 @@
   }
 }
 
+@media screen and (width <= 790px) and (max-height: 760px) {
+  #mon-panier_produit {
+    position: relative;
+    margin-top: 40vh;
+    margin-left: -5.5vw;
+    /* border: 2px solid red; */
+    width: 100%;
+  }
+
+  #valid_button button {
+    top: -75vh;
+    width: 21vw;
+    position: relative;
+    left: 2vw;
+  }
+
+  #panier-produit_commande_component {
+    position: relative;
+    left: -28vw;
+    top: -18vh;
+  
+  }
+}
+
+
 @media screen and (width <= 752px) {
   #produit_text_price {
     left: -3vw;
@@ -439,17 +479,16 @@
     position: relative;
   }
 
+}
+
+@media screen and (width <= 740px) and (max-height: 760px) {
   #valid_button button {
-    top: 20vh;
+    position: relative;
+    top: -70vh;
+    left: 2.2vw;
   }
 }
 
-@media screen and (width <= 740px) and (height <= 960px) {
-  #valid_button button {
-    top: 0;
-    left: 0;
-  }
-}
 
 @media screen and (width <= 720px) {
   #section-produit_total {
@@ -479,11 +518,11 @@
   }
 }
 
-@media screen and (width <= 680px) {
-  #shipping-fees_title {
-    width: 15vw;
+@media screen and (width <= 690px) and (max-height: 760px) {
+  #valid_button button {
+    top: -68vh;
+    left: 2.5vw;
   }
-
 }
 
 @media screen and (width <= 662px) {
@@ -520,6 +559,12 @@
 @media screen and (width <= 652px) and (height <= 960px) {
   #valid_button button {
     top: 2vh;
+  }
+}
+
+@media screen and (width <= 650px) and (max-height: 760px) {
+  #valid_button button {
+    top: -62vh;
   }
 }
 
@@ -600,6 +645,13 @@
   }
 }
 
+
+@media screen and (width <= 605.2px) and (max-height: 760px) {
+  #valid_button button {
+    top: -62vh;
+  }
+}
+
 @media screen and (width <= 588px) {
   .PanierProduit {
     height: 160vh;
@@ -607,6 +659,12 @@
 
   #valid_button button {
     margin-top: 10vh;
+  }
+}
+
+@media screen and (width <= 588px) and (max-height: 760px) {
+  #valid_button button {
+    top: -10vh;
   }
 }
 

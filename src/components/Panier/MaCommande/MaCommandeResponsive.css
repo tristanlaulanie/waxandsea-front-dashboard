@@ -1,6 +1,23 @@
 /* HEIGHT */
 
 @media screen and (height <= 960px) {
+  .MaCommande {
+    position: relative;
+    top: 20vh;
+  }
+
+  #mon-panier_commande {
+    position: relative;
+    top: 35vh;
+  }
+
+  #valid_button button {
+    position: relative;
+    margin-top: -10cm;
+  }
+}
+
+@media screen and (height <= 760px) {
   #mon-panier_commande {
     position: relative;
     top: 33vh;
@@ -10,6 +27,7 @@
     position: relative;
     margin-top: -10cm;
   }
+
 }
 /* WIDTH */
 
@@ -481,6 +499,13 @@
   }
 }
 
+@media screen and (width <= 790px) and (max-height: 760px) {
+  #achats_panier_buttons {
+    position: relative;
+    left: -8vw;
+  }
+}
+
 @media screen and (width <= 740px) {
   #shipping-fees_title {
     position: relative;
@@ -580,10 +605,9 @@
   }
 }
 
-@media screen and (width <= 588px) {
+@media screen and (width <= 589px) {
   #shipping-fees_title {
     text-align: left;
-    padding-right: 2vw;
   }
 
   #purchases-amout_title {
@@ -627,6 +651,15 @@
   #purchases-amout_title {
     width: 26vw;
   }
+}
+
+@media screen and (width <= 534px) {
+  #shipping-fees_title {
+    text-align: left;
+    width: 18vw;
+    padding: 0;
+    /* border: 1px solid red; */
+}
 }
 
 @media screen and (width <= 527px) {

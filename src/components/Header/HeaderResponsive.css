@@ -543,3 +543,10 @@
     height: 7.2em;
   }
 }
+
+@media screen and (height <= 1050px) and (max-height: 760px) {
+  #signup_title {
+    position: relative;
+    left: 2.5vw;
+  }
+}
