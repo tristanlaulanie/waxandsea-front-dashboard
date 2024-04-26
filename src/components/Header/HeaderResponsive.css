@@ -725,3 +725,60 @@
     top: 2vh;
   }
 }
+
+@media screen and (width <= 580px) and (max-height: 750px) {
+  #logo-waxandsea-header {
+    position: relative;
+    left: -12vw;
+  }
+
+  .accueil-link {
+    left: -5vw;
+  }
+
+  .social-div {
+    left: 9.9vw;
+  }
+
+  #shop_title {
+    left: 3vw;
+    top: -3vh;
+  }
+
+  #signup_title {
+    left: -20vw;
+    top: -2vh;
+  }
+
+  #cart_title {
+    left: 2vw;
+  }
+
+  #payment_title {
+    left: 3.8vw;
+  }
+}
+
+@media screen and (width <= 500px) and (max-height: 750px) {
+  #shop_title {
+    position: relative;
+    left: 7.5vw;
+  }
+
+  #logo-waxandsea-header {
+    position: relative;
+    left: -7vw;
+  }
+
+  .accueil-link {
+    position: relative;
+    left: -4vw;
+    top: 0;
+  }
+
+  .connexion-link {
+    position: relative;
+    left: -8vw;
+    top: -1vh;
+  }
+}
