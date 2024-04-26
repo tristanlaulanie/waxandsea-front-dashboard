@@ -66,7 +66,7 @@ function PanierProduit() {
             </div>
           </div>
           <div id="panier-produit_commande_component">
-            <div id="command_component_container ">
+            <div id="command_component_container">
               <div id="command_component">
                 <MaCommande />
               </div>

@@ -1,4 +1,4 @@
-@media screen and (height <= 760px) {
+@media screen and (max-height: 760px) {
   .command_component_coordonnees {
     position: relative;
     top: -24vh;
@@ -95,7 +95,7 @@
   }
 }
 
-@media screen and (width <= 2400px) and (height <= 960px) {
+@media screen and (width <= 2400px) and (max-height: 960px) {
   #confirm_button button {
     position: relative;
     top: 15vh;
@@ -103,7 +103,7 @@
   }
 } 
 
-@media screen and (width <= 1910px) and (height <= 960px) {
+@media screen and (width <= 1910px) and (max-height: 960px) {
   #confirm_button button {
     position: relative;
     top: 18vh;
@@ -153,6 +153,34 @@
     /* border: 2px solid red;  */
     width: 80vw;
     top: -2px;
+  }
+}
+
+@media screen and (width >= 1595px) and (max-height: 950px) {
+  .command_component_coordonnees {
+    position: relative;
+    top: 5vh;
+    left: 0.5vw;
+  }
+
+  #confirm_button button {
+    position: relative;
+    top: -12vh;
+    left: 1.5vw;
+  }
+}
+
+@media screen and (width <= 1595px) and (max-height: 950px) {
+  .command_component_coordonnees {
+    position: relative;
+    top: 5vh;
+    left: 0.5vw;
+  }
+
+  #confirm_button button {
+    position: relative;
+    top: -12vh;
+    left: 1.5vw;
   }
 }
 
@@ -291,11 +319,11 @@
 }
 
 
-@media screen and (width <= 1530px) and (height <= 960px) {
+@media screen and (width <= 1530px) and (max-height: 960px) {
   #confirm_button button {
     position: relative;
-    top: 15vh;
-    left: -1.5vw;
+    top: -12vh;
+    left: 1.5vw;
   }
 }
 
