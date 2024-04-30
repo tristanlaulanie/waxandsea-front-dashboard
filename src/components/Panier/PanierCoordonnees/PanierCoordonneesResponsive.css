@@ -618,6 +618,12 @@
   }
 }
 
+@media screen and (width <= 1160px) and (max-height: 750px) {
+  .PanierCoordonnees {
+    height: 300vh;
+  }
+}
+
 @media screen and (width <= 1115px) and (max-height: 950px) {
   #last_name_label {
     /* border: 2px solid blue; */
@@ -640,6 +646,13 @@
     width: 59%;
     left: 4.9vw;
     top: -60px;
+  }
+}
+
+@media screen and (width <= 1100px) and (max-height: 750px) {
+  #confirm_button button {
+    left: 3.5vw;
+    top: -13vh;
   }
 }
 
