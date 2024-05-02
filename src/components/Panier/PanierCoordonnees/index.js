@@ -13,7 +13,7 @@ function PanierCoordonnees() {
   return (
     <div className="PanierCoordonnees">
       <h1>Mon Panier</h1>
-      <div id="panier_user-story">
+      <div className="panier_title-story_coordonees" id="panier_user-story">
         <h2 id="panier-title-story">
           <Link className="user-story_style" to="/panier/produit">
             Panier

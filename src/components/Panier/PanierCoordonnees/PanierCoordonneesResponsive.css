@@ -511,8 +511,6 @@
   #first-name_label_input_container label {
     /* border: 2px dotted blue; */
     left: 0;
-    display: inline-block;
-    width: 1200px;
     margin: 0;
   }
 
@@ -747,5 +745,69 @@
     width: 84%;
     left: 7.8vw;
     top: 10px;
+  }
+}
+
+@media screen and (width <= 645px) and (max-height: 950px) {
+  .PanierCoordonnees {
+    height: 375vh;
+  }
+
+  #mon-panier_coordonnees-commande {
+    display: flex;
+    flex-direction: column;
+  }
+
+  #first-name_label_input_container {
+    width: 70vw;
+  }
+
+  #first-name_label_input_container label {
+    /* border: 1px solid red; */
+    left: -1vw;
+    width: 50vw;
+  }
+
+  #last-name_label_input-container {
+    width: 70vw;
+  }
+
+  #last-name_label_input-container input {
+    width: 50vw;
+    left: -7.5vw;
+  }
+  
+  #company-name_label_input label {
+    width: 70vw;
+    letter-spacing: 1px;
+    font-size: 2em;
+  }
+
+  .command_component_coordonnees {
+    position: relative;
+    left: 24vw;
+  }
+
+  #confirm_button button {
+    left: 6.5vw;
+    top: -3vh;
+  }
+}
+
+@media screen and (width <= 595px) and (max-height: 950px) {
+  .panier_title-story_coordonees {
+    font-size: 0.8em;
+  }
+}
+
+@media screen and (width <= 575px) and (max-height: 950px) {
+  #social-status_title {
+    width: 50vw;
+  }
+}
+
+@media screen and (width <= 527px) and (max-height: 950px) {
+  #social-status_title {
+    width: 53vw;
   }
 }
