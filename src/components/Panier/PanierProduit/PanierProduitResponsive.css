@@ -139,6 +139,18 @@
   }
 }
 
+@media screen and (width <= 1750px) and (max-height: 960px) {
+  #valid_button button {
+    top: -13vh;
+    left: -1vw;
+  }
+
+  #panier-produit_commande_component {
+    position: relative;
+    top: 7.8vh;
+  }
+}
+
 @media screen and (width <= 1740px) {
   #panier_title-icon-button {
     right: 7.5vw;
