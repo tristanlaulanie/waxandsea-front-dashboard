@@ -15,18 +15,18 @@ function PanierLivraison() {
   return (
     <div className="PanierLivraison">
       <h1>Mon Panier</h1>
-      <div id="panier_user-story">
-        <h2 id="panier-title-story">
-          <Link className="user-story_style" to="/panier/produit">
+      <div className="panier-livraison_user-story" id="panier_user-story">
+        <h2 className="panier-livraison_title-story" id="panier-title-story">
+          <Link id="panier-story_style" className="user-story_style" to="/panier/produit">
             Panier
           </Link>
         </h2>
         <h2 id="coordonnees-title-story">
-          <Link className="user-story_style" to="/panier/coordonnees">
+          <Link id="coordonnees_style" className="user-story_style" to="/panier/coordonnees">
             Coordonnées
           </Link>
         </h2>
-        <h2 id="livraison-title-story">Livraison</h2>
+        <h2  className="livraison-title-story"id="livraison-title-story">Livraison</h2>
         <h2 className="user-story-titles">Paiement</h2>
       </div>
       <container id="mon-panier_livraison-commande">
@@ -63,7 +63,7 @@ function PanierLivraison() {
               <h2 className="withdraw-title">Point retrait</h2>
               <p id="withdraw-adress-infos">
                 Nom du point de retrait <br></br>
-                Nom de la voie et n° de la voie du point de retrait <br></br>
+                <div>Nom de la voie </div>et n° de la voie du point de retrait <br></br>
                 Code postal - Ville - Pays <br></br>
               </p>
             </div>
