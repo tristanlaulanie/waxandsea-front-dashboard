@@ -7,7 +7,7 @@ import MaCommande from "../MaCommande";
 // import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 import "./PanierPaiement.css";
-// import { Link } from "react-router-dom";
+import "./PanierPaiementResponsive.css";
 
 function PanierPaiement() {
   return (
@@ -51,7 +51,7 @@ function PanierPaiement() {
             </section>
             <div id="paiement_title_form">
               <h3 id="stripe-paiement-title">Paiement par carte bancaire</h3>
-              <form action="/process_payment" method="post">
+              <form id="card-paiement_form" action="/process_payment" method="post">
                 <section id="card-number">
                   <label for="cardNumber">Numéro de carte:</label>
                   <input
@@ -102,9 +102,9 @@ function PanierPaiement() {
             />
           </div>
         </div>
-        <div id="my-command_component">
+        <div className="paiement-my_command-component" id="my-command_component">
           <MaCommande />
-          <label class="check-CGV">
+          <label className="check-CGV">
             J'accepte les C.G.V.
             <input id="checkbox" type="checkbox" checked="checked" />
             <span class="checkmark"></span>
