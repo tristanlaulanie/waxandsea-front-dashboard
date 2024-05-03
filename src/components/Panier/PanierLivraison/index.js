@@ -26,8 +26,8 @@ function PanierLivraison() {
             Coordonnées
           </Link>
         </h2>
-        <h2  className="livraison-title-story"id="livraison-title-story">Livraison</h2>
-        <h2 className="user-story-titles">Paiement</h2>
+        <h2 className="livraison-title-story" id="livraison-title-story">Livraison</h2>
+        <h2 className="user-story-titles paiement_user-story">Paiement</h2>
       </div>
       <container id="mon-panier_livraison-commande">
         <container id="colissimo_mondial-relay_container">

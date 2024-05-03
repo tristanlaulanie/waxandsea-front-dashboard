@@ -27,6 +27,15 @@
   }
 }
 
+@media screen and (width <= 1920px) and (max-height: 920px) {
+  #confirm_delivery button {
+    position: relative;
+    top: -11vh;
+    left: -4.5vw;
+  }
+
+}
+
 @media screen and (width <= 1910px) and (max-height: 920px) {
   #confirm_delivery button {
     position: relative;
@@ -129,5 +138,31 @@
     width: 85%;
     position: relative;
     left: -6vw;
+  }
+}
+
+@media screen and (width <= 530px) and (max-height: 950px) {
+  #colissimo_mondial-relay_container {
+    width: 90%;
+    position: relative;
+    left: -8vw;
+  }
+
+  #confirm_delivery button {
+    position: relative;
+    top: -1vh;
+    left: 2.5vw;
+    height: 9vh;
+    width: 24vw;
+  }
+
+  #panier-story_style,
+    #coordonnees_style{
+    font-size: 0.8em;
+    }
+
+  #panier_user-story h2 {
+    font-size: 1.6em;
+    color: red;
   }
 }
