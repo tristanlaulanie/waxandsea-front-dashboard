@@ -12,7 +12,7 @@
 
   #confirm_button button {
     position: relative;
-    margin-top: 9vh; 
+    margin-top: 9vh;
     margin-right: 0.5vw;
   }
 }
@@ -113,7 +113,6 @@
     position: relative;
     top: -10vh;
     left: -2.5vw;
-
   }
 }
 
@@ -318,7 +317,6 @@
   }
 }
 
-
 @media screen and (width <= 1530px) and (max-height: 960px) {
   #confirm_button button {
     position: relative;
@@ -381,7 +379,6 @@
     left: -4.5vw;
   }
 }
-
 
 @media screen and (width <= 1500px) and (max-height: 950px) {
   #last-name_label_input-container {
@@ -487,7 +484,7 @@
   #company-name_label_input input {
     width: 57.5vw;
   }
-} 
+}
 
 @media screen and (width <= 1230px) {
   #first-name_label_input_container label {
@@ -525,7 +522,6 @@
 }
 
 @media screen and (width <= 1180px) {
-
   #first-name_label_input_container label,
   #last-name_label_input-container label {
     font-size: 2.3em;
@@ -568,7 +564,6 @@
 
   #first-name_label_input_container input {
     width: 46vw;
-  
   }
 
   #last-name_label_input-container {
@@ -627,7 +622,7 @@
     /* border: 2px solid blue; */
     width: 59vw;
   }
-  
+
   #company-name_label_input {
     position: relative;
     left: 0;
@@ -697,10 +692,10 @@
 }
 
 @media screen and (width <= 1035px) and (max-height: 950px) {
- #street-name-number {
-  position: relative;
-  left: -11vw;
- }
+  #street-name-number {
+    position: relative;
+    left: -11vw;
+  }
 }
 
 @media screen and (width <= 930px) and (max-height: 950px) {
@@ -711,17 +706,17 @@
 }
 
 @media screen and (width <= 909px) and (max-height: 950px) {
- #company-name_label_input label {
+  #company-name_label_input label {
     width: 53vw;
     font-size: 2.2em;
- }
+  }
 
- #postal-code label,
- #billing_phone-number label{
-   position: relative;
-   left: 2vw;
-   width: 22vw;
- }
+  #postal-code label,
+  #billing_phone-number label {
+    position: relative;
+    left: 2vw;
+    width: 22vw;
+  }
 }
 
 @media screen and (width <= 861px) {
@@ -776,7 +771,7 @@
     width: 50vw;
     left: -7.5vw;
   }
-  
+
   #company-name_label_input label {
     width: 70vw;
     letter-spacing: 1px;
@@ -794,6 +789,30 @@
   }
 }
 
+@media screen and (width <= 645px) and (max-height: 750px) {
+  .PanierCoordonnees {
+    height: 400vh;
+  }
+
+  #confirm_button button {
+    top: -4vh;
+    left: 2vw;
+  }
+}
+
+@media screen and (width <= 637px) and (max-height: 750px) {
+  .PanierCoordonnees {
+    height: 410vh;
+  }
+}
+
+@media screen and (width <= 598px) and (max-height: 750px) {
+  #confirm_button button {
+    top: -1vh;
+    left: 2vw;
+  }
+}
+
 @media screen and (width <= 595px) and (max-height: 950px) {
   .panier_title-story_coordonees {
     font-size: 0.8em;
@@ -806,8 +825,20 @@
   }
 }
 
+@media screen and (width <= 537px) and (max-height: 950px) {
+  .PanierCoordonnees {
+    height: 420vh;
+  }
+}
+
 @media screen and (width <= 527px) and (max-height: 950px) {
   #social-status_title {
     width: 53vw;
+  }
+}
+
+@media screen and (width <= 595px) and (max-height: 750px) {
+  .PanierCoordonnees {
+    height: 430vh;
   }
 }
