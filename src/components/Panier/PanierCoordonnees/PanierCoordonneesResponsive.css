@@ -819,6 +819,12 @@
   }
 }
 
+@media screen and (width <= 595px) and (max-height: 750px) {
+  .PanierCoordonnees {
+    height: 430vh;
+  }
+}
+
 @media screen and (width <= 575px) and (max-height: 950px) {
   #social-status_title {
     width: 50vw;
@@ -837,8 +843,4 @@
   }
 }
 
-@media screen and (width <= 595px) and (max-height: 750px) {
-  .PanierCoordonnees {
-    height: 430vh;
-  }
-}
+
