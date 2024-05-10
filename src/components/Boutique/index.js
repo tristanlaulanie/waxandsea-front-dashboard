@@ -170,7 +170,7 @@ function Boutique() {
         </div>
         <div className="images-flex">
           <div className="article_pic_title">
-            <img src="https://picsum.photos/300?random=10" alt="Pic 1"></img>
+            <img src="https://picsum.photos/300?random=10" alt="Pic 10"></img>
             <h2>Bustier-Jupe</h2>
             <Link to="/boutique/produit">
               <i>
@@ -183,7 +183,7 @@ function Boutique() {
             </Link>
           </div>
           <div className="article_pic_title">
-            <img src="https://picsum.photos/300?random=11" alt="Pic 1"></img>
+            <img src="https://picsum.photos/300?random=11" alt="Pic 11"></img>
             <h2>Jupe gitane</h2>
             <Link to="/boutique/produit">
               <i>
