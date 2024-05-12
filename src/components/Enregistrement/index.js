@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import "./Enregistrement.css";
+import "./EnregistrementResponsive.css";
 
 function Enregistrement() {
   // États pour stocker la valeur des champs
