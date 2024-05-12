@@ -193,17 +193,14 @@
     letter-spacing: 2px;
 }
 
-#sizes-select option {
-}
-
 #product_quantity {
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
     position: relative;
-    top: -8vh;
-    margin-left: 12%;
+    top: -7vh;
+    margin-left: 15%;
 }
 
 #product_quantity_label {
@@ -218,7 +215,7 @@
     font-size: 1.8em;
     padding: 0.5em;
     height: 5vh;
-    width: 7.5vw;
+    width: 120px;
 }
 
 #product_add-to-cart {
@@ -248,7 +245,7 @@
     padding: 0.5em;
     margin-top: 1em;
     height: 8.5vh;
-    width: 14vw;
+    width: 200px;
     background-color: black;
     color: white;
     border: none;
@@ -266,5 +263,5 @@
     font-weight: bold;
     background-color: rgb(1, 165, 108);
     color: black;
-    width: 12.5vw;
+    width: 180px;
 }
