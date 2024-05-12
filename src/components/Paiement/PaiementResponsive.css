@@ -93,6 +93,14 @@
         bottom: 20vh;
         padding-bottom: 20em;
     }
+
+
+}
+
+@media screen and (max-height: 760px) and (width <= 800px) {
+    .Paiement {
+        height: 180vh;
+    }
 }
 
 
