@@ -7,6 +7,7 @@ import Connexion from "./components/Connexion";
 import Panier from "./components/Panier";
 import Boutique from "./components/Boutique";
 import BoutiqueProduit from "./components/Boutique/BoutiqueProduit";
+import BoutiqueAccessoire from "./components/Boutique/BoutiqueAccessoire";
 import PanierProduit from "./components/Panier/PanierProduit";
 import PanierCoordonnees from "./components/Panier/PanierCoordonnees";
 import PanierLivraison from "./components/Panier/PanierLivraison";
@@ -43,6 +44,7 @@ function App() {
           <Route path="/connexion" element={<Connexion />} />
           <Route path="/boutique" element={<Boutique />} />
           <Route path="/boutique/produit" element={<BoutiqueProduit />} />
+          <Route path="/boutique/accessoire" element={<BoutiqueAccessoire />} />
           <Route path="/panier" element={<Panier />} />
           <Route path="/panier/produit" element={<PanierProduit />} />
           <Route path="/panier/coordonnees" element={<PanierCoordonnees />} />

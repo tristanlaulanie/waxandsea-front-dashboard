@@ -50,7 +50,7 @@ function Boutique() {
           <div className="article_pic_title">
             <img src="https://picsum.photos/300?random=1" alt="Pic 1"></img>
             <h2>Pochette N°1</h2>
-            <Link to="/boutique/produit">
+            <Link to="/boutique/accessoire">
               <i>
                 <FontAwesomeIcon
                   className="add-product-to-cart"
@@ -63,7 +63,7 @@ function Boutique() {
           <div class="article_pic_title">
             <img src="https://picsum.photos/300?random=2" alt="Pic 2"></img>
             <h2>Pochette N°2</h2>
-            <Link to="/boutique/produit">
+            <Link to="/boutique/accessoire">
               <i>
                 <FontAwesomeIcon
                   className="add-product-to-cart"
@@ -89,7 +89,7 @@ function Boutique() {
           <div class="article_pic_title">
             <img src="https://picsum.photos/300?random=4" alt="Pic 4"></img>
             <h2>Sac de plage</h2>
-            <Link to="/boutique/produit">
+            <Link to="/boutique/accessoire">
               <i>
                 <FontAwesomeIcon
                   className="add-product-to-cart"
@@ -102,7 +102,7 @@ function Boutique() {
           <div class="article_pic_title">
             <img src="https://picsum.photos/300?random=5" alt="Pic 5"></img>
             <h2>Sac "Amanda"</h2>
-            <Link to="/boutique/produit">
+            <Link to="/boutique/accessoire">
               <i>
                 <FontAwesomeIcon
                   className="add-product-to-cart"
@@ -115,7 +115,7 @@ function Boutique() {
           <div class="article_pic_title">
             <img src="https://picsum.photos/300?random=6" alt="Pic 6"></img>
             <h2>Essuie tout lavable</h2>
-            <Link to="/boutique/produit">
+            <Link to="/boutique/accessoire">
               <i>
                 <FontAwesomeIcon
                   className="add-product-to-cart"
@@ -128,7 +128,7 @@ function Boutique() {
           <div class="article_pic_title">
             <img src="https://picsum.photos/300?random=7" alt="Pic 7"></img>
             <h2>Lingettes Demake up</h2>
-            <Link to="/boutique/produit">
+            <Link to="/boutique/accessoire">
               <i>
                 <FontAwesomeIcon
                   className="add-product-to-cart"
@@ -141,7 +141,7 @@ function Boutique() {
           <div class="article_pic_title">
             <img src="https://picsum.photos/300?random=8" alt="Pic 8"></img>
             <h2 id="washable-towels">Serviettes hygièniques lavables</h2>
-            <Link to="/boutique/produit">
+            <Link to="/boutique/accessoire">
               <i>
                 <FontAwesomeIcon
                   className="add-product-to-cart"
@@ -157,7 +157,7 @@ function Boutique() {
               Organiseur de <br></br>
               sac à main
             </h2>
-            <Link to="/boutique/produit">
+            <Link to="/boutique/accessoire">
               <i>
                 <FontAwesomeIcon
                   className="add-product-to-cart"
