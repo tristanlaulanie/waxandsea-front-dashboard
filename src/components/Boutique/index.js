@@ -172,7 +172,7 @@ function Boutique() {
           <div className="article_pic_title">
             <img src="https://picsum.photos/300?random=10" alt="Pic 10"></img>
             <h2>Bustier-Jupe</h2>
-            <Link to="/boutique/produit">
+            <Link to="/boutique/vetement">
               <i>
                 <FontAwesomeIcon
                   className="add-product-to-cart"
@@ -185,7 +185,7 @@ function Boutique() {
           <div className="article_pic_title">
             <img src="https://picsum.photos/300?random=11" alt="Pic 11"></img>
             <h2>Jupe gitane</h2>
-            <Link to="/boutique/produit">
+            <Link to="/boutique/vetement">
               <i>
                 <FontAwesomeIcon
                   className="add-product-to-cart"

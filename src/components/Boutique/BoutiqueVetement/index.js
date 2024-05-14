@@ -2,17 +2,17 @@
 import React from "react";
 
 // CSS
-import "./BoutiqueProduit.css";
-import "./BoutiqueProduitResponsive.css";
+import "./BoutiqueVetement.css";
+import "./BoutiqueVetementResponsive.css";
 
 // FONTAWESOME IMPORT
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faCartPlus } from "@fortawesome/free-solid-svg-icons";
 
-function BoutiqueProduit() {
+function BoutiqueVetement() {
   return (
-    <div className="BoutiqueProduit">
-      <h1 id="product_main_title">Produit</h1>
+    <div className="BoutiqueVetement">
+      <h1 id="product_main_title">Vetement</h1>
       <main id="product_main-container">
         <section id="product_images_description">
           <div id="product_images">
@@ -33,7 +33,7 @@ function BoutiqueProduit() {
             </div>
           </div>
           <div id="product_name_price_description">
-            <h2> Nom du produit</h2>
+            <h2> Nom du vetement</h2>
             <p id="product_price"> Prix : xx €</p>
             <p id="product_description">
               <div id="product_description_container">
@@ -105,4 +105,4 @@ function BoutiqueProduit() {
   );
 }
 
-export default BoutiqueProduit;
+export default BoutiqueVetement;
