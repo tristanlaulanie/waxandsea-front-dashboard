@@ -142,6 +142,10 @@ header {
     padding: 20px;
 }
 
+#sur-mesure_title {
+    margin: 0;
+}
+
 #shop_title {
     position: relative;
     left: 4vw;
@@ -187,12 +191,12 @@ header {
     display: flex;
     gap: 13px;
     position: relative;
-    left: 105px;
+    left: 70px;
 }
 
 #payment_title {
     position: relative;
-    left: 100px;
+    left: 80px;
 }
 
 #payment_title:hover {
@@ -201,7 +205,7 @@ header {
 
 #signup_title {
     position: relative;
-    left: 80px;
+    left: 45px;
 }
 
 .social-div {

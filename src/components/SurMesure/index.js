@@ -2,17 +2,17 @@
 import React from "react";
 
 // CSS
-import "./BoutiqueVetement.css";
-import "./BoutiqueVetementResponsive.css";
+import "./SurMesure.css";
+import "./SurMesureResponsive.css";
 
 // FONTAWESOME IMPORT
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faCartPlus } from "@fortawesome/free-solid-svg-icons";
 
-function BoutiqueVetement() {
+function SurMesure() {
   return (
-    <div className="BoutiqueVetement">
-      <h1 id="product_main_title">Vetement</h1>
+    <div className="SurMesure">
+      <h1 id="product_main_title">Sur Mesure</h1>
       <main id="product_main-container">
         <section id="product_images_description">
           <div id="product_images">
@@ -37,7 +37,7 @@ function BoutiqueVetement() {
             <p id="product_price"> Prix : xx €</p>
             <p id="product_description">
               <div id="product_description_container">
-                Description du vetement :<br></br> <br></br>
+                Description :<br></br> <br></br>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                 Vestibulum lacinia, lacus ut rutrum accumsan, <br></br>
                 lectus dolor eleifend lacus, id finibus ex lorem id urna.
@@ -105,4 +105,4 @@ function BoutiqueVetement() {
   );
 }
 
-export default BoutiqueVetement;
+export default SurMesure;

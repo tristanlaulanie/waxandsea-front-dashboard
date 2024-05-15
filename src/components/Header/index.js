@@ -78,6 +78,9 @@ function Header() {
         </div>
         <div className="first-header-right">
           <div id="first-header-right_container">
+          <p id="sur-mesure_title">
+              <Link to="/sur-mesure">Sur Mesure</Link>
+            </p>
             <p id="shop_title">
               <Link to="/boutique">Boutique</Link>
             </p>

@@ -8,6 +8,7 @@ import Panier from "./components/Panier";
 import Boutique from "./components/Boutique";
 import BoutiqueVetement from "./components/Boutique/BoutiqueVetement";
 import BoutiqueAccessoire from "./components/Boutique/BoutiqueAccessoire";
+import SurMesure from "./components/SurMesure";
 import PanierProduit from "./components/Panier/PanierProduit";
 import PanierCoordonnees from "./components/Panier/PanierCoordonnees";
 import PanierLivraison from "./components/Panier/PanierLivraison";
@@ -45,6 +46,7 @@ function App() {
           <Route path="/boutique" element={<Boutique />} />
           <Route path="/boutique/vetement" element={<BoutiqueVetement />} />
           <Route path="/boutique/accessoire" element={<BoutiqueAccessoire />} />
+          <Route path="/sur-mesure" element={<SurMesure />} />
           <Route path="/panier" element={<Panier />} />
           <Route path="/panier/produit" element={<PanierProduit />} />
           <Route path="/panier/coordonnees" element={<PanierCoordonnees />} />
