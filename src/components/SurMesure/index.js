@@ -7,7 +7,7 @@ import "./SurMesureResponsive.css";
 
 // FONTAWESOME IMPORT
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faCartPlus } from "@fortawesome/free-solid-svg-icons";
+import { faEnvelope } from "@fortawesome/free-solid-svg-icons";
 
 function SurMesure() {
   return (
@@ -50,29 +50,66 @@ function SurMesure() {
         </section>
         <div id="product_colors_sizes_quantity_cart">
           <section id="product_colors_sizes">
-            <div id="product_colors">
-              <h3> Couleurs disponibles</h3>
-              <div id="product_colors_list">
-                <div className="product_color product_color_blue"></div>
-                <div className="product_color product_color_yellow"></div>
-                <div className="product_color product_color_green"></div>
-                <div className="product_color product_color_red"></div>
-                <div className="product_color product_color_pink"></div>
-                <div className="product_color product_color_purple"></div>
-              </div>
-            </div>
             <div id="product_sizes">
-              <h3>Choisissez votre taille</h3>
-              <select name="sizes" id="sizes-select">
-                <option id="sizes-select_option" value="choose">
-                  Tailles disponibles :
-                </option>
-                <option value="small">S</option>
-                <option value="medium">M</option>
-                <option value="large">L</option>
-                <option value="extra large">XL</option>
-              </select>
+              <h3>Mensurations</h3>
+              <form id="mensurations_form">
+                <label>Mensuration 1 :</label>
+                <input
+                  type="number"
+                  placeholder="cm"
+                  min="0"
+                  name="mensuration1"
+                ></input>
+                <label>Mensuration 2 :</label>
+                <input
+                  type="number"
+                  placeholder="cm"
+                  min="0"
+                  name="mensuration2"
+                ></input>
+                <label>Mensuration 3 :</label>
+                <input
+                  type="text"
+                  placeholder="cm"
+                  min="0"
+                  name="mensuration3"
+                ></input>
+                <label>Mensuration 4 :</label>
+                <input
+                  type="text"
+                  placeholder="cm"
+                  min="0"
+                  name="mensuration4"
+                ></input>
+              </form>
             </div>
+          </section>
+          <section id="motifs_images">
+            <h3>Motifs</h3>
+            <div className="gallery">
+              <img src="https://via.placeholder.com/80" alt="Image 1"></img>
+              <img src="https://via.placeholder.com/80" alt="Image 2"></img>
+              <img src="https://via.placeholder.com/80" alt="Image 3"></img>
+              <img src="https://via.placeholder.com/80" alt="Image 4"></img>
+              <img src="https://via.placeholder.com/80" alt="Image 5"></img>
+              <img src="https://via.placeholder.com/80" alt="Image 6"></img>
+              <img src="https://via.placeholder.com/80" alt="Image 7"></img>
+              <img src="https://via.placeholder.com/80" alt="Image 8"></img>
+              <img src="https://via.placeholder.com/80" alt="Image 9"></img>
+              <img src="https://via.placeholder.com/80" alt="Image 10"></img>
+              <img src="https://via.placeholder.com/80" alt="Image 11"></img>
+              <img src="https://via.placeholder.com/80" alt="Image 12"></img>
+              <img src="https://via.placeholder.com/80" alt="Image 13"></img>
+              <img src="https://via.placeholder.com/80" alt="Image 14"></img>
+              <img src="https://via.placeholder.com/80" alt="Image 15"></img>
+            </div>
+          </section>
+          <section id="command_comments">
+            <h3>Commentaire</h3>
+            <textarea
+              id="product_comments"
+              placeholder="Laissez un commentaire concernant votre commande..."
+            ></textarea>
           </section>
           <section id="product_quantity">
             <label id="product_quantity_label" for="quantity">
@@ -92,11 +129,11 @@ function SurMesure() {
               <i id="">
                 <FontAwesomeIcon
                   className="product_add-to-cart_button_icon"
-                  icon={faCartPlus}
+                  icon={faEnvelope}
                   size="l"
                 />
               </i>
-              Ajouter au panier
+              Envoyer ma demande
             </button>
           </section>
         </div>
