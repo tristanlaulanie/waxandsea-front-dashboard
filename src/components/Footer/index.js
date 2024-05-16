@@ -14,11 +14,21 @@ function Footer() {
   return (
     <footer id="footer_container">
       <ul class="policies-contact-footer">
-        <li id="policie-link">Politique de confidentialité</li>
+        <li id="policie-link">
+          <Link id="politique_de_confidentialite-link" to="/politique-de-confidentialite">
+            Politique de confidentialité
+          </Link>
+        </li>
         <li>Conditions générales de vente</li>
-        <li id="legal-mentions">Mentions légales</li>
+        <li id="legal-mentions">
+          <Link id="mentions_legales-link" to="/mentions-legales">
+            Mentions légales
+          </Link>
+        </li>
         <li>
-          <Link id="contact-link" to="/contact">Contact</Link>
+          <Link id="contact-link" to="/contact">
+            Contact
+          </Link>
         </li>
       </ul>
       <ul class="dev-policies-footer">

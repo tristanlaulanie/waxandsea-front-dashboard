@@ -26,6 +26,8 @@ import SetArticle from "./components/Dashboard/Articles/SetArticle";
 import AddArticle from "./components/Dashboard/Articles/AddArticle";
 import Adresses from "./components/Dashboard/Adresses";
 import SetAdresses from "./components/Dashboard/Adresses/SetAdresses";
+import MentionsLegales from "./components/MentionsLegales";
+import PolitiqueDeConfidentialite from "./components/PolitiqueDeConfidentialite";
 
 import Footer from "./components/Footer";
 // CSS
@@ -66,6 +68,8 @@ function App() {
           <Route path="/dashboard/articles/add" element={<AddArticle />} />
           <Route path="/dashboard/adresses" element={<Adresses />} />
           <Route path="/dashboard/adresses/set" element={<SetAdresses />} />
+          <Route path="/mentions-legales" element={<MentionsLegales />} />
+          <Route path="/politique-de-confidentialite" element={<PolitiqueDeConfidentialite />} />
         </Routes>
         <Footer />
       </div>
