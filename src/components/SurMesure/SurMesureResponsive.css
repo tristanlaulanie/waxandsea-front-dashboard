@@ -83,6 +83,9 @@
 }
 
 @media screen and (max-height: 1920px) and (width <= 1300px) {
+  .SurMesure {
+    height: 390vh;
+  }
   #product_description {
     height: 95vh;
   }
@@ -96,8 +99,9 @@
 
 @media screen and (max-height: 1920px) and (width <= 1200px) {
   .SurMesure {
-    height: 320vh;
+    height: 360vh;
   }
+  
   #product_main_title {
     top: 22vh;
   }
@@ -108,7 +112,7 @@
 
 @media screen and (max-height: 760px) and (width <= 1200px) {
   .SurMesure {
-    height: 320vh;
+    height: 390vh;
   }
   #product_main_title {
     top: 22vh;
@@ -131,6 +135,9 @@
 }
 
 @media screen and (max-height: 1920px) and (width <= 1100px) {
+  .SurMesure {
+    height: 410vh;
+  }
   #product_description {
     height: 120vh;
   }
@@ -154,7 +161,7 @@
 
 @media screen and (max-height: 760px) and (width <= 1060px) {
   .SurMesure {
-    height: 335vh;
+    height: 430vh;
   }
 
   #product_description {
@@ -194,7 +201,7 @@
 
 @media screen and (max-height: 760px) and (width <= 960px) {
   .SurMesure {
-    height: 355vh;
+    height: 450vh;
   }
 }
 
@@ -210,7 +217,7 @@
 
 @media screen and (max-height: 760px) and (width <= 935px) {
   .SurMesure {
-    height: 370vh;
+    height: 470vh;
   }
 
   #product_description {
@@ -230,6 +237,18 @@
   }
 }
 
+@media screen and (max-height: 1920px) and (width <= 830px) {
+  #motifs_images {
+    position: relative;
+    left: -8vw;
+  }
+
+  #command_comments {
+    position: relative;
+    left: -12vw;
+  }
+}
+
 @media screen and (max-height: 1920px) and (width <= 814px) {
   .SurMesure {
     height: 390vh;
@@ -241,7 +260,7 @@
 
 @media screen and (max-height: 760px) and (width <= 814px) {
   .SurMesure {
-    height: 390vh;
+    height: 490vh;
   }
   #product_description {
     height: 185vh;
@@ -268,7 +287,7 @@
 
 @media screen and (max-height: 760px) and (width <= 700px) {
   .SurMesure {
-    height: 410vh;
+    height: 490vh;
   }
 }
 
@@ -309,7 +328,7 @@
 
 @media screen and (max-height: 760px) and (width <= 535px) {
   .SurMesure {
-    height: 430vh;
+    height: 510vh;
   }
   #product_description {
     height: 215vh;
