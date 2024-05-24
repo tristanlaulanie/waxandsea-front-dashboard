@@ -101,3 +101,13 @@
     color: whitesmoke;
     transition: 0.5s;
 }
+
+#cgv-link {
+    color: black;
+    text-decoration: none;
+}
+
+#cgv-link:hover {
+    color: whitesmoke;
+    transition: 0.5s;
+}

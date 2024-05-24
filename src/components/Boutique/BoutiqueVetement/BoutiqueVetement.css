@@ -178,7 +178,8 @@
     font-weight: bold;
     font-size: 2.2em;
     text-align: left;
-    margin-right: -0.6em;
+    position: relative;
+    left: 2.8em;
 
 }
 
@@ -194,13 +195,14 @@
 }
 
 #product_quantity {
+    width: 12em;
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
     position: relative;
     top: -7vh;
-    margin-left: 15%;
+    /* border: 2px solid black; */
 }
 
 #product_quantity_label {

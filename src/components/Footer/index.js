@@ -15,11 +15,18 @@ function Footer() {
     <footer id="footer_container">
       <ul class="policies-contact-footer">
         <li id="policie-link">
-          <Link id="politique_de_confidentialite-link" to="/politique-de-confidentialite">
+          <Link
+            id="politique_de_confidentialite-link"
+            to="/politique-de-confidentialite"
+          >
             Politique de confidentialité
           </Link>
         </li>
-        <li>Conditions générales de vente</li>
+        <li>
+          <Link id="cgv-link" to="/cgv">
+            Conditions générales de vente
+          </Link>
+        </li>
         <li id="legal-mentions">
           <Link id="mentions_legales-link" to="/mentions-legales">
             Mentions légales

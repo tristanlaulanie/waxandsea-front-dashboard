@@ -28,6 +28,7 @@ import Adresses from "./components/Dashboard/Adresses";
 import SetAdresses from "./components/Dashboard/Adresses/SetAdresses";
 import MentionsLegales from "./components/MentionsLegales";
 import PolitiqueDeConfidentialite from "./components/PolitiqueDeConfidentialite";
+import CGV from "./components/CGV"; 
 
 import Footer from "./components/Footer";
 // CSS
@@ -70,6 +71,7 @@ function App() {
           <Route path="/dashboard/adresses/set" element={<SetAdresses />} />
           <Route path="/mentions-legales" element={<MentionsLegales />} />
           <Route path="/politique-de-confidentialite" element={<PolitiqueDeConfidentialite />} />
+          <Route path="/cgv" element={<CGV />} />
         </Routes>
         <Footer />
       </div>
